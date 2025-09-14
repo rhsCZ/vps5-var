@@ -1,0 +1,13 @@
+lib/
+local/
+lock/
+tmp/
+mail/
+metrics/
+log/
+run/
+game/
+opt/
+cache/
+prometheus-3.5.0.linux-amd64.tar.gz
+prometheus/
