@@ -34497,7 +34497,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: sqlite3
-Version: 3.45.1-1ubuntu2.4
+Version: 3.45.1-1ubuntu2.5
 Depends: libc6 (>= 2.38)
 Breaks: crowdsec (<< 1.4), python-migrate (<< 0.11.0-4~), python3-migrate (<< 0.11.0-4~)
 Description: SQLite 3 shared library
