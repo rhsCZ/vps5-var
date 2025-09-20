@@ -3615,14 +3615,14 @@ Package: dconf-gsettings-backend
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 73
+Installed-Size: 74
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: dconf
-Version: 0.40.0-4build2
+Version: 0.40.0-4ubuntu0.1
 Provides: gsettings-backend
-Depends: dconf-service (<< 0.40.0-4build2.1~), dconf-service (>= 0.40.0-4build2), libdconf1 (= 0.40.0-4build2), libc6 (>= 2.4), libglib2.0-0 (>= 2.79.0)
+Depends: dconf-service (<< 0.40.0-4ubuntu0.1.1~), dconf-service (>= 0.40.0-4ubuntu0.1), libdconf1 (= 0.40.0-4ubuntu0.1), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.79.0)
 Description: simple configuration storage system - GSettings back-end
  DConf is a low-level key/value database designed for storing desktop
  environment settings.
@@ -3637,13 +3637,13 @@ Package: dconf-service
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 96
+Installed-Size: 97
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: dconf
-Version: 0.40.0-4build2
-Depends: default-dbus-session-bus | dbus-session-bus, libdconf1 (= 0.40.0-4build2), procps, libc6 (>= 2.34), libglib2.0-0 (>= 2.79.0)
+Version: 0.40.0-4ubuntu0.1
+Depends: default-dbus-session-bus | dbus-session-bus, libdconf1 (= 0.40.0-4ubuntu0.1), procps, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.79.0)
 Recommends: dconf-gsettings-backend
 Description: simple configuration storage system - D-Bus service
  DConf is a low-level key/value database designed for storing desktop
@@ -10979,7 +10979,7 @@ Installed-Size: 406
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: landscape-client
-Version: 24.02-0ubuntu5.3
+Version: 24.02-0ubuntu5.6
 Depends: python3:any, debconf (>= 0.5) | debconf-2.0, python3-twisted, python3-configobj, python3-apt, ca-certificates, python3-gdbm, python3-netifaces, lsb-release, adduser, bc, lshw, libpam-modules, python3-setuptools
 Description: Landscape administration system client - Common files
  Landscape is a web-based tool for managing Ubuntu systems. This
@@ -15105,13 +15105,13 @@ Package: libdconf1
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 101
+Installed-Size: 102
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: dconf
-Version: 0.40.0-4build2
-Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.79.0)
+Version: 0.40.0-4ubuntu0.1
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.79.0)
 Description: simple configuration storage system - runtime library
  DConf is a low-level key/value database designed for storing desktop
  environment settings.
@@ -27283,7 +27283,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: mysql-8.0
-Version: 8.0.43-0ubuntu0.24.04.1
+Version: 8.0.43-0ubuntu0.24.04.2
 Depends: mysql-common (>= 5.5), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Description: MySQL database client library
  MySQL is a fast, stable and true multi-user, multi-threaded SQL database
@@ -28456,7 +28456,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: openjpeg2
-Version: 2.5.0-2ubuntu0.3
+Version: 2.5.0-2ubuntu0.4
 Depends: libc6 (>= 2.34)
 Description: JPEG 2000 image compression/decompression library
  OpenJPEG is a library for handling the JPEG 2000 image compression format.
@@ -65413,11 +65413,11 @@ Package: systemd-hwe-hwdb
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 16
+Installed-Size: 18
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: systemd-hwe
-Version: 255.1.4
+Version: 255.1.5
 Depends: udev
 Description: udev rules for hardware enablement (HWE)
  systemd-hwe-hwdb contains hwdb rules for HWE on Ubuntu,
