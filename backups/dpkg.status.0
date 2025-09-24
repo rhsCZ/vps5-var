@@ -4926,10 +4926,10 @@ Package: firefox
 Status: install ok installed
 Priority: optional
 Section: web
-Installed-Size: 274851
+Installed-Size: 274925
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Version: 143.0+build1-0ubuntu0.24.04.1~mt1
+Version: 143.0.1+build1-0ubuntu0.24.04.1~mt1
 Replaces: kubuntu-firefox-installer
 Provides: gnome-www-browser, iceweasel, www-browser
 Depends: lsb-release, libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.42), libgtk-3-0t64 (>= 3.14), libharfbuzz0b (>= 0.6.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrandr2 (>= 2:1.4.0), libxrender1, zlib1g (>= 1:1.1.4)
@@ -13356,7 +13356,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Depends: libc6 (>> 2.39), libc6 (<< 2.40)
 Suggests: manpages
 Breaks: dh-lua (<< 27+nmu1~)
@@ -13412,7 +13412,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Depends: libc6 (>> 2.39), libc6 (<< 2.40)
 Recommends: manpages, manpages-dev, libc-devtools (>> 2.39)
 Description: GNU C Library: Development binaries
@@ -13434,7 +13434,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Replaces: libc-dev-bin (<< 2.31-8)
 Depends: libc6 (>= 2.38), libgd3 (>= 2.1.0~alpha~)
 Recommends: manpages, manpages-dev
@@ -13454,14 +13454,14 @@ Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
 Package: libc6
 Status: install ok installed
-Priority: required
+Priority: optional
 Section: libs
 Installed-Size: 13431
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Replaces: libc6-amd64
 Depends: libgcc-s1
 Recommends: libidn2-0 (>= 2.0.5~)
@@ -13487,7 +13487,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: i386
 Multi-Arch: same
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Replaces: libc6-i386, libc6-i686, libc6-xen
 Provides: libc6-i686, libc6-xen
 Depends: libgcc-s1
@@ -13510,19 +13510,19 @@ Package: libc6-dbg
 Status: install ok installed
 Priority: optional
 Section: debug
-Installed-Size: 11172
+Installed-Size: 11179
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Provides: libc-dbg, libc6-dbgsym
-Depends: libc6 (= 2.39-0ubuntu8.5)
+Depends: libc6 (= 2.39-0ubuntu8.6)
 Description: GNU C Library: detached debugging symbols
  This package contains the detached debugging symbols for the GNU C
  library.
 Homepage: https://www.gnu.org/software/libc/libc.html
-Build-Ids: 00fbc4b9a851cb1e392fce34e5f4be110233592a 0275391a81fd9a62029bd4b792acd613006c99f6 02ab74be645f462a1d1dd61bbc112b329abb73dd 02d3bea6bbf92a2a1c78135ac280507e50e4295f 03e96f899d825f3bd7865570ab144db8053f5d13 041331f6bef876bd93fd1b398612ca6bb8059d66 052e2162f48fff839266356ea65091dd18179f8c 07720f9e85ff4bb4f492b24b3d1bbf70290cb646 09ca4fb9572ed49df1245acb14aec58cf821ac50 0a3df2821d1ab78503a13ad13f29da4c76b82053 0b1e1020d5a43c3fde3320076adcce9efb4b633e 0b73a5d587a5dc8901c9ed79ba85b3fb540e29b4 0d2c36fc023d3028dad90e71aa750a104f34b252 0d9969fe206760d250ec30a5a9be18aefbf84ea8 0edb4c3216f81b4e24d2004e148d246eb9f87411 0fc2272c4f55a8f600acea920a6c21b12bf218d8 10751be70bc1b88b7e7f6276f1d16964bca2fbc6 109334ba499dc767067673a3d4ef34f7a20cc474 11986cc221f031075eaa77eeeebee772bb61eafd 12ac6b12da5212f30b7e984f5c974e896f4bd2e3 1399b6a2143ead33310567aff5c82f11ab77a844 13ea33bd334ea04bfaa726678fdfa7396f68f964 146c9da3b25603641ea631504d5b2b04a9b4c641 157c1db29ffece8427ea095a01082d40bd7404cc 1581453edffe6c42f196275f073972a244a376bb 160ad17461948735db36417a64a5e1e0829a8372 16150be0a031b2b58f6ed80c742117e9b2324bbe 168d8dc06459bb1c8a03f14a3b5d8d9103b7227c 17969b6c76329e0d88601e54fbd6e2ce36dab836 1a7c23b3bd74c7f9b0f6c03fc21d5a14fa5dab67 1b327c20a643c243dc54220a913612e6c654391e 1b71367474f94cc44069529186ca1a1395a36e16 1bac07e1c39a4a7caeedc7e400c53a0e52ff9072 1c3561cad2cd1b1f76f2f3ee577f60d0a6a46b5b 1c795eca078703e83234de3f0e1b6c0c05e6f5d6 1cc06aa5e496df9ef96901b1251af3488a5a2f6e 1d92a441ff53bf2e1dbe10090ed99c654142748d 1dcf98a3337c9561a90c9b433dbfd8ada7dbd806 1e6061d22ba438e3ae165b0a3b83ab9c65743a21 1fe055830b85b3725fe10968a728cafb178583b8 204d2aa6c4663698a624dda1e0fdfa48ff6cb94c 20a0a115cb772a1a9e3e7156d82ce74247356d9f 20db2246a59181a23b1d125d07443179e89cecab 21ff2d6c671958a044e8418625105dfc1837b792 2230c566522f04d250a287e67c36905cdb7cb7d2 2278b3abfd872c29c97d7994e7393b0bdc21ded4 235399f6f20f06748cb42c6832ceee4ccec8306d 24d1fe20923ef0764bcb1c593054b5565634e0ae 24d72f2980522fccb3e7b99d8e960d5d793390bd 2506bff95256cba4a1ac9e5add4dce9dcc25cb8d 25b234aa460582f7df396015f4a80fd5ace74f1f 267b415b0fce3591254806aaee527406f91c9256 281ac1521b4102509b1c7ac7004db7c1efb81796 282c2c16e7b6600b0b22ea0c99010d2795752b5f 2a95e9479b3da94a6e7dcb3a95b937aa50247acc 2ae8313020d8bb0998d65d5bd9db83ea034b1088 2b09772da6330ae410de476562c739bada9c4c98 2b901c36d7596f47bfd198861e3675d103062b6d 2c7f2f85c413a71ccb97d2e73702beb04712828a 2ef50f0d2d2bb1040eda03148a454e5861701b58 31d9ae90a1101527674d971b8490dea481e1f248 3398cf88c09f2799d9896af95f6fe3555327f554 35969632b44a14279eb9e7a2279f412a1e013710 3630e432a1521fd3f8baeaba2d89a415b2e072d9 37638958d88875a58c5a05c8d62623ee0187eaad 383ad055e7397272dd9504a61c156809f15ac24c 38a9e1d7b6976c0e7f9ad98a207d893df147b393 39e9a263909ac2b87eea9f7422f084a7539dae0e 3adfcf19759c6289af9ad3935961f7d061c545af 3b7a4f078db842d85c2a7ec6172fa8138c79b27c 3bf3bfd518cf6527dfaef3cc971ec6dc84e9f1b0 3e1d940e849342aa6f3bdf1726696f0b3819df97 3e2b4f9f2c5b24ba1e249c7cfbefd7c7878247e7 3e54c72f41def5a3a4618e133f8c44c24af16a83 3ff1a12281a2fd4a01c6baf4679209e61948b54a 42c90817a55844d8e41e78af79829b8c499ebfc9 42ea7b2d4de9883ef8f27f268f95bca26c5a21ea 45f90007330e42bd645c4f3d1fb02d48a801c588 48df337f4b536ad575603535c6d36a30fb80a972 4d24adc0ca37d1dd4ead017c4b2589085574e784 4f5c790dcb591723f62321bf0b445ca007d601e5 4f651cd24c22e23e9bd4be6fe83014f4d6313c85 5231c78fb18a7ca1e141b8d64f55e0b9aea97f83 52c4d4bcbe2c9d75ab67cbc2da70224c7a2fee65 52d1b2f22df704b98207cf31f0b01ef258e6b43d 558820b7170e71dcc9618853041b71e647d7b787 55bc6bf283e85e225bd7215e3bedaca4010dca82 561ebdf8f37e5087d0db858dc10eceb5d413abb0 564ab1a392cf0e3539c69fc6697693f6732f2131 567ba87ce08b26866561a02d35c28ffbb4c2b442 57174f128bb4d61280599e5d6c6dc8eaa08e506d 579ed3b095554401a10ad2727e38dace8085ccce 57af905642773c7966c3dbb06e12fece3e09e03f 589f62c5225c7e2524f3c6256a6696fac849f043 5ad5f510a03ef8c38d9fbcb2f4a17b02fe9c1f3a 5b06b3053f07996035e97e9843682b3fe00350a9 5b8b9c57834a88833f692a90d983c7d76e81c5ff 5bd14f4d9bba381db993da72ed1dae26c66f9911 5d8eb0eca36ec6f4ca674f54a48b28b46af1ed8a 5e6e8b840099e47120f0c3f60b3cf2efb01045d6 5f3d8d208f8beb4727c169dcfe441c81c6859478 60ac04bc0839b037f2a857295460675a379896de 6108f8e202f16a81d770c3a1e8b4e87254d7905b 649568f7fddc9b9584fca89464040f55fd599776 64c61db494bf7fe639c40c157060f2a881010a35 661dec160ed231d4ab0e4613fd1a8b334e26a546 66b2ba3062c85b6d05e18b907f295e9cace15151 68f50932b756f8c7d702a0c4a300576ac0be667f 69b6b8ad16246d0bb74428ac0e211ee499817927 6a610a6bdf236bcca3a8589105487c7949d34509 6a75be21c776fecba6f6fdd727d6f1a17d0d6a94 6a9d764751a3c030556737a15bac0f0ed6aac8d8 6b1c43d28da7420adeda68ad19a0746c6f260030 6b748dc761d55b2b8006646949a1bffb6c69e0fb 6c3fe24ae6000cc6fe3bcbc59e6813c9ee906fb2 6c5499856afff84dcaa027be906fbecd75dfb16f 6d16588804f040b22560904d8268f2580ec01bb4 6de3867f1025185f637f1e46df3d98a5a6f75813 6e4142ed65199ab341be162791179b303e83fa52 6eb89adc2b80bf189ee58bce0428352c92607b06 701a226380ed42fdc3e1b1f70a0220dae88741f5 709383b1e759075950a9a20a92dfa5208e087599 71d984461adeb51cbd06fec2cb1458fa8a7d9d62 74996b1aa29d5ef70599d971d36b73ff20e32d84 7991bcb8b82c417f41405f3711bf4a08a542d551 79a9d02bdbeca7c55a3e3f55b8b30f195aff01b5 79e24e2ec4f94d249690a178bbfff86c0f1f1cb8 7a0cb65010b520ffd0dd8e6088bba2eef15d3a71 7e5a54734a4e19ba0346fdd694c68df0761c2f00 7eec844bed433864f84782d4556e8e836b5dc462 7f54d376c91bed5d264b38a4464f3477e1d75a35 809140f13665d5641c078e6b0900b47d23929d93 80fe74ebadbb13ad85cc204a90d32db4e8d53154 811c24b6c3c929f559d3f1ac3a5fa260fb81e1a6 812d12da8e2827db3fc6f021c918649b8e465e06 81fdd1490249b176606addfab760f716996887e1 829e83009dbcf4f5a462cf6a2e01f60b0baf5115 84b17a1bbbb94f78467bb19294ad6cc44b5118bc 85ed0c7c41e596b377dd90dbfa9a91225fa313bb 867901bc5142c9c59455b3b33e37eda174f7203e 87d13612f2fef28d4c77a073a8c27bb907ef1f4f 8a1bb08f34fe697421a54fd84be72a24eef2f8c0 8a4865471fd2b914e9cdf1240a92ab9a3559dab6 8b47d94e81633053810cef48eeaf0d509acaa314 8c15a1efb5d5fc90443b965e2265f46c01d8d2b6 8ec4c2c2c22d047bf6757fa9c368b9cf0ae36445 9052961378023c467b1224b36646fd6b25d400f1 945e79863720629d10de77e4c2e21bfd8c54209b 951ee831ec6a033478ee7ad8d28f88e282c65a6e 9798963a004d1f67c779cfae40e5756a03dc071c 99ebd226007f9b887042ea0ea43e54fe37dc11e3 9b0e304a0447bec67d6ada6689b3b5b207fad4d8 9d12b79347c6ea5ec955cfc7be72a599b0ba9041 9d269251a8e0c2a7102c584f6f9ef18e85a2cac7 9da431253f5f3f73254da2e67e385e21472472ca 9ea0f7d0bf36f2d9c76ec045dfa647605d55a3e2 a102642de55235876ff7104e1cbfb2955730fc5c a1145fd26b331d160625e204de0bbe012572e65a a19c1a73feaf579df54dd67b212230e52edef550 a43315472963cddeb5ec1ad69b8a25cac7656056 a4a222ab3d34f8a6e67a2d553c2b4a554cfed487 a567128bb40ddee3e3229420c1a07a89aa1ab000 a71ef626d1d762ac11a1687f53d5d79907159071 a8c00940c6310b5208c3d7d6b82fe0e2d3cad6bf a9c09c50d073b5494c0f8a57c49efaddf66df49c ab08b9cc3ef8e54f20a573bc0346a251fafe1185 ac26be13160d8f294326cd1941d13c9cbe1a5af1 ac709d16ba53c4953f26f2302314cfadc5255849 acc68da6172278493805d4625a819536c05d8f02 ad7ca7673927941084988a6909bb5ff4a472128b afaa08764415d950d522bc962c47ea1c36fe68f0 affc60cf74c3c73c33b4878e58fe0d09e5ecbb66 b44a7584c15e7257a3b4d88dde5401d00fa5a780 b486a708980076fa46531d185f9d786f2240d576 b67e1c1faf59e6a3b3e807b029918c5c8e23c9cd b6a4cb2a465424fb6313022512f186a17ba067e5 b6bfef72118aa4166f8fb49a0fbe7cfbc38f664e b77940c42af267a43a45b9fff1884cf068f60649 b94953fb43909ccfa1070bf24b930d69b906f457 b9aeb4e38735c78a4d245058beed46217a398e05 ba4109c168b42b379d58006753ee2983f2626a2a bb914e7bbb4409f2c0784ef71f80f384c4bd5dbc bbd8a6b3224a52a5409abb3a6fe32a611776ed0b bcc83e3b169260ff2d1c2cbe0cece50c63b077e1 bcfd9c3d98d0f83d40bf887f85a19e02ba74b637 bd1af932a77da458e77930002edc8c2114fc198d bd345a74cf702e761228d496392415f6483a8afc bfcaaa48f3aa1595f4d048b98379fddf7a5a5a42 c0b79790ad4cca8334290acb02aa573fb799241a c1ca8a639f7fab5d31aea11cf2261bd6cf605c89 c219e0047e61afddf2bef422b41b7eb854b44632 c2447bc5736a72805473d7625e455e7b0c8cb332 c26ae23c8d59fcc0ae34324ba048a7ad881f190c c2a7dd2a46843efc92fe9a0f1a8b48119a6ccc6d c38fcee2e9f0a2989ba86914f10a261801ec0076 c3b7f1df36587ece6e4c2320e2412849761fad57 c3c00ef143b9b814ac019265fd886dcc39736312 c3c31b4ba750a79ba2fb1011a494bfc9486b5531 c424fbe9598bc5d2b1abd22edf6672adf395880a c4ad30e05137777f8405c9193072d8ef5812214e c4b03aa21e76ea002ab1639bd6b41e3402fccb92 c5144b33c4193a536413ed82f8132b6d6a690fb2 c5cfdc96d85cadd5e43417b9d94d9100cdbd74af c6627260ad41b63cb43ac357176e9e39d1a276e3 c7b5da7b5e6388df1dab369f348bfc250e6b89e7 c7f2adfa08f118d328e581aaf960b613c6791e0e c99ad5a1444ff5bf0c3f6fad2a018c8001df30e4 cc6b2a895ac1fb7705a008e22d1790a773ef692e ccb9e4bea3df034221364ff5eef025c3409e6d53 ccc6ccf5c706a700da93274e2fd74576d6eea2e6 ccf1d56d7aa4cd49a034d683f32f0064d1926a45 ce6d3255b90c1112da5082d13d02a3ae4d2ea61e ceec3def4acbe2551408f947741cfa964e78a17a cf28402005a035dd56e7e1644b727c013b4d9f9b d0e62e601c515a41a82ba37a730e8d34de8a35ec d303ee7d1812a1aa410747ff06a63bf55a9065c8 d36c1f7bb83c0d166a7322677fe58ebc3d9a593a d3f0a04d6728f5051868006cbbfeef4736b7fa01 d45f61dbcefbca17c60406c50f018eb38de8f296 d504119ad4b591db167fa8c591b666d20723eb57 d7f2ed3935b74548610a1b5741e95a1d20151cfb d86c3d52eeca5b0b14c45ab890b094858adc6805 d87ee89b22318c1492d36101a53c3ae0f4d503e2 d8f4f0445b7b32651fec15578cc396a19173a1ca d912d76f9e91ef064e96a22ba4db0cb81f854be1 d9cba75109e424a92af23996c94ca256092899cb da5cb68ec7a0f444d5620d2ff498b86683571670 daf269c6ef1ab3b56df4589517651ccde755aea1 dd52087710e682c5b4552d0df2f232dd95fc9490 de37b76ef43cfe7c451b31d88cb59fb7e7dd2ad3 dff9b3188f9854658369531132c02bff8b8ce145 e03c37d0b588f3124d89725a9c9c163375d2292c e0520fcb5c5ee7ce139efb3c2da4f175bbff6ef6 e1007195df02f211e254f2df645dc42cdeeda43f e21f81c651cff6540b8446c45e37a2adb0b1bbd0 e2302200f3cda07fda9ddb9f6a7dea6fa169112a e33596941e3534f1fab4d08c8bc8f325ff6d1857 e3a72fd115b391d456591e2cac4e0e382aab0c98 e3e4f21ebb108a10bd0c0c245bcd8149f9a13fde e44887912077a7eb709c0f673b51fdb47782121c e48fb3a643c0ef5e3b0c9b30df0b79a242383545 e4caadc6e724b1681dfc119e51f890329e60639d e7155323f1127a19d10ab1e017aa55a8a06b0b5f e85eea38c94afb9aa016963718cf75e5b02ef045 e9e2475d727ff2419725658d7dff5bd66980cc36 ea50784be88791fcf7502c8ba626b460da5a4e25 ea55a28df299ecd0f4bd344186d01705e22fef41 ea9cc24c3b5aa76b7b9af5145e3e3f74deabcdb5 eba43562a0c0a9a6a2ae9d7ada4103158f60b028 ebe22e7ee4f002e86d4d91249750c3fce2229ea0 f04599497e276b43eb5b1d275efe7dc4bbcc5063 f07db7efa294d6a45b1528db369115840ada6117 f0a1d9a2dbd4e69abe74fecfa50a624f3b8327fc f29d8f7a8bc12c941f9231597000ac1e445fc9d1 f32e2b6aa51eeb15af547adc596363f5927cbe0b f42876b3ffbca26e011ed14e597b3b19fa7a3e42 f45f795c0e630e8f15857231b126bdb1ad5847b7 f4a786190f7f97410c2b9f5ae412cde047320649 f55f985e4820ed326e61188136674eaf49fc3282 f5b04155ebf37f9d5031d44a36f91f6b45082eea f60df3e434659e1093dbfdc1bdd9f8a7f39a9d24 f7e1029cf28081efc533b0303d9a64a3a168075c f8624b9795971723d2b3109f4958d061d5819b0f f942cce37ebea92db6e7bca3da2146ed478e5858 fa33dc2556796dd282fac226bd0fa1df1824a547 fb4434268b80e93c61e8d544bc88c8bfd51d8c18 fb55bddfc98ba5c564c44118e26abb1a02732856 fb9a214cbab0264b1677fae6353fec35b7a51fb0 fb9d091cde3f3349e45050d5bb789d8ee66bc79c fbcc4ba15f081b8e2dddc3573b8a208026a46826 fcdf685b3007ee6d801d5508836aa940a049ecf6 fdca779454085c97735bd85584ec76a36378ed1c fdd510a82c8dc7fdd7cecc706d519caa507bca0d
+Build-Ids: 02bc535dd42f9825103c4699c8d250ab94a0b02c 03b764c9a894c5f3ecd9f5f1273c63d9109b9680 0435fb13cc1ac785f3d95073c82ff0767c962c33 055f6912f4f186af45df4feb25a9665ed0bf95a6 070848e1ce21d874bfdb7d28d355eeb1b3138df3 07d993a4ac9a381d38452bbfa2f49abf01936478 080758878753892958def6501e9efd6d045fb0a5 08722b44e7ec93b8996f87310ebd0d8cd985cc45 09b1cd36d2ad516e75292e5cc7ca6347252bab80 0b3993633bcf8fe55966faead4313ce4b56b8344 0b594ab001cfe4a2b3f28ca5a2b13615a5019be4 0b5ff21a0273bf52cd444630b0118ffd1e60f122 0c1afdeebe286fd9de6c37552cb39701c0f08cdc 103fb094434067fa643db9f797154afccd1b490d 106f1aafd31add3436f8ec601035e11e0cb2e154 121be0cb92c9077992646009687cfcd96865a2a0 143679196dd075b61c38f3cbb0a48508648194c7 14e07905eb07a48c0fa3821c7b3b0c7ff656ef72 14ea838d4c7416a21311bf36d85d458c53d5c5ec 1513729c25e506288872df9e6af4085aa4d11cdd 16329ce916d802de172b702e9a6f314e37279495 16ed9e77e2c5f66245f3a76447516411560dc20a 177d94d1eace509d66e83515f859654beb0538a6 17b2a85fd4cd88b0cc56ce7da3287ab22c7dc966 18cf3083739f4126e38b1927ae330c745ddb0259 1b1031559fa081a401402517e61319c090944c30 1c11dc442d4c937f2c30dd5b1f0d86503abb8bfd 1cacd2758f12ddfc54a2c2b796803dab2106658e 1ff5b30a3a67563060ecdeb85038ed8092fb92ad 214f4f92c78b96e8377eb64bb9e6ba023a623857 215203e734ca4e6101f98db627619d9f41a332be 217644695f981b13cf7575dcd1741457055a4f81 217c5cca3129987295b71e476e4ca67515dbac12 2249c56ba983c3243170a994888fc8b1b9a8eb74 225494b5793a9b5fdc757ff8fb07df38b7a5ea92 226c293c2e79cf91778fc51173ccd2cd4dfb5b63 2345023905026464fe1622423d250f53646fb16a 23d3d1a3616d232098fcd27f37efbbf65a346808 24b9f38a035d61326140ec96cb0b524d5e2a3899 253b504eb23a3682d08c4fb8c6808fae4f96bd0b 25e8fd0bc23fb8004c96e84cc1ebb60f4917dab1 265ae4aae17273ccb4958749d199d5404f69d8e0 267a1a728bea371b3f9195fdfe4f9a4fa4e959b1 274eec488d230825a136fa9c4d85370fed7a0a5e 28a0c6689c1bbae3d1cec36e671813c490f2619b 29ccda011898523950961756f945dae0416ef68f 2b88ed8b08215a98a401b4cd3eb73e9e9b83a62c 2b9e1e73c01e53e7d7d18cf780c14ee62be40190 2c257594eccfe9f5d4fe53720d50b15e22eb0211 2cdaa762d996190aeffc185cf28fd7779352b204 2da09623ffbefe8839cc04cf99d8d4274f8cbaa7 2dd7924e1a031fe2641da809f1ee0252ed8aadcc 2de037d22e0fa33a22e83415e6eddab2c8b1e579 2fdb8fa526a1ec968aa0dfff5a442702a87972e5 30acd812fbd2c336d77a1261e9974241004f7d25 31f5fc6cbffb2179621490aea24536034f3bcbc7 326a275ab140155af08d0da55c4b155d5169184a 3310fdf39e8c9eb75149c510c4ae2b80c2ea54cc 3313ab1b84b633816c52a467d1e28a237576400e 3403ff406f60ef7c01cb295d399a1b18ad39ac11 344f568fed871ce8c84622fead9171b2daba7a33 34d0b5ef37af2fe4fb0593f4a0a408328dd98cbd 3526764d38b81727b5ab9873477dc99a36801303 35a2a86b198b4995d39372bccf595b297c251a3a 36add3078874f3569d30c8e7a4310779cf689ca5 37358946665b19d8f78852cada88dacc1873698e 3805f13fee90df06cacaf639499003597513e71f 39caf4c10ad425a96231c863651d2491babb1939 3a4a1c7c4850d9ba4b8a63f7208a18353ce28591 3b069ac3540d2f4df93d8dc57b12169e80d4fd93 3bfad2edd033152ca3f8ec60bc019a960b9c890e 3d2bfd413e209d73da291553894500f91c4df363 3fef42242520a4f1f450c6fa9d9045737ca295be 4016a4719d5e55a40f6983b3f59ee4dd5e27d335 40bbad9738259bf3f9f6fcf727f4c12644b519f7 41a3fed278745531e6628a8a5a8a6dd8bf3b2b57 42a57d1e6a1ef1f06ecc89c9bf29ca4e21381e19 436c5bb14feefe24effcdd4b056b8591100b6b02 46056ee1a535a20482074d3d69292ba48c45978d 485ec2bf571c1e21c38fbd231c6c580caaef532c 4a1ae616feaef5148fe3cf80e0b42ae1e435d6be 4b9d417750e15201de06dd058089cfe074aa0e5d 4c2869c0127b449929b67220ad1e74ff7882c8a6 4cbb0510558765d047d35f7ecda4299b24ed66d5 4e28720498581e2addf36aadc3a204fd75f815bd 4ecc77a8b89c31637f7cc37afcb23976970494b4 501b8044705ed98251c7f2b85884f34e61e992ef 5119cc61e15071a1adfad045c07d90ab33c241cf 520e05878220fb2fc6d28ff46b63b3fd5d48e763 52dc1c0617b29f651f97de9775f8fe18eac3ea4a 52ff8116cd3a32020e5494f6b068d0b0d8dafaaf 532eaa0fd4c047c0413c6f8eb19fface060d0a67 533f343e030c826ec1a750bab28ada063ce286ef 539234d5f5d471f8bc2cd0c707300c1e614df061 5491b7be3085d1e1cd0b2017e7597047d11fc770 55a689b9a2ec15b676830314b0ae59a95f99b53e 55d1546394353caddc34c54a8ab349479400f1f2 564f4cf21a2fd63f7d7a76baed0ce64f74c83f0c 568d9e32ef1f3434872777b14c0d8c9a6fd27352 57d096595f53d9ce5cff671a80542bc36fc6d0c6 59464af87912554acc15be5de8a011db295eac4d 59683024e090aab772847955bb059c45c29800b5 59989ad0f317060f9a1d4fe63b33849f32f15523 59c9ca22f4d20c6642f14107a0478f3c5baa3d78 59db8974fb276a3997f9d6eb44673299c454d155 5c28f5a71aff7f70b03cfc8ede29244cad490be3 5d0925ab7d7e052973594a439f346f2f3faf432a 5d33a1be79192acfccb667ad6f950e40185012c8 5da66ae6063f0ae69b74df66bcdfe6d20d02a4ff 5deb5514f33f6966bc828f6daa3e96dbbc8ab4be 5f3f14de781ca41add553591469db012a7a69964 5f65b61670cecce9afc00c5f76237452fad293f5 60aa6c438aeab5a4ad49d2bff1781ee9fc45f503 62785b4c27baee0d61bd18c9218d6a838ee903c4 6373f446e0b0dfec6f92974aea3613fe85864de6 63eb41735b1612fd491f2986a86e3bc46906b69f 645897b381557d5eab56f0db31f24b0e89aee8e7 64a361e8f76993f4b02b7e9e70e217d252fba137 64faf80625f033ba25c0a5be08262b06eccfdb33 65a43be9ea7e4df7fca6669cd6e6d3db30a7f8fc 663b09377c4b4764367f273363789d580acedb80 671eccfcb1ed95478eac8a4f6ac6fb516424bec3 683ce60347eecc53e92e69884d41f582d550b382 687ab9f3a3bbb3d38504254ecae7ca5f6455d6bd 68d3e13c05c1689c68cdc45d089346ec3e7ea6c8 69d4c1cf5812c91951db2b181fb8b85dd811d720 6c0dd21b330dd0342dc7a9dcdabc8e2cb49a6970 6c81b24e211f9c516fb0ade1adfea2049f995c90 6ca41f651152f028e8574f284e5093e94e5f5e30 6cc159c6c93617f8d53e38d87b73ddc60c6a6f70 6d5f08489601a1d82b9a146c2548f4267b5281c5 6fbc18527294241b2e863221009c9a8e0fda059d 710c181b95b019aac0ebb072119806a6d1a9fca9 72d267a6aa40deec4bd4375f424e885e312de60f 731a530af0d46119e3ce9d75cd881bcf83971914 752c5d0fccd9bba134cb7f466fec6b0d19cb286e 757cbd0111980d01990faa46759c3b697c2ab26d 7651432998525ac7570d023dcd3cfd6df0556700 76601382b60ff6876bb3895602ca02a0308c4786 7762d8856ef07ce08eafaf14cf05f67ff1e8af2e 780b59b9872f056fec4ad1b12e9c8ed759a42069 78dafbe17509507fce1a3bec1793d5af170f161b 7b9c2f946fe97d56c8f31f3d5eafe04c68debe4c 7d8645837a0471913ead030bb0e094eb5f2c4850 7e2713c57404da265abb2d6f964906c7c5b52f43 8054bd324ef869a9ff4902e670693a19ee612b93 81373e90be860e57ba9de753ef386767454b251b 821f781897e417ffe233b862c7fb06a38206f73b 826b99755ef09198d6ed2c4ae64e15c9b5ccfa6c 82f8218c868e54ee8155544c1adc32c873f7df2b 83cf97e5b5503b77e6ee016cf571b82ff2610ff4 83ea0a26adaadb0b92f6bc41ea83835a609c78cb 861ed27ecb02059b2052746632b8541650a21182 864437cabbccbbbd343fa51e1291bb0b86487640 88b3ba4b3d78f764aa9ff2ad47447d1030409141 8a126c44e7e49da4b1b12bd92b8edf1e512e4faa 8a9569cabb6fcc180513ecac921a9d9de356f98c 8ad10ed12540ea0e62846163f1c6353b6da140ba 8b9d82456086f526d2da84f184398689c521f523 8ceea7ffe7672a44061ae1b022eeec6666542dda 8dd9e3bfcc7984646bfcbd2f038982299e0ead2a 8f40fa876403bc1b4d0edff3a55aea6a13d08bed 8f77f1dd7b09029db2fcc23aecf17b0691be7990 902d67d31b76621d6dcce8d9ea3f68836147a1fb 9201515a07864004d4bd02632389da6c7199cc15 92056aed677eb64fa46079acea5f51f22e919742 92e0ac6ef10c6f2ef9542fba82dc0e72e79f5f28 93586835a8f778decf6fb9c7a689e49bbd9035d1 951ffe3f0b70d8504af6f21fda4af489e3b21ff0 958f3e8a8ee682a27623dd3781ece7abd45495be 958f5bf4fb1b2898a2186d140ce1ea73245737f6 974c72d49c0a6b1b00cc7cb6c9aca1180124856b 9aa532f2970e6b3a2bb3d41b4bdacd5f728217bb 9b495de598bd1b6ee18e29e30e842b4cf3b42aa6 9bb3b0bee612670adcc929ffe9ab255da24a6bb6 9c9493ad3608fd731643a43f46321808e2a19f77 9d08de45effb5b24b6bd07b12027623061fe4b0d 9df137b6fe900fed58664fc4d5187c3eeec78297 9e038876dad0bae04822a044dec4d397881e1d22 9e09b36309eb4a6c3912dae7b8019b8d930be56f 9ee2e09a7469c6bee806ffedf6ba12b112f4f1fe 9fd8e461f76fd5edce64c9eaea18b1b659dbea61 a0d03d800f4c7c7492f3d67363dc4c5b365547a8 a19c4fde28232a8ad2d8030e9d33cfff5fddf1e3 a248f1f3dcff735ef6109e31dd49e16192846a33 a3721418980f2eb0bcc525b7b45b2e2e890fcd08 a442a36c0a08e3251bf0cace7c39a7ea6d05a6e4 a59aafb39cf9c0529e36093978f80d845f525dce aa37e85472878e70f829e6565a19f04fad5fc357 aaf914f0654dcf8342d8b79713185b2ff2a858e2 ac72aa5ac23d442344da29314abaa5762ea5bf6d acb29465d516bd664acf650e6898e53ea78f69d4 ae6a84d91d1a8d3833991c339c766ebb88c2c593 ae7a77180d31dda16e41f32157279543dc5d9beb ae8eb79ae0419201a74a9d1ff8cfa4298c9d6cfe af8fb629cd8b36a1d57b02ce587ab37785c57ec5 b1f83b6f79e834e2e8cbaf3edd441821c851e93b b269826280e8f6663519c1be0fc73290b464b2d9 b52baf55c8ad41d1ed81c5dd02a435ca7a06fca4 b81f6b0b99d25eb635ff7a10beed76ffb755d0ca b8cdbfa818e1a87b860ed2aa00e57672240c4840 ba4f86ded2fa60ae679700830a8903e793c05490 ba689437ed38b9538d4a4393efbdc857c1e19e57 ba9a444b3c9a261ee7a0090dd820b09b9fd35625 bc3541ff39edf6e5180d1fc0be6c185f3042b80d beb7467efe497897740303a2de2d8447f9a1e1ec c085cb3320f06c1709efeed5d1ee68f2373c1a0d c13ef7db943e02e35585cc2448fff49e131711b4 c25ec97311243bd34e76967468f3b4987abfd821 c49399c021f550a40710d326ec383f36b82b7f67 c6c874c4282dc7e92a16811d7ddb18af57ad7f4b c887eb31b8662cb6daf46c01ed971f3b9489f17b c9851293ec983686a933b6410443eef7aa4b9caf c98de2e67cf4346de0a9e17a5b13761cacb9d400 c9d34bfc1dada12dd17b4af7c2156250a5328a99 cb23a702dae27df9097008dc2a2369dbff522212 cc65a9231819c5ee0e1f5f7f3c4bc88af5d27bd5 cf2448e89b8edf808d2febf9faf3efe476747696 cfa45336e4a4214e3cdd2795ac3ebf56cbe16473 cfa6be07e1d6cd98e5dcb91d0eb6687ca2c9793b cfc032bb5bf14df2b1544a8aecd0e4844e5c3e43 d1274497926adf2505342a6f425faaa4b0a9e850 d1546e93fc3112332800c917057b2629f7c64444 d1d8e5936d255b59317a4e116f32c0a42ca239c1 d37327ddb1d53a1858eba80d7320702a86bfb149 d4f45da3a71887b46d2b931dbe7c81e45e28ddb8 d589e8ea753ecd677ecf845196140168b7d0f66d d59cf724547c70b9d52ff632f4313864a7d00553 d6b7f0261cde44a710d036738a679ba66a06f214 d9cd0f07218b40415386846989598f0d5f642aa1 da934aab8c24bbb044fb2eb8514a4558e9b7c048 db076bfd5258c794b45b33abbeb446bb41991b66 db8aaf299ba33aa8f24d7fb83114102532a81d9f dbe4a06cd0fe5ba4a97fb02f5b79b483cb150afb dc06f8919bd0cc272fc79cab871c5732fe05aa98 dda2b7a778738650d0aee582603c02b0da3d8f66 dde9a49f14b7063c450412ed4c9f13f706b1af34 de8d492eeed2a4284382b37daaceb78e57817e0a dfb4a085dfbfb179ee0fd33ae0bd5e14c162fcb8 e0926be58968761675d3d54075493d9d65a28245 e13cab2c0cc4e4b1c1eaf68702d1bf67117b6d24 e1b380c985471ff05868347351a8d75c7f263810 e3eb05cddfd167f5d4b8dcc6e6bee6951c44b26a e4be33bfa8972c5a15343cde1510fc974aa74884 e50300d1b2e594e420d4fe33bb70ff206aca1ca9 e64c458112f5f122addf6b3198ec48fab4ecdd52 e6b1e6a1bdd51a2c192af6df328ef0f9fc973c19 e6f213e0843c847cc1e9942db76a003fac65670c e7ca5b733fc805fe4db5898e44bc1e6694634e57 e7dfbbbdb8e8ea29116d0bba4adfa85ff0fb3d17 e7e1e1acb0b61371a98deb70c76ea3477a94bfa7 e919d1582c7fef516d812bd1b8ff35c28a7e1d75 e96b5669cd00f98b8942b88003f2bfb89176c328 ea6230fb1482570a5cefd48e4b6514c18ddaeb4c ec5c20e853286df1c6eb70d760aced74ab4101a8 ec5f19c37b87f4e17f20b32f263a543588052d34 eec5d28ffdaacc676df9307344cd331cf87027d2 eef71c0531f5c88c278358738e5f4aea3209f7ed f0883f59291f3888d8889c2e2112e9ff97bd2f6e f1f0a41b4f80d492fca382e890e52d18fbbbce9d f217f77caf7422c62f5b1805237ffc7af511ee08 f4deb00d53584540bad4a9b5330ac374d044d015 f6119c08d76034ca4d3cc496302bc4db342c6fa9 f63d86d88edc9742d1857fa5bec6b5701897a29e f716bea1573297718e6a1b8056b21c15e326f460 f834d7308d2660218ed4f7486a58e28c8464fe4b f84d5ebddb5a62a4d92bcdaa0aadf77038b266ab f8cfc8d5ebdb54532554a742660bf24b870e851a f94190eae5ae79013de684dfe029ab100c728fe9 fc71e2532102775398875c64e6032fdd06526d58 fd700d4841d62cd1acffd7832ab024e4bd0a66c6 ffc66d6d15d0a2f6856cf605c6082ff915baddde ffeeefa886cf1317a614c916c7236367ce54c76b
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
@@ -13536,10 +13536,10 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Replaces: libc6 (<< 2.38-1ubuntu1)
-Provides: libc-dev (= 2.39-0ubuntu8.5)
-Depends: libc6 (= 2.39-0ubuntu8.5), libc-dev-bin (= 2.39-0ubuntu8.5), linux-libc-dev, libcrypt-dev, rpcsvc-proto
+Provides: libc-dev (= 2.39-0ubuntu8.6)
+Depends: libc6 (= 2.39-0ubuntu8.6), libc-dev-bin (= 2.39-0ubuntu8.6), linux-libc-dev, libcrypt-dev, rpcsvc-proto
 Suggests: glibc-doc, manpages-dev
 Breaks: binutils (<< 2.38), catch (<< 1.12.2-0.1), heimdal-multidev (<= 7.7.0+dfsg-4), igblast (<= 1.19.0-1), libassimp-dev (<= 5.2.4~ds0-1), libasyncns-dev (<= 0.8-6build2), libatm1-dev (<= 1:2.5.1-4), libaws20-dev (<= 20.2-2+b1), libboinc-app-dev (<= 7.20.2+dfsg-1), libbson-dev (<= 1.22.0-1), libc6-dev-amd64-cross (<< 2.39~), libcups2-dev (<= 2.4.2-1), libdeal.ii-dev (<= 9.4.0-1), libdkim-dev (<= 1:1.0.21-4build3), libdolfin-dev-common (<= 2019.2.0~git20220407.d29e24d-5), libeckit-dev (<= 1.20.0-1), libfclib-dev (<= 3.1.0+dfsg-2), libfltk1.3-dev (<= 1.3.8-4+b1), libghc-resolv-dev (<= 0.1.2.0-3), libghc-resolv-prof (<= 0.1.2.0-3), libglib2.0-dev (<= 2.72.3-1), libgloox-dev (<= 1.0.24-2+b1), libhesiod-dev (<= 3.2.1-3.1+b1), libinfinity-0.7-dev (<= 0.7.2-1build1), libinsighttoolkit4-dev (<= 4.13.3withdata-dfsg2-3+b1), libinsighttoolkit5-dev (<= 5.2.1-5+b1), libismrmrd-dev (<= 1.8.0-2), libldap-dev (<= 2.5.12+dfsg-2), liblog4cplus-dev (<= 2.0.7-1), libloudmouth1-dev (<= 1.5.4-1), libmgl-dev (<= 8.0.1-2), libmimalloc2.0 (<= 2.0.6+ds-1), libminc-dev (<= 2.4.03-5), libmongoc-dev (<= 1.22.1-1), libmrpt-ros1bridge-dev (<= 1:2.4.9+ds-4+b2), libmysqlclient-dev (<= 8.0.29-1), libnetcdf-dev (<= 1:4.9.0-3), libnetcdf-mpi-dev (<= 1:4.9.0-1), libnetcdf-pnetcdf-dev (<= 1:4.9.0-1), libnfsidmap-dev (<= 1:2.6.1-2), libns3-dev (<= 3.36.1+dfsg-4), libola-dev (<= 0.10.8.nojsmin-2), libopenafs-dev (<= 1.8.8.1-3), libopendkim-dev (<= 2.11.0~beta2-7), libopendmarc-dev (<= 1.4.2-1), libopenms-dev (<= 2.6.0+cleaned1-3build4), libopenzwave1.6-dev (<= 1.6.1914+ds-1), libpg-query-dev (<= 13-2.1.2-2), librbl-dev (<= 2.11.0~beta2-7), libre-dev (<= 1.1.0-1build1), libshishi-dev (<= 1.0.2-11), libslurm-dev (<= 21.08.8.2-1), libsocksd0-dev (<= 1.4.2+dfsg-7build7), libspf2-dev (<= 1.2.10-7.1+b1), libstrophe-dev (<= 0.12.1-2), libtaningia-dev (<= 0.2.2-2), libtrilinos-amesos-dev (<= 13.2.0-3), libtrilinos-amesos2-dev (<= 13.2.0-3), libtrilinos-anasazi-dev (<= 13.2.0-3), libtrilinos-aztecoo-dev (<= 13.2.0-3), libtrilinos-belos-dev (<= 13.2.0-3), libtrilinos-epetra-dev (<= 13.2.0-3), libtrilinos-epetraext-dev (<= 13.2.0-3), libtrilinos-galeri-dev (<= 13.2.0-3), libtrilinos-ifpack-dev (<= 13.2.0-3), libtrilinos-ifpack2-dev (<= 13.2.0-3), libtrilinos-intrepid-dev (<= 13.2.0-3), libtrilinos-intrepid2-dev (<= 13.2.0-3), libtrilinos-isorropia-dev (<= 13.2.0-3), libtrilinos-kokkos-dev (<= 13.2.0-3), libtrilinos-kokkos-kernels-dev (<= 13.2.0-3), libtrilinos-komplex-dev (<= 13.2.0-3), libtrilinos-ml-dev (<= 13.2.0-3), libtrilinos-moertel-dev (<= 13.2.0-3), libtrilinos-muelu-dev (<= 13.2.0-3), libtrilinos-nox-dev (<= 13.2.0-3), libtrilinos-phalanx-dev (<= 13.2.0-3), libtrilinos-pike-dev (<= 13.2.0-3), libtrilinos-piro-dev (<= 13.2.0-3), libtrilinos-pliris-dev (<= 13.2.0-3), libtrilinos-rol-dev (<= 13.2.0-3), libtrilinos-rtop-dev (<= 13.2.0-3), libtrilinos-rythmos-dev (<= 13.2.0-3), libtrilinos-sacado-dev (<= 13.2.0-3), libtrilinos-shylu-dev (<= 13.2.0-3), libtrilinos-stokhos-dev (<= 13.2.0-3), libtrilinos-stratimikos-dev (<= 13.2.0-3), libtrilinos-teko-dev (<= 13.2.0-3), libtrilinos-teuchos-dev (<= 13.2.0-3), libtrilinos-thyra-dev (<= 13.2.0-3), libtrilinos-tpetra-dev (<= 13.2.0-3), libtrilinos-trilinoscouplings-dev (<= 13.2.0-3), libtrilinos-triutils-dev (<= 13.2.0-3), libtrilinos-xpetra-dev (<= 13.2.0-3), libtrilinos-zoltan2-dev (<= 13.2.0-3), libvbr-dev (<= 2.11.0~beta2-7), libvisp-dev (<= 3.5.0-2+b1), libvotca-dev (<= 2022-3), libvtk6-dev (<= 6.3.0+dfsg2-8.1+b1), libvtk7-dev (<= 7.1.1+dfsg2-10.2), open-vm-tools-dev (<= 2:12.0.5-2), pidgin-librvp (<= 0.9.7cvs-3), proftpd-dev (<= 1.3.7d+dfsg-2), slurm-wlm-basic-plugins-dev (<= 21.08.8.2-1)
 Conflicts: libc0.3-dev, libc6.1-dev
@@ -13559,9 +13559,9 @@ Installed-Size: 11989
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Replaces: libc6-dev-i386
-Depends: libc6 (= 2.39-0ubuntu8.5)
+Depends: libc6 (= 2.39-0ubuntu8.6)
 Conflicts: libc6-amd64, libc6-i386:x32, libc6-mips32, libc6-mips64, libc6-mipsn32, libc6-powerpc, libc6-ppc64, libc6-s390, libc6-sparc, libc6-sparc64, libc6-x32:i386
 Conffiles:
  /etc/ld.so.conf.d/zz_i386-biarch-compat.conf 82fedc1c0e9655edf8debad064dca6f1
@@ -28821,10 +28821,10 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: pam
-Version: 1.5.3-5ubuntu5.4
+Version: 1.5.3-5ubuntu5.5
 Replaces: libpam-umask, libpam0g-util
 Provides: libpam-mkhomedir, libpam-motd, libpam-umask
-Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libdb5.3t64, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), libsystemd0, debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.5.3-5ubuntu5.4)
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libdb5.3t64, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), libsystemd0, debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.5.3-5ubuntu5.5)
 Conflicts: libpam-mkhomedir, libpam-motd, libpam-umask
 Conffiles:
  /etc/security/access.conf dc21d0fd769d655b311d785670e5c6ae
@@ -28852,7 +28852,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: pam
-Version: 1.5.3-5ubuntu5.4
+Version: 1.5.3-5ubuntu5.5
 Replaces: libpam-modules (<< 1.5.2-5~)
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsystemd0 (>= 254)
 Description: Pluggable Authentication Modules for PAM - helper binaries
@@ -28870,7 +28870,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: pam
-Version: 1.5.3-5ubuntu5.4
+Version: 1.5.3-5ubuntu5.5
 Replaces: libpam0g-dev, libpam0g-util
 Depends: debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)
 Conflicts: libpam0g-util
@@ -28910,14 +28910,14 @@ Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.a
 
 Package: libpam0g
 Status: install ok installed
-Priority: required
+Priority: optional
 Section: libs
 Installed-Size: 209
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: pam
-Version: 1.5.3-5ubuntu5.4
+Version: 1.5.3-5ubuntu5.5
 Replaces: libpam0g-util, libpam0t64 (<< 1.5.3-5)
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
 Suggests: libpam-doc
@@ -40306,9 +40306,9 @@ Installed-Size: 17
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 6.8.0-83.83
-Depends: linux-image-generic (= 6.8.0-83.83), linux-headers-generic (= 6.8.0-83.83)
-Recommends: linux-tools-6.8.0-83-generic, ubuntu-kernel-accessories
+Version: 6.8.0-84.84
+Depends: linux-image-generic (= 6.8.0-84.84), linux-headers-generic (= 6.8.0-84.84)
+Recommends: linux-tools-6.8.0-84-generic, ubuntu-kernel-accessories
 Description: Complete Generic Linux kernel and headers
  This package will always depend on the latest complete generic Linux kernel
  and headers.
@@ -40381,6 +40381,40 @@ Description: Linux kernel headers for version 6.8.0 on 64 bit x86 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-6.8.0-83/debian.README.gz for details.
 
+Package: linux-headers-6.8.0-84
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 83975
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Multi-Arch: foreign
+Source: linux
+Version: 6.8.0-84.84
+Depends: coreutils
+Description: Header files related to Linux kernel version 6.8.0
+ This package provides kernel header files for version 6.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-6.8.0-84/debian.README.gz for details
+
+Package: linux-headers-6.8.0-84-generic
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 28615
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-84.84
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-6.8.0-84, libc6 (>= 2.38), libelf1t64 (>= 0.144), libgcc-s1 (>= 4.2), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
+Description: Linux kernel headers for version 6.8.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 6.8.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.8.0-84/debian.README.gz for details.
+
 Package: linux-headers-generic
 Status: install ok installed
 Priority: optional
@@ -40389,8 +40423,8 @@ Installed-Size: 17
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 6.8.0-83.83
-Depends: linux-headers-6.8.0-83-generic
+Version: 6.8.0-84.84
+Depends: linux-headers-6.8.0-84-generic
 Description: Generic Linux kernel headers
  This package will always depend on the latest generic kernel headers
  available.
@@ -40833,6 +40867,25 @@ Description: Signed kernel image generic
  Canonical's signing key.
 Built-Using: linux (= 6.8.0-83.83)
 
+Package: linux-image-6.8.0-84-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 14693
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-signed
+Version: 6.8.0-84.84
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, spl-dkms, spl-modules, v4l2loopback-dkms, v4l2loopback-modules, virtualbox-guest-modules, zfs-dkms, zfs-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.8.0-84-generic
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-tools, linux-headers-6.8.0-84-generic, linux-modules-extra-6.8.0-84-generic
+Conflicts: linux-image-unsigned-6.8.0-84-generic
+Description: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's signing key.
+Built-Using: linux (= 6.8.0-84.84)
+
 Package: linux-image-generic
 Status: install ok installed
 Priority: optional
@@ -40841,9 +40894,9 @@ Installed-Size: 17
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 6.8.0-83.83
-Provides: ivsc-modules (= 0~git202311021215.73a044d9), spl-modules (= 2.2.2-0ubuntu9.3), v4l2loopback-modules (= 0.12.7-2ubuntu5), virtualbox-guest-modules (= 6.8.0-83), wireguard-modules (= 1.0.0), zfs-modules (= 2.2.2-0ubuntu9.3)
-Depends: linux-image-6.8.0-83-generic, linux-modules-extra-6.8.0-83-generic, linux-firmware, intel-microcode, amd64-microcode
+Version: 6.8.0-84.84
+Provides: ivsc-modules (= 0~git202311021215.73a044d9), spl-modules (= 2.2.2-0ubuntu9.4), v4l2loopback-modules (= 0.12.7-2ubuntu5), virtualbox-guest-modules (= 6.8.0-84), wireguard-modules (= 1.0.0), zfs-modules (= 2.2.2-0ubuntu9.4)
+Depends: linux-image-6.8.0-84-generic, linux-modules-extra-6.8.0-84-generic, linux-firmware, intel-microcode, amd64-microcode
 Recommends: thermald
 Description: Generic Linux kernel image
  This package will always depend on the latest generic kernel image
@@ -40853,12 +40906,12 @@ Package: linux-libc-dev
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 7468
+Installed-Size: 7482
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 6.8.0-83.83
+Version: 6.8.0-84.84
 Replaces: linux-kernel-headers
 Provides: aufs-dev, linux-kernel-headers
 Conflicts: linux-kernel-headers
@@ -41359,6 +41412,28 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux
 Version: 6.8.0-83.83
+Description: Linux kernel extra modules for version 6.8.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-6.8.0-84-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 38284
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-84.84
 Description: Linux kernel extra modules for version 6.8.0 on 64 bit x86 SMP
  Contains the corresponding System.map file, the modules built by the
  packager, and scripts that try to ensure that the system is not left in an
@@ -41964,6 +42039,32 @@ Description: Linux kernel extra modules for version 6.8.0 on 64 bit x86 SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-6.8.0-84-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 109671
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-84.84
+Depends: linux-modules-6.8.0-84-generic, wireless-regdb
+Description: Linux kernel extra modules for version 6.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 6.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-sound-base
 Status: install ok installed
 Priority: optional
@@ -42050,16 +42151,49 @@ Description: Linux kernel version specific tools for version 6.8.0-83
  version 6.8.0-83 on
  64 bit x86.
 
+Package: linux-tools-6.8.0-84
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 18669
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-84.84
+Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libdw1t64 (>= 0.161), libelf1t64 (>= 0.144), liblzma5 (>= 5.1.1alpha+20120614), libnuma1 (>= 2.0.11), libpci3 (>= 1:3.8.0), libpython3.12t64 (>= 3.12.1), libslang2 (>= 2.2.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 4.1.1), libtraceevent1 (>= 1:1.3.0), libudev1 (>= 183), libunwind8, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.3), linux-tools-common
+Description: Linux kernel version specific tools for version 6.8.0-84
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 6.8.0-84 on
+ 64 bit x86.
+ You probably want to install linux-tools-6.8.0-84-<flavour>.
+
+Package: linux-tools-6.8.0-84-generic
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 530
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-84.84
+Depends: linux-tools-6.8.0-84
+Description: Linux kernel version specific tools for version 6.8.0-84
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 6.8.0-84 on
+ 64 bit x86.
+
 Package: linux-tools-common
 Status: install ok installed
 Priority: optional
 Section: kernel
-Installed-Size: 831
+Installed-Size: 845
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: linux
-Version: 6.8.0-83.83
+Version: 6.8.0-84.84
 Provides: bpftool
 Depends: lsb-release, hwdata
 Description: Linux kernel version specific tools for version 6.8.0
@@ -42075,7 +42209,7 @@ Installed-Size: 16712
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: glibc
-Version: 2.39-0ubuntu8.5
+Version: 2.39-0ubuntu8.6
 Depends: libc-bin (>> 2.39), debconf (>= 0.5) | debconf-2.0
 Conffiles:
  /etc/locale.alias e61078721cb3be18f48a8d4530b7201c
@@ -61021,12 +61155,12 @@ Package: python3-pip-whl
 Status: install ok installed
 Priority: optional
 Section: python
-Installed-Size: 1803
+Installed-Size: 1809
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: python-pip
-Version: 24.0+dfsg-1ubuntu1.2
+Version: 24.0+dfsg-1ubuntu1.3
 Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
 Depends: ca-certificates
 Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
