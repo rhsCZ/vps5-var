@@ -51364,7 +51364,7 @@ Section: admin
 Installed-Size: 3131
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2:12.5.0-1~ubuntu0.24.04.1
+Version: 2:12.5.0-1~ubuntu0.24.04.2
 Replaces: open-vm-tools-sdmp (<< 2:12.1.0-2~)
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.3), libfuse3-3 (>= 3.2.3), libgcc-s1 (>= 3.3), libglib2.0-0t64 (>= 2.32.0), libmspack0t64 (>= 0.4), libssl3t64 (>= 3.0.0), libtirpc3t64 (>= 1.0.2), libudev1 (>= 183), libxml2 (>= 2.7.4), libxmlsec1t64 (>= 1.2.31), libxmlsec1t64-openssl (>= 1.2.31), pciutils, iproute2, lsb-release
 Pre-Depends: init-system-helpers (>= 1.54~)
