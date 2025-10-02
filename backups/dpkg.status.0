@@ -34674,8 +34674,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: openssl
-Version: 3.0.13-0ubuntu3.5
-Depends: libssl3t64 (= 3.0.13-0ubuntu3.5)
+Version: 3.0.13-0ubuntu3.6
+Depends: libssl3t64 (= 3.0.13-0ubuntu3.6)
 Suggests: libssl-doc
 Description: Secure Sockets Layer toolkit - development files
  This package is part of the OpenSSL project's implementation of the SSL
@@ -34689,18 +34689,18 @@ Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.
 
 Package: libssl3t64
 Status: install ok installed
-Priority: required
+Priority: optional
 Section: libs
 Installed-Size: 6608
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: openssl
-Version: 3.0.13-0ubuntu3.5
+Version: 3.0.13-0ubuntu3.6
 Replaces: libssl3
-Provides: libssl3 (= 3.0.13-0ubuntu3.5)
+Provides: libssl3 (= 3.0.13-0ubuntu3.6)
 Depends: libc6 (>= 2.38)
-Breaks: libssl3 (<< 3.0.13-0ubuntu3.5)
+Breaks: libssl3 (<< 3.0.13-0ubuntu3.6)
 Description: Secure Sockets Layer toolkit - shared libraries
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -40306,9 +40306,9 @@ Installed-Size: 17
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 6.8.0-84.84
-Depends: linux-image-generic (= 6.8.0-84.84), linux-headers-generic (= 6.8.0-84.84)
-Recommends: linux-tools-6.8.0-84-generic, ubuntu-kernel-accessories
+Version: 6.8.0-85.85
+Depends: linux-image-generic (= 6.8.0-85.85), linux-headers-generic (= 6.8.0-85.85)
+Recommends: linux-tools-6.8.0-85-generic, ubuntu-kernel-accessories
 Description: Complete Generic Linux kernel and headers
  This package will always depend on the latest complete generic Linux kernel
  and headers.
@@ -40381,6 +40381,40 @@ Description: Linux kernel headers for version 6.8.0 on 64 bit x86 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-6.8.0-84/debian.README.gz for details.
 
+Package: linux-headers-6.8.0-85
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 83975
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Multi-Arch: foreign
+Source: linux
+Version: 6.8.0-85.85
+Depends: coreutils
+Description: Header files related to Linux kernel version 6.8.0
+ This package provides kernel header files for version 6.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-6.8.0-85/debian.README.gz for details
+
+Package: linux-headers-6.8.0-85-generic
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 28615
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-85.85
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-6.8.0-85, libc6 (>= 2.38), libelf1t64 (>= 0.144), libgcc-s1 (>= 4.2), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
+Description: Linux kernel headers for version 6.8.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 6.8.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.8.0-85/debian.README.gz for details.
+
 Package: linux-headers-generic
 Status: install ok installed
 Priority: optional
@@ -40389,8 +40423,8 @@ Installed-Size: 17
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 6.8.0-84.84
-Depends: linux-headers-6.8.0-84-generic
+Version: 6.8.0-85.85
+Depends: linux-headers-6.8.0-85-generic
 Description: Generic Linux kernel headers
  This package will always depend on the latest generic kernel headers
  available.
@@ -40853,6 +40887,25 @@ Description: Signed kernel image generic
  Canonical's signing key.
 Built-Using: linux (= 6.8.0-84.84)
 
+Package: linux-image-6.8.0-85-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 14701
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-signed
+Version: 6.8.0-85.85
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, spl-dkms, spl-modules, v4l2loopback-dkms, v4l2loopback-modules, virtualbox-guest-modules, zfs-dkms, zfs-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.8.0-85-generic
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-tools, linux-headers-6.8.0-85-generic, linux-modules-extra-6.8.0-85-generic
+Conflicts: linux-image-unsigned-6.8.0-85-generic
+Description: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's signing key.
+Built-Using: linux (= 6.8.0-85.85)
+
 Package: linux-image-generic
 Status: install ok installed
 Priority: optional
@@ -40861,9 +40914,9 @@ Installed-Size: 17
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta
-Version: 6.8.0-84.84
-Provides: ivsc-modules (= 0~git202311021215.73a044d9), spl-modules (= 2.2.2-0ubuntu9.4), v4l2loopback-modules (= 0.12.7-2ubuntu5), virtualbox-guest-modules (= 6.8.0-84), wireguard-modules (= 1.0.0), zfs-modules (= 2.2.2-0ubuntu9.4)
-Depends: linux-image-6.8.0-84-generic, linux-modules-extra-6.8.0-84-generic, linux-firmware, intel-microcode, amd64-microcode
+Version: 6.8.0-85.85
+Provides: ivsc-modules (= 0~git202311021215.73a044d9), spl-modules (= 2.2.2-0ubuntu9.4), v4l2loopback-modules (= 0.12.7-2ubuntu5), virtualbox-guest-modules (= 6.8.0-85), wireguard-modules (= 1.0.0), zfs-modules (= 2.2.2-0ubuntu9.4)
+Depends: linux-image-6.8.0-85-generic, linux-modules-extra-6.8.0-85-generic, linux-firmware, intel-microcode, amd64-microcode
 Recommends: thermald
 Description: Generic Linux kernel image
  This package will always depend on the latest generic kernel image
@@ -40878,7 +40931,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 6.8.0-84.84
+Version: 6.8.0-85.85
 Replaces: linux-kernel-headers
 Provides: aufs-dev, linux-kernel-headers
 Conflicts: linux-kernel-headers
@@ -41402,6 +41455,28 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux
 Version: 6.8.0-84.84
+Description: Linux kernel extra modules for version 6.8.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-6.8.0-85-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 38273
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-85.85
 Description: Linux kernel extra modules for version 6.8.0 on 64 bit x86 SMP
  Contains the corresponding System.map file, the modules built by the
  packager, and scripts that try to ensure that the system is not left in an
@@ -42034,6 +42109,32 @@ Description: Linux kernel extra modules for version 6.8.0 on 64 bit x86 SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-6.8.0-85-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 109661
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-85.85
+Depends: linux-modules-6.8.0-85-generic, wireless-regdb
+Description: Linux kernel extra modules for version 6.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 6.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-sound-base
 Status: install ok installed
 Priority: optional
@@ -42120,6 +42221,39 @@ Description: Linux kernel version specific tools for version 6.8.0-84
  version 6.8.0-84 on
  64 bit x86.
 
+Package: linux-tools-6.8.0-85
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 18669
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-85.85
+Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libdw1t64 (>= 0.161), libelf1t64 (>= 0.144), liblzma5 (>= 5.1.1alpha+20120614), libnuma1 (>= 2.0.11), libpci3 (>= 1:3.8.0), libpython3.12t64 (>= 3.12.1), libslang2 (>= 2.2.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 4.1.1), libtraceevent1 (>= 1:1.3.0), libudev1 (>= 183), libunwind8, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.3), linux-tools-common
+Description: Linux kernel version specific tools for version 6.8.0-85
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 6.8.0-85 on
+ 64 bit x86.
+ You probably want to install linux-tools-6.8.0-85-<flavour>.
+
+Package: linux-tools-6.8.0-85-generic
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 530
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux
+Version: 6.8.0-85.85
+Depends: linux-tools-6.8.0-85
+Description: Linux kernel version specific tools for version 6.8.0-85
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 6.8.0-85 on
+ 64 bit x86.
+
 Package: linux-tools-common
 Status: install ok installed
 Priority: optional
@@ -42129,7 +42263,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: linux
-Version: 6.8.0-84.84
+Version: 6.8.0-85.85
 Provides: bpftool
 Depends: lsb-release, hwdata
 Description: Linux kernel version specific tools for version 6.8.0
@@ -51574,7 +51708,7 @@ Installed-Size: 1885
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 3.0.13-0ubuntu3.5
+Version: 3.0.13-0ubuntu3.6
 Depends: libc6 (>= 2.34), libssl3t64 (>= 3.0.9)
 Suggests: ca-certificates
 Conffiles:
