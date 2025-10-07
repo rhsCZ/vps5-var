@@ -29830,11 +29830,11 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: poppler
-Version: 24.02.0-1ubuntu9.6
+Version: 24.02.0-1ubuntu9.7
 Replaces: libpoppler-cpp0, libpoppler-cpp0v5
-Provides: libpoppler-cpp0v5 (= 24.02.0-1ubuntu9.6)
-Depends: libpoppler134 (= 24.02.0-1ubuntu9.6), libc6 (>= 2.14), libstdc++6 (>= 13.1)
-Breaks: libpoppler-cpp0v5 (<< 24.02.0-1ubuntu9.6)
+Provides: libpoppler-cpp0v5 (= 24.02.0-1ubuntu9.7)
+Depends: libpoppler134 (= 24.02.0-1ubuntu9.7), libc6 (>= 2.14), libstdc++6 (>= 13.1)
+Breaks: libpoppler-cpp0v5 (<< 24.02.0-1ubuntu9.7)
 Conflicts: libpoppler-cpp0
 Description: PDF rendering library (CPP shared library)
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
@@ -29853,11 +29853,11 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: poppler
-Version: 24.02.0-1ubuntu9.6
+Version: 24.02.0-1ubuntu9.7
 Replaces: libpoppler-glib8
-Provides: libpoppler-glib8 (= 24.02.0-1ubuntu9.6)
-Depends: libpoppler134 (= 24.02.0-1ubuntu9.6), libc6 (>= 2.34), libcairo2 (>= 1.17.8), libfreetype6 (>= 2.2.1), libglib2.0-0t64 (>= 2.79.0), libstdc++6 (>= 11)
-Breaks: libpoppler-glib8 (<< 24.02.0-1ubuntu9.6)
+Provides: libpoppler-glib8 (= 24.02.0-1ubuntu9.7)
+Depends: libpoppler134 (= 24.02.0-1ubuntu9.7), libc6 (>= 2.34), libcairo2 (>= 1.17.8), libfreetype6 (>= 2.2.1), libglib2.0-0t64 (>= 2.79.0), libstdc++6 (>= 11)
+Breaks: libpoppler-glib8 (<< 24.02.0-1ubuntu9.7)
 Description: PDF rendering library (GLib-based shared library)
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
  .
@@ -29875,11 +29875,11 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: poppler
-Version: 24.02.0-1ubuntu9.6
+Version: 24.02.0-1ubuntu9.7
 Replaces: libpoppler-qt5-1
-Provides: libpoppler-qt5-1 (= 24.02.0-1ubuntu9.6)
-Depends: libpoppler134 (= 24.02.0-1ubuntu9.6), libc6 (>= 2.32), libfreetype6 (>= 2.2.1), liblcms2-2 (>= 2.2+git20110628), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 11)
-Breaks: libpoppler-qt5-1 (<< 24.02.0-1ubuntu9.6)
+Provides: libpoppler-qt5-1 (= 24.02.0-1ubuntu9.7)
+Depends: libpoppler134 (= 24.02.0-1ubuntu9.7), libc6 (>= 2.32), libfreetype6 (>= 2.2.1), liblcms2-2 (>= 2.2+git20110628), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 11)
+Breaks: libpoppler-qt5-1 (<< 24.02.0-1ubuntu9.7)
 Description: PDF rendering library (Qt 5 based shared library)
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
  .
@@ -29897,7 +29897,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: poppler
-Version: 24.02.0-1ubuntu9.6
+Version: 24.02.0-1ubuntu9.7
 Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.16.2), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libjpeg8 (>= 8c), liblcms2-2 (>= 2.7), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.16), libopenjp2-7 (>= 2.0.0), libpng16-16t64 (>= 1.6.2), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), zlib1g (>= 1:1.1.4)
 Recommends: poppler-data
 Description: PDF rendering library
@@ -58758,10 +58758,10 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: poppler
-Version: 24.02.0-1ubuntu9.6
+Version: 24.02.0-1ubuntu9.7
 Replaces: pdftohtml, xpdf-reader, xpdf-utils (<< 3.02-2~)
 Provides: pdftohtml, xpdf-utils
-Depends: libpoppler134 (= 24.02.0-1ubuntu9.6), libc6 (>= 2.38), libcairo2 (>= 1.17.8), libfreetype6 (>= 2.2.1), liblcms2-2 (>= 2.2+git20110628), libstdc++6 (>= 13.1)
+Depends: libpoppler134 (= 24.02.0-1ubuntu9.7), libc6 (>= 2.38), libcairo2 (>= 1.17.8), libfreetype6 (>= 2.2.1), liblcms2-2 (>= 2.2+git20110628), libstdc++6 (>= 13.1)
 Breaks: xpdf-utils (<< 3.02-2~)
 Conflicts: pdftohtml
 Description: PDF utilities (based on Poppler)
