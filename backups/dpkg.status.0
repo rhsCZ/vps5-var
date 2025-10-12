@@ -65752,7 +65752,7 @@ Installed-Size: 1313
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 4.99.4-3ubuntu4
+Version: 4.99.4-3ubuntu4.24.04.1
 Replaces: apparmor-profiles-extra (<< 1.12~)
 Depends: adduser, libc6 (>= 2.38), libpcap0.8t64 (>= 1.9.1), libssl3t64 (>= 3.0.0)
 Suggests: apparmor (>= 2.3)
