@@ -2058,10 +2058,6 @@ Package: libsharpyuv0
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-headers-generic
-Architecture: amd64
-Auto-Installed: 1
-
 Package: iucode-tool
 Architecture: amd64
 Auto-Installed: 1
@@ -2167,10 +2163,6 @@ Architecture: amd64
 Auto-Installed: 1
 
 Package: libwebp7
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-image-generic
 Architecture: amd64
 Auto-Installed: 1
 
@@ -10406,59 +10398,35 @@ Package: libllvm20
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-tools-6.8.0-84-generic
+Package: linux-image-6.14.0-33-generic
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-modules-extra-6.8.0-84-generic
+Package: linux-modules-6.14.0-33-generic
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-tools-6.8.0-84
+Package: linux-modules-extra-6.14.0-33-generic
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-headers-6.8.0-84
+Package: linux-headers-generic-hwe-24.04
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-modules-6.8.0-84-generic
+Package: linux-tools-6.14.0-33-generic
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-image-6.8.0-84-generic
+Package: linux-headers-6.14.0-33-generic
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-headers-6.8.0-84-generic
+Package: linux-hwe-6.14-headers-6.14.0-33
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-tools-6.8.0-85-generic
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-modules-extra-6.8.0-85-generic
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-tools-6.8.0-85
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-headers-6.8.0-85
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-modules-6.8.0-85-generic
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-image-6.8.0-85-generic
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-headers-6.8.0-85-generic
+Package: linux-hwe-6.14-tools-6.14.0-33
 Architecture: amd64
 Auto-Installed: 1
 
