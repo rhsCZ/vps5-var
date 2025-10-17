@@ -25468,8 +25468,8 @@ Installed-Size: 622
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
-Source: samba (2:4.19.5+dfsg-4ubuntu9.3)
-Version: 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.3
+Source: samba (2:4.19.5+dfsg-4ubuntu9.4)
+Version: 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.4
 Depends: libc6 (>= 2.38), libldap2 (>= 2.6.2), liblmdb0 (>= 0.9.9), libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0)
 Breaks: ldb-tools (<< 1.1.30~), samba (<< 2:4.7.0~), samba-dsdb-modules (<< 2:4.7.0~), samba-libs (<< 2:4.19.0~), samba-testsuite (<< 2:4.7.0~)
 Description: LDAP-like embedded database - shared library
@@ -33865,11 +33865,11 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Replaces: libsmbclient
-Provides: libsmbclient (= 2:4.19.5+dfsg-4ubuntu9.3)
-Depends: samba-libs (= 2:4.19.5+dfsg-4ubuntu9.3), libbsd0 (>= 0.0), libc6 (>= 2.38), libndr3 (>= 2:4.17.2), libtalloc2 (>= 2.4.1~), libtevent0t64 (>= 0.15.0)
-Breaks: libsmbclient (<< 2:4.19.5+dfsg-4ubuntu9.3)
+Provides: libsmbclient (= 2:4.19.5+dfsg-4ubuntu9.4)
+Depends: samba-libs (= 2:4.19.5+dfsg-4ubuntu9.4), libbsd0 (>= 0.0), libc6 (>= 2.38), libndr3 (>= 2:4.17.2), libtalloc2 (>= 2.4.1~), libtevent0t64 (>= 0.15.0)
+Breaks: libsmbclient (<< 2:4.19.5+dfsg-4ubuntu9.4)
 Description: shared library for communication with SMB/CIFS servers
  This package provides a shared library that enables client applications
  to talk to Microsoft Windows and Samba servers using the SMB/CIFS
@@ -37388,7 +37388,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Depends: libc6 (>= 2.38)
 Breaks: samba-libs (<< 2:4.11.0+dfsg-1~)
 Description: Samba winbind client library
@@ -40285,10 +40285,10 @@ Package: linux-firmware
 Status: install ok installed
 Priority: optional
 Section: misc
-Installed-Size: 524516
+Installed-Size: 525405
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
-Version: 20240318.git3b128b60-0ubuntu2.17
+Version: 20240318.git3b128b60-0ubuntu2.19
 Replaces: atmel-firmware, linux-firmware-snapdragon (<= 1.2-0ubuntu1), linux-restricted-common
 Provides: atmel-firmware
 Recommends: firmware-sof-signed
@@ -59123,9 +59123,9 @@ Section: python
 Installed-Size: 209
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Source: samba (2:4.19.5+dfsg-4ubuntu9.3)
-Version: 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.3
-Depends: libldb2 (= 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.3), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.25), libpython3.12t64 (>= 3.12.1), libtalloc2 (>= 2.4.1~)
+Source: samba (2:4.19.5+dfsg-4ubuntu9.4)
+Version: 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.4
+Depends: libldb2 (= 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.4), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.25), libpython3.12t64 (>= 3.12.1), libtalloc2 (>= 2.4.1~)
 Description: Python 3 bindings for LDB
  ldb is a LDAP-like embedded database built on top of TDB.
  .
@@ -59909,9 +59909,9 @@ Installed-Size: 18095
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Replaces: samba (<< 2:4.16.0+dfsg-1~), samba-libs (<< 2:4.16.0+dfsg-1~)
-Depends: python3-ldb (>= 2:2.1.0), python3-tdb, python3-markdown, samba-libs (= 2:4.19.5+dfsg-4ubuntu9.3), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libbsd0 (>= 0.0), libc6 (>= 2.38), libgnutls30t64 (>= 3.7.0), libldb2 (>= 0.9.21), libndr3 (>= 2:4.17.2), libpython3.12t64 (>= 3.12.1), libtalloc2 (>= 2.4.1~), libtevent0t64 (>= 0.15.0), python3-talloc (>= 2.4.1~)
+Depends: python3-ldb (>= 2:2.1.0), python3-tdb, python3-markdown, samba-libs (= 2:4.19.5+dfsg-4ubuntu9.4), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libbsd0 (>= 0.0), libc6 (>= 2.38), libgnutls30t64 (>= 3.7.0), libldb2 (>= 0.9.21), libndr3 (>= 2:4.17.2), libpython3.12t64 (>= 3.12.1), libtalloc2 (>= 2.4.1~), libtevent0t64 (>= 0.15.0), python3-talloc (>= 2.4.1~)
 Recommends: python3-gpg
 Description: Python 3 bindings for Samba
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
@@ -62461,8 +62461,8 @@ Section: net
 Installed-Size: 4019
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2:4.19.5+dfsg-4ubuntu9.3
-Depends: passwd, libpam-modules, libpam-runtime (>= 1.0.1-11), procps, python3, python3-dnspython, python3-samba (= 2:4.19.5+dfsg-4ubuntu9.3), samba-common (= 2:4.19.5+dfsg-4ubuntu9.3), samba-common-bin (= 2:4.19.5+dfsg-4ubuntu9.3), tdb-tools, python3:any, libbsd0 (>= 0.6.0), libc6 (>= 2.38), libcups2t64 (>= 1.7.0), libgnutls30t64 (>= 3.7.0), libldap2 (>= 2.6.2), libldb2 (>= 2:2.6.1), libndr3 (>= 2:4.17.2), libpopt0 (>= 1.14), libtalloc2 (>= 2.4.1~), libtasn1-6 (>= 4.14), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0), samba-libs (= 2:4.19.5+dfsg-4ubuntu9.3)
+Version: 2:4.19.5+dfsg-4ubuntu9.4
+Depends: passwd, libpam-modules, libpam-runtime (>= 1.0.1-11), procps, python3, python3-dnspython, python3-samba (= 2:4.19.5+dfsg-4ubuntu9.4), samba-common (= 2:4.19.5+dfsg-4ubuntu9.4), samba-common-bin (= 2:4.19.5+dfsg-4ubuntu9.4), tdb-tools, python3:any, libbsd0 (>= 0.6.0), libc6 (>= 2.38), libcups2t64 (>= 1.7.0), libgnutls30t64 (>= 3.7.0), libldap2 (>= 2.6.2), libldb2 (>= 2:2.6.1), libndr3 (>= 2:4.17.2), libpopt0 (>= 1.14), libtalloc2 (>= 2.4.1~), libtasn1-6 (>= 4.14), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0), samba-libs (= 2:4.19.5+dfsg-4ubuntu9.4)
 Pre-Depends: init-system-helpers (>= 1.54~)
 Recommends: attr, python3-markdown, samba-dsdb-modules, samba-vfs-modules, samba-ad-provision
 Suggests: bind9 (>= 1:9.5.1), bind9utils, ctdb, ldb-tools, ntp | chrony (>= 3.0-1), ufw, winbind
@@ -62500,7 +62500,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Replaces: samba (<< 2:4.17.3+dfsg-4~)
 Breaks: samba (<< 2:4.17.3+dfsg-4~)
 Description: Samba files needed for AD domain provision
@@ -62522,7 +62522,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Depends: ucf
 Recommends: samba-common-bin
 Conffiles:
@@ -62545,9 +62545,9 @@ Installed-Size: 4588
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Replaces: samba (<< 2:4.16.2+dfsg-1~), samba-libs (<< 2:4.19.0~)
-Depends: python3, python3-samba, samba-common (= 2:4.19.5+dfsg-4ubuntu9.3), samba-libs (= 2:4.19.5+dfsg-4ubuntu9.3), python3:any, libbsd0 (>= 0.4.0), libc6 (>= 2.38), libcups2t64 (>= 1.7.0), libgnutls30t64 (>= 3.7.0), libjansson4 (>= 2.14), libldap2 (>= 2.6.2), libncurses6 (>= 6), libndr3 (>= 2:4.17.2), libpopt0 (>= 1.14), libreadline8t64 (>= 6.0), libsmbldap2 (>= 2:4.16.6), libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0), libtinfo6 (>= 6), libwbclient0 (>= 2:4.0.3+dfsg1)
+Depends: python3, python3-samba, samba-common (= 2:4.19.5+dfsg-4ubuntu9.4), samba-libs (= 2:4.19.5+dfsg-4ubuntu9.4), python3:any, libbsd0 (>= 0.4.0), libc6 (>= 2.38), libcups2t64 (>= 1.7.0), libgnutls30t64 (>= 3.7.0), libjansson4 (>= 2.14), libldap2 (>= 2.6.2), libncurses6 (>= 6), libndr3 (>= 2:4.17.2), libpopt0 (>= 1.14), libreadline8t64 (>= 6.0), libsmbldap2 (>= 2:4.16.6), libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0), libtinfo6 (>= 6), libwbclient0 (>= 2:4.0.3+dfsg1)
 Recommends: samba-dsdb-modules
 Suggests: heimdal-clients, python3-markdown, python3-dnspython
 Breaks: samba (<< 2:4.16.2+dfsg-1~), samba-libs (<< 2:4.19.0~)
@@ -62572,8 +62572,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
-Depends: samba-libs (= 2:4.19.5+dfsg-4ubuntu9.3), libldb2 (= 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.3), libbsd0 (>= 0.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libgnutls30t64 (>= 3.8.2), libgpgme11t64 (>= 1.2.0), libndr3 (>= 2:4.17.2), libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0)
+Version: 2:4.19.5+dfsg-4ubuntu9.4
+Depends: samba-libs (= 2:4.19.5+dfsg-4ubuntu9.4), libldb2 (= 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.4), libbsd0 (>= 0.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libgnutls30t64 (>= 3.8.2), libgpgme11t64 (>= 1.2.0), libndr3 (>= 2:4.17.2), libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0)
 Enhances: libldb2
 Description: Samba Directory Services Database
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
@@ -62595,10 +62595,10 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Replaces: libwbclient0 (<< 2:4.16.1+dfsg-7~), samba (<< 2:4.17.0+dfsg-2~)
-Provides: libndr3 (= 2:4.19.5+dfsg-4ubuntu9.3), libsmbldap2 (= 2:4.19.5+dfsg-4ubuntu9.3)
-Depends: libacl1 (>= 2.2.23), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbsd0 (>= 0.5.0), libc6 (>= 2.38), libcap2 (>= 1:2.10), libgnutls30t64 (>= 3.8.2), libicu74 (>= 74.1-1~), libjansson4 (>= 2.14), libkeyutils1 (>= 1.5.9), libldap2 (>= 2.6.2), libldb2 (= 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.3), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libsystemd0, libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0), libtirpc3t64 (>= 1.0.2), libwbclient0 (>= 2:4.5.0+dfsg), zlib1g (>= 1:1.1.4)
+Provides: libndr3 (= 2:4.19.5+dfsg-4ubuntu9.4), libsmbldap2 (= 2:4.19.5+dfsg-4ubuntu9.4)
+Depends: libacl1 (>= 2.2.23), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbsd0 (>= 0.5.0), libc6 (>= 2.38), libcap2 (>= 1:2.10), libgnutls30t64 (>= 3.8.2), libicu74 (>= 74.1-1~), libjansson4 (>= 2.14), libkeyutils1 (>= 1.5.9), libldap2 (>= 2.6.2), libldb2 (= 2:2.8.0+samba4.19.5+dfsg-4ubuntu9.4), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libsystemd0, libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0), libtirpc3t64 (>= 1.0.2), libwbclient0 (>= 2:4.5.0+dfsg), zlib1g (>= 1:1.1.4)
 Breaks: libwbclient0 (<< 2:4.16.1+dfsg-7~), samba (<< 2:4.17.0+dfsg-2~), sssd-ad (<< 2.9.4-1+b1), sssd-ad-common (<< 2.9.4-1+b1), sssd-ipa (<< 2.9.4-1+b1)
 Description: Samba core libraries
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
@@ -62619,9 +62619,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Replaces: samba-libs (<< 2:4.19.0~)
-Depends: samba-libs (= 2:4.19.5+dfsg-4ubuntu9.3), libbsd0 (>= 0.0), libc6 (>= 2.38), libgnutls30t64 (>= 3.7.0), libldb2 (>= 0.9.21), libndr3 (>= 2:4.17.2), libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0), libtirpc3t64 (>= 1.0.2), liburing2 (>= 2.3)
+Depends: samba-libs (= 2:4.19.5+dfsg-4ubuntu9.4), libbsd0 (>= 0.0), libc6 (>= 2.38), libgnutls30t64 (>= 3.7.0), libldb2 (>= 0.9.21), libndr3 (>= 2:4.17.2), libtalloc2 (>= 2.4.1~), libtdb1 (>= 1.4.9~), libtevent0t64 (>= 0.15.0), libtirpc3t64 (>= 1.0.2), liburing2 (>= 2.3)
 Recommends: libcephfs2 (>= 14.2.0), libdbus-1-3 (>= 1.9.14)
 Breaks: samba-libs (<< 2:4.19.0~)
 Enhances: samba
@@ -63214,9 +63214,9 @@ Installed-Size: 2078
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: samba
-Version: 2:4.19.5+dfsg-4ubuntu9.3
+Version: 2:4.19.5+dfsg-4ubuntu9.4
 Provides: samba-client
-Depends: samba-common (= 2:4.19.5+dfsg-4ubuntu9.3), samba-libs (= 2:4.19.5+dfsg-4ubuntu9.3), libarchive13t64 (>= 3.0.4), libc6 (>= 2.38), libgnutls30t64 (>= 3.7.0), libndr3 (>= 2:4.17.2), libpopt0 (>= 1.14), libreadline8t64 (>= 6.0), libsmbclient0 (>= 2:4.10.0+dfsg), libtalloc2 (>= 2.4.1~), libtevent0t64 (>= 0.15.0)
+Depends: samba-common (= 2:4.19.5+dfsg-4ubuntu9.4), samba-libs (= 2:4.19.5+dfsg-4ubuntu9.4), libarchive13t64 (>= 3.0.4), libc6 (>= 2.38), libgnutls30t64 (>= 3.7.0), libndr3 (>= 2:4.17.2), libpopt0 (>= 1.14), libreadline8t64 (>= 6.0), libsmbclient0 (>= 2:4.10.0+dfsg), libtalloc2 (>= 2.4.1~), libtevent0t64 (>= 0.15.0)
 Suggests: cifs-utils, heimdal-clients
 Description: command-line SMB/CIFS clients for Unix
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
