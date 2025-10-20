@@ -9234,6 +9234,28 @@ Description: special character utility
 Homepage: https://apps.kde.org/en/kcharselect
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 
+Package: kde-baseapps
+Status: install ok installed
+Priority: optional
+Section: metapackages
+Installed-Size: 12
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: meta-kde (5:146ubuntu3)
+Version: 4:23.08.5+5.146ubuntu3
+Depends: dolphin (>= 4:23.08.5), kdialog (>= 4:23.08.5), keditbookmarks (>= 23.08.5), kfind (>= 4:23.08.5), konsole (>= 4:23.08.5), kwrite (>= 4:23.08.5)
+Description: base applications from the official KDE release (metapackage)
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
+ .
+ This package provides core applications for the desktop.
+Homepage: https://www.kde.org
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
 Package: kde-cli-tools
 Status: install ok installed
 Priority: optional
@@ -9441,6 +9463,29 @@ Description: Configuration for Whoopsie
  KConfig module for configuration of Whoopsie, the automatic error reporting
  system from Canonical used in Ubuntu flavours.
 Original-Maintainer: Harald Sitter <apachelogger@kubuntu.org>
+
+Package: kde-plasma-desktop
+Status: install ok installed
+Priority: optional
+Section: metapackages
+Installed-Size: 12
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: meta-kde
+Version: 5:146ubuntu3
+Depends: kde-baseapps (>= 4:23.08.5), plasma-desktop (>= 4:5.27.10), plasma-workspace (>= 4:5.27.10), udisks2, upower
+Recommends: kwin-x11 (>= 4:5.27.10), sddm (>= 0.11), xserver-xorg
+Suggests: kdeconnect
+Description: KDE Plasma Desktop and minimal set of applications
+ KDE is the powerful, integrated, and easy-to-use Free Software desktop
+ platform and suite of applications.
+ .
+ This metapackage pulls in the core modules released with the KDE Software
+ Compilation including the basic KDE Plasma Desktop, minimal set of basic
+ applications (browser, file manager, text editor, system settings, panel,
+ etc.), important libraries and data.
+Homepage: https://www.kde.org
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 
 Package: kde-spectacle
 Status: install ok installed
@@ -9763,6 +9808,22 @@ Description: Linux Key Management Utilities
  This package provides the binaries, most notably the keyctl utility.
 Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git
 Original-Maintainer: Christian Kastner <ckk@debian.org>
+
+Package: kfind
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 1966
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Architecture: amd64
+Version: 4:23.08.5-0ubuntu3
+Depends: kio, libc6 (>= 2.34), libkf5archive5 (>= 5.89.0~), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.89.0~), libkf5filemetadata3 (>= 5.89.0), libkf5i18n5 (>= 5.89.0~), libkf5kiocore5 (>= 5.98.0), libkf5kiogui5 (>= 5.89.0~), libkf5kiowidgets5 (>= 5.100.0), libkf5widgetsaddons5 (>= 5.89.0~), libkf5xmlgui5 (>= 4.96.0), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5widgets5t64 (>= 5.15.2~), libstdc++6 (>= 5)
+Description: file search utility by KDE
+ KFind can be used as a standalone search tool, launched by KRunner or from
+ your menu. It is also integrated into Konqueror as "Find File" in the
+ "Tools" menu. It allows you to find files by name, type or content.
+Homepage: https://apps.kde.org/en/kfind
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 
 Package: kgamma5
 Status: install ok installed
@@ -10932,6 +10993,23 @@ Description: KDE window manager, X11 version
  .
  This package is part of the KDE base workspace module.
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwrite
+Status: install ok installed
+Priority: optional
+Section: editors
+Installed-Size: 354
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Architecture: amd64
+Source: kate
+Version: 4:23.08.5-0ubuntu3
+Depends: ktexteditor-katepart, kate (>= 4:23.08.5), libc6 (>= 2.34), libkf5coreaddons5 (>= 5.16.0), libkf5dbusaddons5 (>= 5.79.0~), libkf5i18n5 (>= 5.90.0~), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5widgets5t64 (>= 5.15.2~)
+Description: simple text editor
+ KWrite is a simple text editor built on the KDE Platform. It uses the Kate
+ editor component, so it supports powerful features such as flexible syntax
+ highlighting, automatic indentation, and numerous other text tools.
+Homepage: https://kate-editor.org/
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 
 Package: kwrited

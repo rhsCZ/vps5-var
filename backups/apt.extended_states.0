@@ -3438,10 +3438,6 @@ Package: libkdsoap1
 Architecture: amd64
 Auto-Installed: 1
 
-Package: plasma-workspace
-Architecture: amd64
-Auto-Installed: 1
-
 Package: plasma-widgets-addons
 Architecture: amd64
 Auto-Installed: 1
@@ -8126,10 +8122,6 @@ Package: libxi6
 Architecture: amd64
 Auto-Installed: 1
 
-Package: plasma-desktop
-Architecture: amd64
-Auto-Installed: 1
-
 Package: libxv1
 Architecture: amd64
 Auto-Installed: 1
@@ -8251,10 +8243,6 @@ Architecture: amd64
 Auto-Installed: 1
 
 Package: libavfilter9
-Architecture: amd64
-Auto-Installed: 1
-
-Package: xorgxrdp
 Architecture: amd64
 Auto-Installed: 1
 
@@ -10427,6 +10415,18 @@ Architecture: amd64
 Auto-Installed: 1
 
 Package: linux-hwe-6.14-tools-6.14.0-33
+Architecture: amd64
+Auto-Installed: 1
+
+Package: kde-baseapps
+Architecture: amd64
+Auto-Installed: 1
+
+Package: kwrite
+Architecture: amd64
+Auto-Installed: 1
+
+Package: kfind
 Architecture: amd64
 Auto-Installed: 1
 
