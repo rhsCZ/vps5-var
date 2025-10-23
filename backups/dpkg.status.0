@@ -40493,12 +40493,12 @@ Package: linux-libc-dev
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 7482
+Installed-Size: 7493
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 6.8.0-85.85
+Version: 6.8.0-86.87
 Replaces: linux-kernel-headers
 Provides: aufs-dev, linux-kernel-headers
 Conflicts: linux-kernel-headers
@@ -40594,12 +40594,12 @@ Package: linux-tools-common
 Status: install ok installed
 Priority: optional
 Section: kernel
-Installed-Size: 845
+Installed-Size: 856
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: linux
-Version: 6.8.0-85.85
+Version: 6.8.0-86.87
 Provides: bpftool
 Depends: lsb-release, hwdata
 Description: Linux kernel version specific tools for version 6.8.0
