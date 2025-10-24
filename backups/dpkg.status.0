@@ -1700,9 +1700,9 @@ Installed-Size: 509
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.18.39-0ubuntu0.24.04.1
+Version: 1:9.18.39-0ubuntu0.24.04.2
 Provides: dnsutils
-Depends: bind9-host | host, bind9-libs (= 1:9.18.39-0ubuntu0.24.04.1), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libidn2-0 (>= 2.0.0), libkrb5-3 (>= 1.6.dfsg.2)
+Depends: bind9-host | host, bind9-libs (= 1:9.18.39-0ubuntu0.24.04.2), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libidn2-0 (>= 2.0.0), libkrb5-3 (>= 1.6.dfsg.2)
 Breaks: bind-dnsutils (<< 1:9.13.6~), dnsutils (<< 1:9.13.6~)
 Conflicts: bind-dnsutils (<< 1:9.13.6~), dnsutils (<< 1:9.13.6~)
 Description: Clients provided with BIND 9
@@ -1727,10 +1727,10 @@ Installed-Size: 156
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.18.39-0ubuntu0.24.04.1
+Version: 1:9.18.39-0ubuntu0.24.04.2
 Replaces: bind-host (<< 1:9.13.6~)
 Provides: host
-Depends: bind9-libs (= 1:9.18.39-0ubuntu0.24.04.1), libc6 (>= 2.38), libidn2-0 (>= 2.0.0)
+Depends: bind9-libs (= 1:9.18.39-0ubuntu0.24.04.2), libc6 (>= 2.38), libidn2-0 (>= 2.0.0)
 Breaks: bind-host (<< 1:9.13.6~)
 Description: DNS Lookup Utility
  This package provides the 'host' DNS lookup utility in the form that
@@ -1747,7 +1747,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: bind9
-Version: 1:9.18.39-0ubuntu0.24.04.1
+Version: 1:9.18.39-0ubuntu0.24.04.2
 Replaces: bind-libs (<< 1:9.13.6~)
 Depends: libuv1t64 (>= 1.40.0), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libgssapi-krb5-2 (>= 1.17), libjson-c5 (>= 0.15), libkrb5-3 (>= 1.6.dfsg.2), liblmdb0 (>= 0.9.7), libmaxminddb0 (>= 1.3.0), libnghttp2-14 (>= 1.12.0), libssl3t64 (>= 3.0.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Breaks: bind-libs (<< 1:9.13.6~)
