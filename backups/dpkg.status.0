@@ -39415,7 +39415,7 @@ Installed-Size: 2079
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
-Version: 2.9.14+dfsg-1.3ubuntu3.5
+Version: 2.9.14+dfsg-1.3ubuntu3.6
 Depends: libc6 (>= 2.38), libicu74 (>= 74.1-1~), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
 Conflicts: w3c-dtd-xhtml
 Description: GNOME XML library
@@ -39435,13 +39435,13 @@ Package: libxml2-dev
 Status: install ok installed
 Priority: optional
 Section: libdevel
-Installed-Size: 3265
+Installed-Size: 3266
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libxml2
-Version: 2.9.14+dfsg-1.3ubuntu3.5
-Depends: libicu-dev, libxml2 (= 2.9.14+dfsg-1.3ubuntu3.5)
+Version: 2.9.14+dfsg-1.3ubuntu3.6
+Depends: libicu-dev, libxml2 (= 2.9.14+dfsg-1.3ubuntu3.6)
 Suggests: pkg-config
 Description: GNOME XML library - development files
  XML is a metalanguage to let you design your own markup language.
@@ -39465,7 +39465,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: libxml2
-Version: 2.9.14+dfsg-1.3ubuntu3.5
+Version: 2.9.14+dfsg-1.3ubuntu3.6
 Depends: libc6 (>= 2.34), libxml2 (>= 2.9.0)
 Description: GNOME XML library - utilities
  XML is a metalanguage to let you design your own markup language.
