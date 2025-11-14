@@ -54516,12 +54516,12 @@ Installed-Size: 2023
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: xdebug
-Version: 3.4.5-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-xdebug (<< 3.4.5~)
+Version: 3.4.7-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-xdebug (<< 3.4.7~)
 Provides: php-xdebug
 Depends: ucf, php8.1-common, phpapi-20210902, libc6 (>= 2.38), zlib1g (>= 1:1.2.11)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-xdebug (<< 3.4.5~)
+Breaks: php-xdebug (<< 3.4.7~)
 Conffiles:
  /etc/php/8.1/mods-available/xdebug.ini c13c107d0ec91c574623ee2776b5b9d1
 Description: Xdebug Module for PHP
@@ -65864,13 +65864,13 @@ Package: valkey-server
 Status: install ok installed
 Priority: optional
 Section: database
-Installed-Size: 173
+Installed-Size: 174
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: valkey
-Version: 7.2.10+dfsg1-0ubuntu0.1
+Version: 7.2.11+dfsg1-0ubuntu0.1
 Provides: valkey
-Depends: valkey-tools (= 7.2.10+dfsg1-0ubuntu0.1)
+Depends: valkey-tools (= 7.2.11+dfsg1-0ubuntu0.1)
 Pre-Depends: init-system-helpers (>= 1.54~)
 Conffiles:
  /etc/default/valkey-server b1681aa5f4721700f7d5646710b72834
@@ -65890,11 +65890,11 @@ Package: valkey-tools
 Status: install ok installed
 Priority: optional
 Section: database
-Installed-Size: 6723
+Installed-Size: 6724
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: valkey
-Version: 7.2.10+dfsg1-0ubuntu0.1
+Version: 7.2.11+dfsg1-0ubuntu0.1
 Depends: adduser, libatomic1 (>= 4.8), libc6 (>= 2.38), libjemalloc2 (>= 3.5.0), liblzf1 (>= 1.5), libssl3t64 (>= 3.0.0), libsystemd0
 Suggests: ruby-redis
 Description: Persistent key-value database with network interface (client)
