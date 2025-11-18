@@ -11553,11 +11553,11 @@ Package: libapache2-mod-php
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 34
+Installed-Size: 37
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: all
-Source: php-defaults (96+ubuntu24.04.1+deb.sury.org+1)
-Version: 2:8.4+96+ubuntu24.04.1+deb.sury.org+1
+Source: php-defaults (97+ubuntu24.04.1+deb.sury.org+1)
+Version: 2:8.4+97+ubuntu24.04.1+deb.sury.org+1
 Depends: libapache2-mod-php8.4
 Description: server-side, HTML-embedded scripting language (Apache 2 module) (default)
  This package provides the PHP module for the Apache 2 webserver.
@@ -50874,12 +50874,12 @@ Package: php-common
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 70
+Installed-Size: 71
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: all
 Multi-Arch: foreign
-Source: php-defaults (96+ubuntu24.04.1+deb.sury.org+1)
-Version: 2:96+ubuntu24.04.1+deb.sury.org+1
+Source: php-defaults (97+ubuntu24.04.1+deb.sury.org+1)
+Version: 2:97+ubuntu24.04.1+deb.sury.org+1
 Depends: psmisc (>= 22.15-1~)
 Conffiles:
  /etc/cron.d/php e6fa2d74078ac0ac6fd730decf3b3736
