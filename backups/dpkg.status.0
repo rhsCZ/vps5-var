@@ -51823,16 +51823,16 @@ Package: php7.2-igbinary
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 101
+Installed-Size: 102
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-igbinary
-Version: 3.2.16-3+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-igbinary (<< 3.2.16-3+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3.2.16-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-igbinary (<< 3.2.16~)
 Provides: php-igbinary
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-igbinary (<< 3.2.16-3+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-igbinary (<< 3.2.16~)
 Conffiles:
  /etc/php/7.2/mods-available/igbinary.ini 14c4abd8fcffef929339f328f10f6e80
 Description: igbinary PHP serializer
