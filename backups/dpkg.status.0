@@ -8412,11 +8412,11 @@ Package: imagemagick
 Status: install ok installed
 Priority: optional
 Section: oldlibs
-Installed-Size: 74
+Installed-Size: 75
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3
+Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4
 Depends: imagemagick-6.q16 (>= 8:6.9.2.10+dfsg-2~)
 Description: image manipulation programs -- binaries
  ImageMagick is a software suite to create, edit, and compose bitmap images.
@@ -8439,14 +8439,14 @@ Package: imagemagick-6-common
 Status: install ok installed
 Priority: optional
 Section: graphics
-Installed-Size: 481
+Installed-Size: 482
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: imagemagick
-Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3
+Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4
 Replaces: imagemagick-common (<< 8:6.9.12.98+dfsg1-1~)
-Provides: imagemagick-common (= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3)
+Provides: imagemagick-common (= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4)
 Breaks: imagemagick-common (<< 8:6.9.12.98+dfsg1-1~), libmagickcore-6.q16-2 (<< 8:6.9.6.2+dfsg-3~), libmagickcore-6.q16-3 (<< 8:6.9.6.8+dfsg-1~), libmagickcore-6.q16-4 (<< 8:6.9.8.9+dfsg-1~), libmagickcore-6.q16hdri-4 (<< 8:6.9.8.9+dfsg-1~)
 Conffiles:
  /etc/ImageMagick-6/coder.xml 2cd28d60bb45db29bba17f35dc58ccb9
@@ -8483,15 +8483,15 @@ Package: imagemagick-6.q16
 Status: install ok installed
 Priority: optional
 Section: graphics
-Installed-Size: 566
+Installed-Size: 567
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: imagemagick
-Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3
+Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4
 Replaces: imagemagick (<< 8:6.9.2.10+dfsg-2~)
-Provides: imagemagick, imagemagick-6.defaultquantum (= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3)
-Depends: libc6 (>= 2.34), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3), hicolor-icon-theme
+Provides: imagemagick, imagemagick-6.defaultquantum (= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4)
+Depends: libc6 (>= 2.34), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4), hicolor-icon-theme
 Recommends: libmagickcore-6.q16-7-extra, ghostscript, netpbm
 Suggests: imagemagick-6-doc, autotrace, cups-bsd | lpr | lprng, curl, enscript, ffmpeg, gimp, gnuplot, grads, graphviz, groff-base, hp2xx, html2ps, libwmf-bin, mplayer, povray, radiance, sane-utils, texlive-base-bin, transfig, libraw-bin, xdg-utils
 Breaks: libmagickcore-dev (<< 8:6.9.2.10+dfsg-2~)
@@ -15700,7 +15700,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libdrm
-Version: 2.4.122-1~ubuntu0.24.04.1
+Version: 2.4.122-1~ubuntu0.24.04.2
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.108)
 Description: Userspace interface to amdgpu-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -15720,7 +15720,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: libdrm
-Version: 2.4.122-1~ubuntu0.24.04.1
+Version: 2.4.122-1~ubuntu0.24.04.2
 Description: Userspace interface to kernel DRM services -- common files
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -15741,7 +15741,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libdrm
-Version: 2.4.122-1~ubuntu0.24.04.1
+Version: 2.4.122-1~ubuntu0.24.04.2
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108), libpciaccess0
 Description: Userspace interface to intel-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -15761,7 +15761,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libdrm
-Version: 2.4.122-1~ubuntu0.24.04.1
+Version: 2.4.122-1~ubuntu0.24.04.2
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.108)
 Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -15781,7 +15781,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libdrm
-Version: 2.4.122-1~ubuntu0.24.04.1
+Version: 2.4.122-1~ubuntu0.24.04.2
 Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.108)
 Description: Userspace interface to radeon-specific kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
@@ -15801,8 +15801,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libdrm
-Version: 2.4.122-1~ubuntu0.24.04.1
-Depends: libdrm-common (>= 2.4.122-1~ubuntu0.24.04.1), libc6 (>= 2.38)
+Version: 2.4.122-1~ubuntu0.24.04.2
+Depends: libdrm-common (>= 2.4.122-1~ubuntu0.24.04.2), libc6 (>= 2.38)
 Description: Userspace interface to kernel DRM services -- runtime
  This library implements the userspace interface to the kernel DRM
  services.  DRM stands for "Direct Rendering Manager", which is the
@@ -26363,14 +26363,14 @@ Package: libmagickcore-6.q16-7-extra
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 297
+Installed-Size: 298
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: imagemagick
-Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3
+Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4
 Provides: libmagickcore-6.q16-1-extra, libmagickcore-6.q16-2-extra, libmagickcore-6.q16-3-extra, libmagickcore-6.q16-4-extra, libmagickcore-6.q16-5-extra, libmagickcore-6.q16-6-extra, libmagickcore-extra
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.28), libglib2.0-0t64 (>= 2.12.0), libmagickcore-6.q16-7t64 (>= 8:6.9.11.24), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3), libopenexr-3-1-30 (>= 3.1.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2 (>= 2.7.4)
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.6.0), libdjvulibre21 (>= 3.5.28), libglib2.0-0t64 (>= 2.12.0), libmagickcore-6.q16-7t64 (>= 8:6.9.11.24), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4), libopenexr-3-1-30 (>= 3.1.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libwmflite-0.2-7 (>= 0.2.12), libxml2 (>= 2.7.4)
 Recommends: libjxr-tools
 Suggests: inkscape
 Enhances: libmagickcore-6.q16-7t64
@@ -26387,19 +26387,19 @@ Package: libmagickcore-6.q16-7t64
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 6648
+Installed-Size: 6649
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: imagemagick
-Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3
+Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4
 Replaces: libmagickcore-6.q16-7
-Provides: libmagickcore-6.q16-7 (= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3)
+Provides: libmagickcore-6.q16-7 (= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4)
 Depends: libbz2-1.0, libc6 (>= 2.38), libfftw3-double3 (>= 3.3.10), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgcc-s1 (>= 3.3.1), libgomp1 (>= 6), libheif1 (>= 1.13.0), libjbig0 (>= 2.0), libjpeg8 (>= 8c), liblcms2-2 (>= 2.6), liblqr-1-0 (>= 0.4.0), libltdl7 (>= 2.4.7), liblzma5 (>= 5.1.1alpha+20120614), libopenjp2-7 (>= 2.0.0), libpng16-16t64 (>= 1.6.2), libraw23t64 (>= 0.16.0), libtiff6 (>= 4.5.0~rc1), libwebp7 (>= 1.3.2), libwebpdemux2 (>= 1.3.2), libwebpmux3 (>= 1.3.2), libx11-6, libxext6, libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), imagemagick-6-common (>= 8:6.9.6.2+dfsg-3)
 Pre-Depends: dpkg (>= 1.17.6)
 Recommends: ghostscript, fonts-urw-base35
 Suggests: libmagickcore-6.q16-7-extra
-Breaks: libmagickcore-6.q16-7 (<< 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3)
+Breaks: libmagickcore-6.q16-7 (<< 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4)
 Description: low-level image manipulation library -- quantum depth Q16
  The MagickCore API is a low-level interface between the C programming language
  and the ImageMagick image processing libraries and is recommended for
@@ -26419,17 +26419,17 @@ Package: libmagickwand-6.q16-7t64
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 1358
+Installed-Size: 1359
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: imagemagick
-Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3
+Version: 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4
 Replaces: libmagickwand-6.q16-7
-Provides: libmagickwand-6.q16-7 (= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3)
+Provides: libmagickwand-6.q16-7 (= 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4)
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libmagickcore-6.q16-7t64 (>= 8:6.9.12.89), libx11-6, imagemagick-6-common (>= 8:6.9.6.2+dfsg-3)
 Pre-Depends: dpkg (>= 1.17.6)
-Breaks: libmagickwand-6.q16-7 (<< 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm3)
+Breaks: libmagickwand-6.q16-7 (<< 8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm4)
 Description: image manipulation library -- quantum depth Q16
  The MagickWand API is the recommended interface between the C programming
  language and the ImageMagick image processing libraries. Unlike the
@@ -40415,10 +40415,10 @@ Package: linux-firmware
 Status: install ok installed
 Priority: optional
 Section: misc
-Installed-Size: 525405
+Installed-Size: 526657
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
-Version: 20240318.git3b128b60-0ubuntu2.19
+Version: 20240318.git3b128b60-0ubuntu2.21
 Replaces: atmel-firmware, linux-firmware-snapdragon (<= 1.2-0ubuntu1), linux-restricted-common
 Provides: atmel-firmware
 Recommends: firmware-sof-signed
@@ -51413,9 +51413,9 @@ Installed-Size: 68
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-bcmath
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.14)
 Description: Bcmath module for PHP
  This package provides the Bcmath module(s) for PHP.
  .
@@ -51432,9 +51432,9 @@ Installed-Size: 60
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-bz2
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libbz2-1.0, libc6 (>= 2.14)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libbz2-1.0, libc6 (>= 2.14)
 Description: bzip2 module for PHP
  This package provides the bzip2 module(s) for PHP.
  .
@@ -51451,9 +51451,9 @@ Installed-Size: 9569
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-cgi, phpapi-20170718
-Depends: libpcre3 (>= 2:8.35), media-types | mime-support, php7.2-cli, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), php7.2-json, php7.2-opcache, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libsodium23 (>= 1.0.14), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Depends: libpcre3 (>= 2:8.35), media-types | mime-support, php7.2-cli, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), php7.2-json, php7.2-opcache, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libsodium23 (>= 1.0.14), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
 Suggests: php-pear
 Conffiles:
  /etc/apache2/conf-available/php7.2-cgi.conf 5df17be7a8d40a7b6d5a5cb6a3f43645
@@ -51479,9 +51479,9 @@ Installed-Size: 4926
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-cli, phpapi-20170718
-Depends: libedit2 (>= 2.11-20080614-4), libpcre3 (>= 2:8.35), media-types | mime-support, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), php7.2-json, php7.2-opcache, php7.2-readline, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libsodium23 (>= 1.0.14), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Depends: libedit2 (>= 2.11-20080614-4), libpcre3 (>= 2:8.35), media-types | mime-support, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), php7.2-json, php7.2-opcache, php7.2-readline, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libsodium23 (>= 1.0.14), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
 Suggests: php-pear
 Description: command-line interpreter for the PHP scripting language
  This package provides the /usr/bin/php7.2 command interpreter, useful for
@@ -51503,7 +51503,7 @@ Installed-Size: 6208
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-calendar, php-ctype, php-exif, php-fileinfo, php-ftp, php-iconv, php-pdo, php-phar, php-posix, php-shmop, php-sockets, php-sysvmsg, php-sysvsem, php-sysvshm, php-tokenizer, php7.2-calendar, php7.2-ctype, php7.2-exif, php7.2-fileinfo, php7.2-ftp, php7.2-gettext, php7.2-iconv, php7.2-pdo, php7.2-phar, php7.2-posix, php7.2-shmop, php7.2-sockets, php7.2-sysvmsg, php7.2-sysvsem, php7.2-sysvshm, php7.2-tokenizer
 Depends: php-common (>= 1:81~), ucf, libc6 (>= 2.38), libssl3t64 (>= 3.0.0)
 Breaks: php7.2-sodium
@@ -51523,9 +51523,9 @@ Installed-Size: 124
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-curl
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libcurl4t64 (>= 7.44.0)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.14), libcurl4t64 (>= 7.44.0)
 Description: CURL module for PHP
  This package provides the CURL module(s) for PHP.
  .
@@ -51542,9 +51542,9 @@ Installed-Size: 97
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-dba
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libdb5.3t64, liblmdb0 (>= 0.9.7), libqdbm14t64 (>= 1.8.74)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libdb5.3t64, liblmdb0 (>= 0.9.7), libqdbm14t64 (>= 1.8.74)
 Description: DBA module for PHP
  This package provides the DBA module(s) for PHP.
  .
@@ -51582,8 +51582,8 @@ Installed-Size: 4854
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
-Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre3-dev (>= 2:8.35), libssl-dev, php7.2-cli (>= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), pkg-config, shtool, libtool (>= 2.4.6-0.1~)
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
+Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre3-dev (>= 2:8.35), libssl-dev, php7.2-cli (>= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), pkg-config, shtool, libtool (>= 2.4.6-0.1~)
 Recommends: pkg-php-tools
 Suggests: dh-php
 Description: Files for PHP7.2 module development
@@ -51622,9 +51622,9 @@ Installed-Size: 56
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-enchant
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libenchant-2-2 (>= 2.2.3)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.14), libenchant-2-2 (>= 2.2.3)
 Description: Enchant module for PHP
  This package provides the Enchant module(s) for PHP.
  .
@@ -51663,9 +51663,9 @@ Installed-Size: 4951
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-fpm, phpapi-20170718
-Depends: libpcre3 (>= 2:8.35), media-types | mime-support, php7.2-cli, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), php7.2-json, php7.2-opcache, procps, systemd | systemd-tmpfiles, tzdata, ucf, libacl1 (>= 2.2.23), libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libsodium23 (>= 1.0.14), libssl3t64 (>= 3.0.0), libsystemd0, libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Depends: libpcre3 (>= 2:8.35), media-types | mime-support, php7.2-cli, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), php7.2-json, php7.2-opcache, procps, systemd | systemd-tmpfiles, tzdata, ucf, libacl1 (>= 2.2.23), libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libsodium23 (>= 1.0.14), libssl3t64 (>= 3.0.0), libsystemd0, libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
 Suggests: php-pear
 Conffiles:
  /etc/apache2/conf-available/php7.2-fpm.conf 92045323d8dbee191a91f50408530520
@@ -51694,9 +51694,9 @@ Installed-Size: 136
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-gd
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.4), libgd3 (>= 2.1.1), libxpm4
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.4), libgd3 (>= 2.1.1), libxpm4
 Description: GD module for PHP
  This package provides the GD module(s) for PHP.
  .
@@ -51735,9 +51735,9 @@ Installed-Size: 88
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-gmp
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.4), libgmp10 (>= 2:6.3.0+dfsg)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.4), libgmp10 (>= 2:6.3.0+dfsg)
 Description: GMP module for PHP
  This package provides the GMP module(s) for PHP.
  .
@@ -51873,9 +51873,9 @@ Installed-Size: 128
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-imap
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc-client2007e, libc6 (>= 2.38)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc-client2007e, libc6 (>= 2.38)
 Description: IMAP module for PHP
  This package provides the IMAP module(s) for PHP.
  .
@@ -51912,9 +51912,9 @@ Installed-Size: 156
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-interbase, php-pdo-firebird, php7.2-pdo-firebird
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2)
 Description: Interbase module for PHP
  This package provides the Interbase module(s) for PHP.
  .
@@ -51931,9 +51931,9 @@ Installed-Size: 489
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-intl
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libicu74 (>= 74.1-1~), libstdc++6 (>= 4.3)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libicu74 (>= 74.1-1~), libstdc++6 (>= 4.3)
 Description: Internationalisation module for PHP
  This package provides the Internationalisation module(s) for PHP.
  .
@@ -51950,9 +51950,9 @@ Installed-Size: 76
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-json
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38)
 Description: JSON module for PHP
  This package provides the JSON module(s) for PHP.
  .
@@ -51969,9 +51969,9 @@ Installed-Size: 108
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-ldap
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libldap2 (>= 2.6.2)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.14), libldap2 (>= 2.6.2)
 Description: LDAP module for PHP
  This package provides the LDAP module(s) for PHP.
  .
@@ -52070,9 +52070,9 @@ Installed-Size: 1672
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-mbstring
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38)
 Description: MBSTRING module for PHP
  This package provides the MBSTRING module(s) for PHP.
  .
@@ -52208,9 +52208,9 @@ Installed-Size: 463
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-mysqli, php-mysqlnd, php-pdo-mysql, php7.2-mysqli, php7.2-mysqlnd, php7.2-pdo-mysql
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38)
 Description: MySQL module for PHP
  This package provides the MySQL module(s) for PHP.
  .
@@ -52252,9 +52252,9 @@ Installed-Size: 128
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-odbc, php-pdo-odbc, php7.2-pdo-odbc
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libodbc2 (>= 2.3.1)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libodbc2 (>= 2.3.1)
 Description: ODBC module for PHP
  This package provides the ODBC module(s) for PHP.
  .
@@ -52271,9 +52271,9 @@ Installed-Size: 476
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-opcache
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38)
 Description: Zend OpCache module for PHP
  This package provides the Zend OpCache module(s) for PHP.
  .
@@ -52310,9 +52310,9 @@ Installed-Size: 216
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-pdo-pgsql, php-pgsql, php7.2-pdo-pgsql
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libpq5 (>= 9.3~)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libpq5 (>= 9.3~)
 Description: PostgreSQL module for PHP
  This package provides the PostgreSQL module(s) for PHP.
  .
@@ -52329,9 +52329,9 @@ Installed-Size: 5032
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-phpdbg, phpapi-20170718
-Depends: libpcre3 (>= 2:8.35), media-types | mime-support, php7.2-cli, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), php7.2-json, php7.2-opcache, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libsodium23 (>= 1.0.14), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Depends: libpcre3 (>= 2:8.35), media-types | mime-support, php7.2-cli, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), php7.2-json, php7.2-opcache, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libsodium23 (>= 1.0.14), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
 Recommends: php-readline
 Description: server-side, HTML-embedded scripting language (PHPDBG binary)
  This package provides the /usr/bin/phpdbg command interpreter, useful for
@@ -52448,9 +52448,9 @@ Installed-Size: 56
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-pspell
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libaspell15 (>= 0.60.8.1), libc6 (>= 2.4)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libaspell15 (>= 0.60.8.1), libc6 (>= 2.4)
 Description: pspell module for PHP
  This package provides the pspell module(s) for PHP.
  .
@@ -52515,9 +52515,9 @@ Installed-Size: 68
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-readline
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.34), libedit2 (>= 3.1-20130611-0)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.34), libedit2 (>= 3.1-20130611-0)
 Description: readline module for PHP
  This package provides the readline module(s) for PHP.
  .
@@ -52599,9 +52599,9 @@ Installed-Size: 88
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-snmp
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libsnmp40t64 (>= 5.9.4+dfsg)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libsnmp40t64 (>= 5.9.4+dfsg)
 Recommends: snmp
 Description: SNMP module for PHP
  This package provides the SNMP module(s) for PHP.
@@ -52619,9 +52619,9 @@ Installed-Size: 348
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-soap
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libxml2 (>= 2.7.4)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libxml2 (>= 2.7.4)
 Description: SOAP module for PHP
  This package provides the SOAP module(s) for PHP.
  .
@@ -52680,9 +52680,9 @@ Installed-Size: 125
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-pdo-sqlite, php-sqlite3, php7.2-pdo-sqlite
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libsqlite3-0 (>= 3.7.15)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.14), libsqlite3-0 (>= 3.7.15)
 Description: SQLite3 module for PHP
  This package provides the SQLite3 module(s) for PHP.
  .
@@ -52746,9 +52746,9 @@ Installed-Size: 60
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-pdo-dblib, php7.2-pdo-dblib
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libsybdb5 (>= 0.63)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.14), libsybdb5 (>= 0.63)
 Description: Sybase module for PHP
  This package provides the Sybase module(s) for PHP.
  .
@@ -52789,9 +52789,9 @@ Installed-Size: 88
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-tidy
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libtidy5deb1 (>= 1:5.2.0)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libtidy5deb1 (>= 1:5.2.0)
 Description: tidy module for PHP
  This package provides the tidy module(s) for PHP.
  .
@@ -52942,10 +52942,10 @@ Installed-Size: 497
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Replaces: php7.2-xsl (<< 7.0.3-6~)
 Provides: php-dom, php-simplexml, php-wddx, php-xml, php-xmlreader, php-xmlwriter, php-xsl, php7.2-dom, php7.2-simplexml, php7.2-wddx, php7.2-xmlreader, php7.2-xmlwriter, php7.2-xsl
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.25)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.25)
 Breaks: php7.2-xsl (<< 7.0.3-6~)
 Description: DOM, SimpleXML, WDDX, XML, and XSL module for PHP
  This package provides the DOM, SimpleXML, WDDX, XML, and XSL module(s) for PHP.
@@ -52963,9 +52963,9 @@ Installed-Size: 68
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-xmlrpc
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libxmlrpc-epi0t64
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.38), libxmlrpc-epi0t64
 Description: XMLRPC-EPI module for PHP
  This package provides the XMLRPC-EPI module(s) for PHP.
  .
@@ -52982,7 +52982,7 @@ Installed-Size: 88
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: all
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Depends: php7.2-common, php7.2-xml
 Description: XSL module for PHP (dummy)
  This package is a transitional dummy package and can be safely
@@ -53018,9 +53018,9 @@ Installed-Size: 96
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php7.2
-Version: 7.2.34-54+ubuntu24.04.1+deb.sury.org+1
+Version: 7.2.34-56+ubuntu24.04.1+deb.sury.org+2
 Provides: php-zip
-Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-54+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.33), libzip4t64 (>= 1.3.2)
+Depends: php-common (>= 1:81~), ucf, php7.2-common (= 7.2.34-56+ubuntu24.04.1+deb.sury.org+2), libc6 (>= 2.33), libzip4t64 (>= 1.3.2)
 Description: Zip module for PHP
  This package provides the Zip module(s) for PHP.
  .
@@ -55418,9 +55418,9 @@ Installed-Size: 72
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-bcmath
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14)
 Description: Bcmath module for PHP
  This package provides the Bcmath module(s) for PHP.
  .
@@ -55437,9 +55437,9 @@ Installed-Size: 60
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-bz2
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libbz2-1.0, libc6 (>= 2.14)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libbz2-1.0, libc6 (>= 2.14)
 Description: bzip2 module for PHP
  This package provides the bzip2 module(s) for PHP.
  .
@@ -55456,9 +55456,9 @@ Installed-Size: 11113
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-cgi, php-json, php8.3-json, phpapi-20230831
-Depends: media-types | mime-support, php8.3-cli, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), php8.3-opcache, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Depends: media-types | mime-support, php8.3-cli, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), php8.3-opcache, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
 Suggests: php-pear
 Conffiles:
  /etc/apache2/conf-available/php8.3-cgi.conf 1da80254b4b4ab9c1a9bbe60f597639c
@@ -55484,9 +55484,9 @@ Installed-Size: 5720
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-cli, php-json, php8.3-json, phpapi-20230831
-Depends: libedit2 (>= 2.11-20080614-4), media-types | mime-support, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), php8.3-opcache, php8.3-readline, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Depends: libedit2 (>= 2.11-20080614-4), media-types | mime-support, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), php8.3-opcache, php8.3-readline, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
 Suggests: php-pear
 Description: command-line interpreter for the PHP scripting language
  This package provides the /usr/bin/php8.3 command interpreter, useful for
@@ -55504,11 +55504,11 @@ Package: php8.3-common
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 9414
+Installed-Size: 9415
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-calendar, php-ctype, php-exif, php-ffi, php-fileinfo, php-ftp, php-iconv, php-pdo, php-phar, php-posix, php-shmop, php-sockets, php-sysvmsg, php-sysvsem, php-sysvshm, php-tokenizer, php8.3-calendar, php8.3-ctype, php8.3-exif, php8.3-ffi, php8.3-fileinfo, php8.3-ftp, php8.3-gettext, php8.3-iconv, php8.3-pdo, php8.3-phar, php8.3-posix, php8.3-shmop, php8.3-sockets, php8.3-sysvmsg, php8.3-sysvsem, php8.3-sysvshm, php8.3-tokenizer
 Depends: php-common (>= 1:81~), ucf, libc6 (>= 2.38), libffi8 (>= 3.4), libssl3t64 (>= 3.0.0)
 Breaks: gforge-common (<< 6), php7.0-curl (<< 7.0.33-1~), php7.2-sodium (<< 7.2.12~)
@@ -55528,9 +55528,9 @@ Installed-Size: 156
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-curl
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libcurl4t64 (>= 7.63.0)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libcurl4t64 (>= 7.63.0)
 Breaks: php7.0-curl (<< 7.0.33-1~)
 Description: CURL module for PHP
  This package provides the CURL module(s) for PHP.
@@ -55569,9 +55569,9 @@ Installed-Size: 5745
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-fpm, php-json, php8.3-json, phpapi-20230831
-Depends: media-types | mime-support, php8.3-cli, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), php8.3-opcache, procps, systemd | systemd-tmpfiles, tzdata, ucf, libacl1 (>= 2.2.23), libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libsystemd0, libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Depends: media-types | mime-support, php8.3-cli, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), php8.3-opcache, procps, systemd | systemd-tmpfiles, tzdata, ucf, libacl1 (>= 2.2.23), libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libsystemd0, libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
 Suggests: php-pear
 Conffiles:
  /etc/apache2/conf-available/php8.3-fpm.conf c763554beba3b432ebf19c71e69ada46
@@ -55600,9 +55600,9 @@ Installed-Size: 144
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-gd
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.4), libgd3 (>= 2.3.3)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.4), libgd3 (>= 2.3.3)
 Description: GD module for PHP
  This package provides the GD module(s) for PHP.
  .
@@ -55690,9 +55690,9 @@ Installed-Size: 140
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-imap
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc-client2007e, libc6 (>= 2.38)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc-client2007e, libc6 (>= 2.38)
 Description: IMAP module for PHP
  This package provides the IMAP module(s) for PHP.
  .
@@ -55709,9 +55709,9 @@ Installed-Size: 612
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-intl
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libicu74 (>= 74.1-1~), libstdc++6 (>= 4.3)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libicu74 (>= 74.1-1~), libstdc++6 (>= 4.3)
 Description: Internationalisation module for PHP
  This package provides the Internationalisation module(s) for PHP.
  .
@@ -55728,9 +55728,9 @@ Installed-Size: 132
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-ldap
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libldap2 (>= 2.6.2)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libldap2 (>= 2.6.2)
 Description: LDAP module for PHP
  This package provides the LDAP module(s) for PHP.
  .
@@ -55747,9 +55747,9 @@ Installed-Size: 1210
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-mbstring
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libonig5 (>= 6.8.1)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libonig5 (>= 6.8.1)
 Description: MBSTRING module for PHP
  This package provides the MBSTRING module(s) for PHP.
  .
@@ -55794,9 +55794,9 @@ Installed-Size: 451
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-mysqli, php-mysqlnd, php-pdo-mysql, php8.3-mysqli, php8.3-mysqlnd, php8.3-pdo-mysql
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38)
 Description: MySQL module for PHP
  This package provides the MySQL module(s) for PHP.
  .
@@ -55838,9 +55838,9 @@ Installed-Size: 1044
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-opcache
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libgcc-s1 (>= 3.3)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libgcc-s1 (>= 3.3)
 Description: Zend OpCache module for PHP
  This package provides the Zend OpCache module(s) for PHP.
  .
@@ -55857,9 +55857,9 @@ Installed-Size: 224
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-pdo-pgsql, php-pgsql, php8.3-pdo-pgsql
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libpq5 (>= 14~beta2)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libpq5 (>= 14~beta2)
 Description: PostgreSQL module for PHP
  This package provides the PostgreSQL module(s) for PHP.
  .
@@ -55876,9 +55876,9 @@ Installed-Size: 68
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-readline
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.34), libedit2 (>= 3.1-20160903-0)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.34), libedit2 (>= 3.1-20160903-0)
 Description: readline module for PHP
  This package provides the readline module(s) for PHP.
  .
@@ -55916,9 +55916,9 @@ Installed-Size: 144
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-pdo-sqlite, php-sqlite3, php8.3-pdo-sqlite
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libsqlite3-0 (>= 3.14.0)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.14), libsqlite3-0 (>= 3.14.0)
 Description: SQLite3 module for PHP
  This package provides the SQLite3 module(s) for PHP.
  .
@@ -55959,10 +55959,10 @@ Installed-Size: 497
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Replaces: php8.3-xsl (<< 7.0.3-6~)
 Provides: php-dom, php-simplexml, php-xml, php-xmlreader, php-xmlwriter, php-xsl, php8.3-dom, php8.3-simplexml, php8.3-xmlreader, php8.3-xmlwriter, php8.3-xsl
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.33), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.25)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.33), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.25)
 Breaks: php8.3-xsl (<< 7.0.3-6~)
 Description: DOM, SimpleXML, XML, and XSL module for PHP
  This package provides the DOM, SimpleXML, XML, and XSL module(s) for PHP.
@@ -56003,11 +56003,11 @@ Package: php8.3-xsl
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 77
+Installed-Size: 78
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: all
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Depends: php8.3-common, php8.3-xml
 Description: XSL module for PHP (dummy)
  This package is a transitional dummy package and can be safely
@@ -56066,9 +56066,9 @@ Installed-Size: 132
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.3
-Version: 8.3.27-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.3.28-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-zip
-Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.27-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.33), libzip4t64 (>= 1.7.0)
+Depends: php-common (>= 1:81~), ucf, php8.3-common (= 8.3.28-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.33), libzip4t64 (>= 1.7.0)
 Description: Zip module for PHP
  This package provides the Zip module(s) for PHP.
  .
