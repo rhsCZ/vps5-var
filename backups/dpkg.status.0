@@ -3199,10 +3199,10 @@ Section: net
 Installed-Size: 913
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.0.0-0ubuntu4
+Version: 2.0.0-0ubuntu4.1
 Replaces: foomatic-filters, foomatic-filters-beh, ghostscript-cups
 Provides: foomatic-filters, foomatic-filters-beh, ghostscript-cups
-Depends: bc, cups-filters-core-drivers (>= 2.0.0-0ubuntu4), ghostscript, poppler-utils, libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libcupsfilters2t64 (>= 2.0~b4-0ubuntu1), libppd2 (>= 2:2.0~b4-0ubuntu1)
+Depends: bc, cups-filters-core-drivers (>= 2.0.0-0ubuntu4.1), ghostscript, poppler-utils, libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libcupsfilters2t64 (>= 2.0~b4-0ubuntu1), libppd2 (>= 2:2.0~b4-0ubuntu1)
 Recommends: colord, printer-driver-braille, liblouisutdml-bin | liblouis-bin
 Suggests: antiword, docx2txt, foomatic-db-compressed-ppds | foomatic-db, imagemagick, lynx
 Conflicts: foomatic-filters, foomatic-filters-beh, ghostscript-cups
@@ -3226,7 +3226,7 @@ Installed-Size: 250
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: cups-filters
-Version: 2.0.0-0ubuntu4
+Version: 2.0.0-0ubuntu4.1
 Replaces: cups-filters (<< 1.13.0)
 Depends: bc, cups-ipp-utils, poppler-utils, libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libcupsfilters2t64 (>= 2.0~b4-0ubuntu1), libppd2 (>= 2:2.0~b4-0ubuntu1)
 Breaks: cups-filters (<< 1.13.0)
@@ -4926,10 +4926,10 @@ Package: firefox
 Status: install ok installed
 Priority: optional
 Section: web
-Installed-Size: 281114
+Installed-Size: 281173
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Version: 145.0+build2-0ubuntu0.24.04.1~mt1
+Version: 145.0.1+build1-0ubuntu0.24.04.1~mt1
 Replaces: kubuntu-firefox-installer
 Provides: gnome-www-browser, iceweasel, www-browser
 Depends: lsb-release, libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.42), libgtk-3-0t64 (>= 3.14), libharfbuzz0b (>= 0.6.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrandr2 (>= 2:1.4.0), libxrender1, zlib1g (>= 1:1.1.4)
@@ -6683,7 +6683,7 @@ Installed-Size: 112
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: packagekit
-Version: 1.2.8-2ubuntu1.2
+Version: 1.2.8-2ubuntu1.4
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0 (>= 1.36), gir1.2-gobject-2.0, libpackagekit-glib2-18 (>= 1.2.7)
 Description: GObject introspection data for the PackageKit GLib library
  PackageKit allows performing simple software management tasks over a DBus
@@ -11577,9 +11577,9 @@ Installed-Size: 5749
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.4
-Version: 8.4.14-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.4.15-1+ubuntu24.04.1+deb.sury.org+1
 Provides: libapache2-mod-php, php-json, php8.4-json, phpapi-20240924
-Depends: media-types | mime-support, php8.4-cli, php8.4-common (= 8.4.14-1+ubuntu24.04.1+deb.sury.org+1), php8.4-opcache, tzdata, ucf, apache2-api-20120211, apache2-bin, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libxml2 (>= 2.9.4), zlib1g (>= 1:1.1.4)
+Depends: media-types | mime-support, php8.4-cli, php8.4-common (= 8.4.15-1+ubuntu24.04.1+deb.sury.org+1), php8.4-opcache, tzdata, ucf, apache2-api-20120211, apache2-bin, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libxml2 (>= 2.9.4), zlib1g (>= 1:1.1.4)
 Recommends: apache2
 Suggests: php-pear
 Conffiles:
@@ -14690,9 +14690,9 @@ Installed-Size: 643
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: libcupsfilters
-Version: 2.0.0-0ubuntu7.1
+Version: 2.0.0-0ubuntu7.2
 Replaces: cups-filters (<< 2.0~)
-Recommends: libcupsfilters2t64 (>= 2.0.0-0ubuntu7.1)
+Recommends: libcupsfilters2t64 (>= 2.0.0-0ubuntu7.2)
 Breaks: cups-filters (<< 2.0~)
 Description: OpenPrinting libcupsfilters - Auxiliary files
  This package contains system-architecture-independent auxiliary files
@@ -14706,16 +14706,16 @@ Package: libcupsfilters2t64
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 801
+Installed-Size: 809
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libcupsfilters
-Version: 2.0.0-0ubuntu7.1
+Version: 2.0.0-0ubuntu7.2
 Replaces: libcupsfilters2
-Provides: libcupsfilters2 (= 2.0.0-0ubuntu7.1)
-Depends: libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libdbus-1-3 (>= 1.9.14), libexif12 (>= 0.6.21-1~), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.3.1), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libpng16-16t64 (>= 1.6.2), libpoppler-cpp0t64 (>= 24.02.0), libqpdf29t64 (>> 11.9~), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libcupsfilters2-common (>= 2.0.0-0ubuntu7.1)
-Breaks: libcupsfilters2 (<< 2.0.0-0ubuntu7.1)
+Provides: libcupsfilters2 (= 2.0.0-0ubuntu7.2)
+Depends: libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libdbus-1-3 (>= 1.9.14), libexif12 (>= 0.6.21-1~), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.3.1), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libpng16-16t64 (>= 1.6.2), libpoppler-cpp0t64 (>= 24.02.0), libqpdf29t64 (>> 11.9~), libstdc++6 (>= 13.1), libtiff6 (>= 4.0.3), libcupsfilters2-common (>= 2.0.0-0ubuntu7.2)
+Breaks: libcupsfilters2 (<< 2.0.0-0ubuntu7.2)
 Description: OpenPrinting libcupsfilters - Shared library
  This library contains filter functions doing all kinds of file format
  conversion used for printing and scanning, to be used in Printer
@@ -28824,7 +28824,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: packagekit
-Version: 1.2.8-2ubuntu1.2
+Version: 1.2.8-2ubuntu1.4
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.79.0)
 Description: Library for accessing PackageKit using GLib
  PackageKit allows performing simple software management tasks over a DBus
@@ -40436,29 +40436,12 @@ Installed-Size: 9
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-hwe-6.14
-Version: 6.14.0-35.35~24.04.1
-Depends: linux-image-generic-hwe-24.04 (= 6.14.0-35.35~24.04.1), linux-headers-generic-hwe-24.04 (= 6.14.0-35.35~24.04.1)
-Recommends: linux-tools-6.14.0-35-generic, ubuntu-kernel-accessories
+Version: 6.14.0-36.36~24.04.1
+Depends: linux-image-generic-hwe-24.04 (= 6.14.0-36.36~24.04.1), linux-headers-generic-hwe-24.04 (= 6.14.0-36.36~24.04.1)
+Recommends: linux-tools-6.14.0-36-generic, ubuntu-kernel-accessories
 Description: Complete Generic Linux kernel and headers
  This package will always depend on the latest complete generic Linux kernel
  and headers.
-
-Package: linux-headers-6.14.0-34-generic
-Status: install ok installed
-Priority: optional
-Section: devel
-Installed-Size: 28653
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Architecture: amd64
-Source: linux-hwe-6.14
-Version: 6.14.0-34.34~24.04.1
-Provides: linux-headers, linux-headers-3.0
-Depends: linux-hwe-6.14-headers-6.14.0-34, libc6 (>= 2.38), libdw1t64 (>= 0.171), libelf1t64 (>= 0.144), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
-Description: Linux kernel headers for version 6.14.0
- This package provides kernel header files for version 6.14.0.
- .
- This is for sites that want the latest kernel headers.  Please read
- /usr/share/doc/linux-headers-6.14.0-34/debian.README.gz for details.
 
 Package: linux-headers-6.14.0-35-generic
 Status: install ok installed
@@ -40477,6 +40460,23 @@ Description: Linux kernel headers for version 6.14.0
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-6.14.0-35/debian.README.gz for details.
 
+Package: linux-headers-6.14.0-36-generic
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 28686
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-36.36~24.04.1
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-hwe-6.14-headers-6.14.0-36, libc6 (>= 2.38), libdw1t64 (>= 0.171), libelf1t64 (>= 0.144), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
+Description: Linux kernel headers for version 6.14.0
+ This package provides kernel header files for version 6.14.0.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.14.0-36/debian.README.gz for details.
+
 Package: linux-headers-generic-hwe-24.04
 Status: install ok installed
 Priority: optional
@@ -40485,27 +40485,11 @@ Installed-Size: 9
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-hwe-6.14
-Version: 6.14.0-35.35~24.04.1
-Depends: linux-headers-6.14.0-35-generic
+Version: 6.14.0-36.36~24.04.1
+Depends: linux-headers-6.14.0-36-generic
 Description: Generic Linux kernel headers
  This package will always depend on the latest generic kernel headers
  available.
-
-Package: linux-hwe-6.14-headers-6.14.0-34
-Status: install ok installed
-Priority: optional
-Section: devel
-Installed-Size: 87074
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Architecture: all
-Multi-Arch: foreign
-Source: linux-hwe-6.14
-Version: 6.14.0-34.34~24.04.1
-Depends: coreutils
-Description: Header files related to Linux kernel version 6.14.0
- This package provides kernel header files for version 6.14.0, for sites
- that want the latest kernel headers. Please read
- /usr/share/doc/linux-hwe-6.14-headers-6.14.0-34/debian.README.gz for details
 
 Package: linux-hwe-6.14-headers-6.14.0-35
 Status: install ok installed
@@ -40523,21 +40507,21 @@ Description: Header files related to Linux kernel version 6.14.0
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-hwe-6.14-headers-6.14.0-35/debian.README.gz for details
 
-Package: linux-hwe-6.14-tools-6.14.0-34
+Package: linux-hwe-6.14-headers-6.14.0-36
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 3775
+Installed-Size: 87117
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Architecture: amd64
+Architecture: all
+Multi-Arch: foreign
 Source: linux-hwe-6.14
-Version: 6.14.0-34.34~24.04.1
-Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libpci3 (>= 1:3.8.0), libudev1 (>= 183), linux-tools-common
-Description: Linux kernel version specific tools for version 6.14.0-34
- This package provides the architecture dependant parts for kernel
- version locked tools (such as perf and x86_energy_perf_policy) for
- version 6.14.0-34.
- You probably want to install linux-tools-6.14.0-34-<flavour>.
+Version: 6.14.0-36.36~24.04.1
+Depends: coreutils
+Description: Header files related to Linux kernel version 6.14.0
+ This package provides kernel header files for version 6.14.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-hwe-6.14-headers-6.14.0-36/debian.README.gz for details
 
 Package: linux-hwe-6.14-tools-6.14.0-35
 Status: install ok installed
@@ -40554,6 +40538,22 @@ Description: Linux kernel version specific tools for version 6.14.0-35
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 6.14.0-35.
  You probably want to install linux-tools-6.14.0-35-<flavour>.
+
+Package: linux-hwe-6.14-tools-6.14.0-36
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 3796
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-36.36~24.04.1
+Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libpci3 (>= 1:3.8.0), libudev1 (>= 183), linux-tools-common
+Description: Linux kernel version specific tools for version 6.14.0-36
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 6.14.0-36.
+ You probably want to install linux-tools-6.14.0-36-<flavour>.
 
 Package: linux-image-6.14.0-33-generic
 Status: deinstall ok config-files
@@ -40576,7 +40576,7 @@ Description: Signed kernel image generic
 Built-Using: linux-hwe-6.14 (= 6.14.0-33.33~24.04.1)
 
 Package: linux-image-6.14.0-34-generic
-Status: install ok installed
+Status: deinstall ok config-files
 Priority: optional
 Section: kernel
 Installed-Size: 15213
@@ -40584,6 +40584,7 @@ Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-signed-hwe-6.14
 Version: 6.14.0-34.34~24.04.1
+Config-Version: 6.14.0-34.34~24.04.1
 Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, spl-dkms, spl-modules, v4l2loopback-dkms, v4l2loopback-modules, virtualbox-guest-modules, zfs-dkms, zfs-modules
 Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.14.0-34-generic
 Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
@@ -40613,6 +40614,25 @@ Description: Signed kernel image generic
  Canonical's signing key.
 Built-Using: linux-hwe-6.14 (= 6.14.0-35.35~24.04.1)
 
+Package: linux-image-6.14.0-36-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 15221
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-signed-hwe-6.14
+Version: 6.14.0-36.36~24.04.1
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, spl-dkms, spl-modules, v4l2loopback-dkms, v4l2loopback-modules, virtualbox-guest-modules, zfs-dkms, zfs-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.14.0-36-generic
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
+Suggests: linux-hwe-6.14-tools, linux-headers-6.14.0-36-generic, linux-modules-extra-6.14.0-36-generic
+Conflicts: linux-image-unsigned-6.14.0-36-generic
+Description: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's signing key.
+Built-Using: linux-hwe-6.14 (= 6.14.0-36.36~24.04.1)
+
 Package: linux-image-generic-hwe-24.04
 Status: install ok installed
 Priority: optional
@@ -40621,9 +40641,9 @@ Installed-Size: 9
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-hwe-6.14
-Version: 6.14.0-35.35~24.04.1
-Provides: ivsc-modules (= 0~git202311021215.73a044d9), spl-modules (= 2.3.1-1ubuntu2), v4l2loopback-modules (= 0.13.2-1ubuntu1), virtualbox-guest-modules (= 6.14.0-35), wireguard-modules (= 1.0.0), zfs-modules (= 2.3.1-1ubuntu2)
-Depends: linux-image-6.14.0-35-generic, linux-modules-extra-6.14.0-35-generic, linux-firmware, intel-microcode, amd64-microcode
+Version: 6.14.0-36.36~24.04.1
+Provides: ivsc-modules (= 0~git202311021215.73a044d9), spl-modules (= 2.3.1-1ubuntu2), v4l2loopback-modules (= 0.13.2-1ubuntu1), virtualbox-guest-modules (= 6.14.0-36), wireguard-modules (= 1.0.0), zfs-modules (= 2.3.1-1ubuntu2)
+Depends: linux-image-6.14.0-36-generic, linux-modules-extra-6.14.0-36-generic, linux-firmware, intel-microcode, amd64-microcode
 Recommends: thermald
 Description: Generic Linux kernel image
  This package will always depend on the latest generic kernel image
@@ -40633,12 +40653,12 @@ Package: linux-libc-dev
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 7493
+Installed-Size: 7494
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 6.8.0-87.88
+Version: 6.8.0-88.89
 Replaces: linux-kernel-headers
 Provides: aufs-dev, linux-kernel-headers
 Conflicts: linux-kernel-headers
@@ -40672,7 +40692,7 @@ Description: Linux kernel extra modules for version 6.14.0
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-6.14.0-34-generic
-Status: install ok installed
+Status: deinstall ok config-files
 Priority: optional
 Section: kernel
 Installed-Size: 39568
@@ -40680,6 +40700,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-hwe-6.14
 Version: 6.14.0-34.34~24.04.1
+Config-Version: 6.14.0-34.34~24.04.1
 Description: Linux kernel extra modules for version 6.14.0
  Contains the corresponding System.map file, the modules built by the
  packager, and scripts that try to ensure that the system is not left in an
@@ -40702,6 +40723,28 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-hwe-6.14
 Version: 6.14.0-35.35~24.04.1
+Description: Linux kernel extra modules for version 6.14.0
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-6.14.0-36-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 39556
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-36.36~24.04.1
 Description: Linux kernel extra modules for version 6.14.0
  Contains the corresponding System.map file, the modules built by the
  packager, and scripts that try to ensure that the system is not left in an
@@ -40742,7 +40785,7 @@ Description: Linux kernel extra modules for version 6.14.0
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-extra-6.14.0-34-generic
-Status: install ok installed
+Status: deinstall ok config-files
 Priority: optional
 Section: kernel
 Installed-Size: 115034
@@ -40750,6 +40793,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-hwe-6.14
 Version: 6.14.0-34.34~24.04.1
+Config-Version: 6.14.0-34.34~24.04.1
 Depends: linux-modules-6.14.0-34-generic, wireless-regdb
 Description: Linux kernel extra modules for version 6.14.0
  This package contains the Linux kernel extra modules for version 6.14.0.
@@ -40791,6 +40835,31 @@ Description: Linux kernel extra modules for version 6.14.0
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-6.14.0-36-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 115049
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-36.36~24.04.1
+Depends: linux-modules-6.14.0-36-generic, wireless-regdb
+Description: Linux kernel extra modules for version 6.14.0
+ This package contains the Linux kernel extra modules for version 6.14.0.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-sound-base
 Status: install ok installed
 Priority: optional
@@ -40811,21 +40880,6 @@ Description: base package for ALSA and OSS sound systems
 Homepage: http://www.alsa-project.org/
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 
-Package: linux-tools-6.14.0-34-generic
-Status: install ok installed
-Priority: optional
-Section: devel
-Installed-Size: 139
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Architecture: amd64
-Source: linux-hwe-6.14
-Version: 6.14.0-34.34~24.04.1
-Depends: linux-hwe-6.14-tools-6.14.0-34
-Description: Linux kernel version specific tools for version 6.14.0-34
- This package provides the architecture dependant parts for kernel
- version locked tools (such as perf and x86_energy_perf_policy) for
- version 6.14.0-34.
-
 Package: linux-tools-6.14.0-35-generic
 Status: install ok installed
 Priority: optional
@@ -40841,16 +40895,31 @@ Description: Linux kernel version specific tools for version 6.14.0-35
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 6.14.0-35.
 
+Package: linux-tools-6.14.0-36-generic
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 160
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-36.36~24.04.1
+Depends: linux-hwe-6.14-tools-6.14.0-36
+Description: Linux kernel version specific tools for version 6.14.0-36
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 6.14.0-36.
+
 Package: linux-tools-common
 Status: install ok installed
 Priority: optional
 Section: kernel
-Installed-Size: 856
+Installed-Size: 857
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: linux
-Version: 6.8.0-87.88
+Version: 6.8.0-88.89
 Provides: bpftool
 Depends: lsb-release, hwdata
 Description: Linux kernel version specific tools for version 6.8.0
@@ -50423,7 +50492,7 @@ Installed-Size: 1556
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1.2.8-2ubuntu1.2
+Version: 1.2.8-2ubuntu1.4
 Depends: libglib2.0-bin, polkitd, init-system-helpers (>= 1.52), libappstream5 (>= 1.0.0), libapt-pkg6.0t64 (>= 1.9.2), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.79.0), libgstreamer1.0-0 (>= 1.0.0), libpackagekit-glib2-18 (>= 1.2.4), libpolkit-gobject-1-0 (>= 0.99), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 13.1), libsystemd0 (>= 214)
 Recommends: appstream, packagekit-tools, systemd
 Breaks: plymouth (<< 0.9.5)
@@ -50457,8 +50526,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: packagekit
-Version: 1.2.8-2ubuntu1.2
-Depends: packagekit (= 1.2.8-2ubuntu1.2), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.54), libpackagekit-glib2-18 (>= 1.2.5)
+Version: 1.2.8-2ubuntu1.4
+Depends: packagekit (= 1.2.8-2ubuntu1.4), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.54), libpackagekit-glib2-18 (>= 1.2.5)
 Description: Provides PackageKit command-line tools
  PackageKit allows performing simple software management tasks over a DBus
  interface e.g. refreshing the cache, updating, installing and removing
@@ -56101,13 +56170,13 @@ Package: php8.4-cli
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 5936
+Installed-Size: 5940
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.4
-Version: 8.4.14-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.4.15-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-cli, php-json, php8.4-json, phpapi-20240924
-Depends: libedit2 (>= 2.11-20080614-4), media-types | mime-support, php8.4-common (= 8.4.14-1+ubuntu24.04.1+deb.sury.org+1), php8.4-opcache, php8.4-readline, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libxml2 (>= 2.9.4), zlib1g (>= 1:1.1.4)
+Depends: libedit2 (>= 2.11-20080614-4), media-types | mime-support, php8.4-common (= 8.4.15-1+ubuntu24.04.1+deb.sury.org+1), php8.4-opcache, php8.4-readline, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libxml2 (>= 2.9.4), zlib1g (>= 1:1.1.4)
 Suggests: php-pear
 Description: command-line interpreter for the PHP scripting language
  This package provides the /usr/bin/php8.4 command interpreter, useful for
@@ -56125,11 +56194,11 @@ Package: php8.4-common
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 9976
+Installed-Size: 9977
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.4
-Version: 8.4.14-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.4.15-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-calendar, php-ctype, php-exif, php-ffi, php-fileinfo, php-ftp, php-iconv, php-pdo, php-phar, php-posix, php-shmop, php-sockets, php-sysvmsg, php-sysvsem, php-sysvshm, php-tokenizer, php8.4-calendar, php8.4-ctype, php8.4-exif, php8.4-ffi, php8.4-fileinfo, php8.4-ftp, php8.4-gettext, php8.4-iconv, php8.4-pdo, php8.4-phar, php8.4-posix, php8.4-shmop, php8.4-sockets, php8.4-sysvmsg, php8.4-sysvsem, php8.4-sysvshm, php8.4-tokenizer
 Depends: php-common (>= 2:95~), ucf, libc6 (>= 2.38), libffi8 (>= 3.4), libssl3t64 (>= 3.0.0)
 Breaks: gforge-common (<< 6), php7.0-curl (<< 7.0.33-1~), php7.2-sodium (<< 7.2.12~)
@@ -56145,13 +56214,13 @@ Package: php8.4-opcache
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 1198
+Installed-Size: 1206
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.4
-Version: 8.4.14-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.4.15-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-opcache
-Depends: php-common (>= 2:95~), ucf, php8.4-common (= 8.4.14-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libgcc-s1 (>= 3.3)
+Depends: php-common (>= 2:95~), ucf, php8.4-common (= 8.4.15-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.38), libgcc-s1 (>= 3.3)
 Description: Zend OpCache module for PHP
  This package provides the Zend OpCache module(s) for PHP.
  .
@@ -56168,9 +56237,9 @@ Installed-Size: 68
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: amd64
 Source: php8.4
-Version: 8.4.14-1+ubuntu24.04.1+deb.sury.org+1
+Version: 8.4.15-1+ubuntu24.04.1+deb.sury.org+1
 Provides: php-readline
-Depends: php-common (>= 2:95~), ucf, php8.4-common (= 8.4.14-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.34), libedit2 (>= 3.1-20230828-1)
+Depends: php-common (>= 2:95~), ucf, php8.4-common (= 8.4.15-1+ubuntu24.04.1+deb.sury.org+1), libc6 (>= 2.34), libedit2 (>= 3.1-20230828-1)
 Description: readline module for PHP
  This package provides the readline module(s) for PHP.
  .
@@ -64885,7 +64954,7 @@ Section: admin
 Installed-Size: 283
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 1:0.9.7.6ubuntu3.4
+Version: 1:0.9.7.6ubuntu3.5
 Replaces: jockey-common, jockey-gtk, jockey-kde, nvidia-common (<< 1:0.2.46)
 Provides: jockey-common, jockey-gtk, jockey-kde, nvidia-common
 Depends: python3:any (>= 3.2~), debconf (>= 0.5.00) | debconf-2.0, libc6 (>= 2.38), libdrm2 (>= 2.3.1), libkmod2 (>= 5~), libpci3 (>= 1:3.8.0), python3-apt, python3-xkit, python3-click, udev (>= 204-0ubuntu4~), pciutils, usbutils, kmod | module-init-tools
@@ -66785,7 +66854,7 @@ Installed-Size: 76
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 0.1.5-1build2
+Version: 0.1.5-1ubuntu0.1
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.79.0)
 Description: filtering D-Bus proxy
  xdg-dbus-proxy is a filtering proxy for D-Bus connections. It was
