@@ -51458,16 +51458,16 @@ Package: php7.2-ast
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 84
+Installed-Size: 88
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-ast
-Version: 1.1.2-3+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-ast (<< 1.1.2-3+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.1.3-1+ubuntu24.04.1+deb.sury.org+5
+Replaces: php-ast (<< 1.1.3~)
 Provides: php-ast
 Depends: php7.2-common, libc6 (>= 2.14), phpapi-20170718
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-ast (<< 1.1.2-3+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-ast (<< 1.1.3~)
 Conffiles:
  /etc/php/7.2/mods-available/ast.ini 6778b4f62e1dab9d96df9a5a997e0973
 Description: AST extension for PHP 7
@@ -51630,12 +51630,12 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libmpdec4
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-decimal (<< 1.5.0~)
 Conffiles:
  /etc/php/7.2/mods-available/decimal.ini 57e72f26091e82bd18c0908ac14e6fd6
 Description: Arbitrary precision floating-point decimal for PHP
@@ -51823,12 +51823,12 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.3-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-gnupg (<< 1.5.3~)
+Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php7.2-common, phpapi-20170718, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-gnupg (<< 1.5.3~)
+Breaks: php-gnupg (<< 1.5.4~)
 Conffiles:
  /etc/php/7.2/mods-available/gnupg.ini 7b304c5e2ec3346bf10a8406cdb1446d
 Description: PHP wrapper around the gpgme library
@@ -51920,7 +51920,7 @@ Installed-Size: 489
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -51961,12 +51961,12 @@ Installed-Size: 43
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-inotify
-Version: 3.0.0++-1+ubuntu24.04.1+deb.sury.org+2
-Replaces: php-inotify (<< 3.0.0++-1+ubuntu24.04.1+deb.sury.org+2~)
+Version: 3.0.1-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-inotify (<< 3.0.1~)
 Provides: php-inotify
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.4)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-inotify (<< 3.0.0++-1+ubuntu24.04.1+deb.sury.org+2~)
+Breaks: php-inotify (<< 3.0.1~)
 Conffiles:
  /etc/php/7.2/mods-available/inotify.ini d2b0c224225bad1fd941e83dcd410432
 Description: Inotify bindings for PHP
@@ -52071,16 +52071,16 @@ Package: php7.2-lz4
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 37
+Installed-Size: 41
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-lz4
-Version: 0.5.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-lz4 (<< 0.5.0~)
+Version: 0.6.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-lz4 (<< 0.6.0~)
 Provides: php-lz4
 Depends: ucf, php7.2-common, libc6 (>= 2.14), liblz4-1 (>= 1.8.0), phpapi-20170718
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-lz4 (<< 0.5.0~)
+Breaks: php-lz4 (<< 0.6.0~)
 Conffiles:
  /etc/php/7.2/mods-available/lz4.ini ed5fbcfc716b90aaaa5dfc95729e30bf
 Description: LZ4 Extension for PHP
@@ -52118,12 +52118,12 @@ Installed-Size: 46
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-maxminddb
-Version: 1.12.1-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-maxminddb (<< 1.12.1~)
+Version: 1.13.1-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-maxminddb (<< 1.13.1~)
 Provides: php-maxminddb
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libmaxminddb0 (>= 1.0.2)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-maxminddb (<< 1.12.1~)
+Breaks: php-maxminddb (<< 1.13.1~)
 Conffiles:
  /etc/php/7.2/mods-available/maxminddb.ini f2f3816b76ea4e08a59322a89967ecec
 Description: Reader for the MaxMind DB file format for PHP
@@ -52158,12 +52158,12 @@ Installed-Size: 75
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mcrypt
-Version: 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-mcrypt (<< 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3:1.0.9-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-mcrypt (<< 3:1.0.9~)
 Provides: php-mcrypt
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libmcrypt4 (>= 2.5.8)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-mcrypt (<< 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-mcrypt (<< 3:1.0.9~)
 Conffiles:
  /etc/php/7.2/mods-available/mcrypt.ini 00847735679487d57ea69423fe90888e
 Description: PHP bindings for the libmcrypt library
@@ -52257,12 +52257,12 @@ Installed-Size: 96
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-msgpack
-Version: 1:3.0.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-msgpack (<< 1:3.0.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1:3.0.0-1+ubuntu24.04.1+deb.sury.org+5
+Replaces: php-msgpack (<< 1:3.0.0~)
 Provides: php-msgpack
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-msgpack (<< 1:3.0.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-msgpack (<< 1:3.0.0~)
 Conffiles:
  /etc/php/7.2/mods-available/msgpack.ini a0a79169aba79e03c286e40f164ee967
 Description: PHP extension for interfacing with MessagePack
@@ -52296,12 +52296,12 @@ Installed-Size: 119
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.9-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.38)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-oauth (<< 2.0.10~)
 Conffiles:
  /etc/php/7.2/mods-available/oauth.ini 5f7ee9a8d13a64328f982dcfc7800450
 Description: OAuth 1.0 consumer and provider extension
@@ -52536,12 +52536,12 @@ Installed-Size: 67
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-raphf
-Version: 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-raphf (<< 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.2-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-raphf (<< 2.0.2~)
 Provides: php-raphf
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.4)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-raphf (<< 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-raphf (<< 2.0.2~)
 Conffiles:
  /etc/php/7.2/mods-available/raphf.ini 22b5ae55204d2ad33a4730225ce3d5b1
 Description: raphf module for PHP
@@ -53123,16 +53123,16 @@ Package: php7.2-zstd
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 58
+Installed-Size: 70
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.14.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-zstd (<< 0.15.2~)
 Conffiles:
  /etc/php/7.2/mods-available/zstd.ini 3a4d1978294f93c2af02b101878359a7
 Description: Zstandard extension for PHP
@@ -53277,12 +53277,12 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.14), libmpdec4
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-decimal (<< 1.5.0~)
 Conffiles:
  /etc/php/7.4/mods-available/decimal.ini 57e72f26091e82bd18c0908ac14e6fd6
 Description: Arbitrary precision floating-point decimal for PHP
@@ -53329,12 +53329,12 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.3-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-gnupg (<< 1.5.3~)
+Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php7.4-common, phpapi-20190902, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-gnupg (<< 1.5.3~)
+Breaks: php-gnupg (<< 1.5.4~)
 Conffiles:
  /etc/php/7.4/mods-available/gnupg.ini 7b304c5e2ec3346bf10a8406cdb1446d
 Description: PHP wrapper around the gpgme library
@@ -53378,7 +53378,7 @@ Installed-Size: 485
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -53471,16 +53471,16 @@ Package: php7.4-lz4
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 37
+Installed-Size: 41
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-lz4
-Version: 0.5.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-lz4 (<< 0.5.0~)
+Version: 0.6.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-lz4 (<< 0.6.0~)
 Provides: php-lz4
 Depends: ucf, php7.4-common, libc6 (>= 2.14), liblz4-1 (>= 1.8.0), phpapi-20190902
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-lz4 (<< 0.5.0~)
+Breaks: php-lz4 (<< 0.6.0~)
 Conffiles:
  /etc/php/7.4/mods-available/lz4.ini ed5fbcfc716b90aaaa5dfc95729e30bf
 Description: LZ4 Extension for PHP
@@ -53514,12 +53514,12 @@ Installed-Size: 75
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mcrypt
-Version: 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-mcrypt (<< 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3:1.0.9-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-mcrypt (<< 3:1.0.9~)
 Provides: php-mcrypt
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.14), libmcrypt4 (>= 2.5.8)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-mcrypt (<< 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-mcrypt (<< 3:1.0.9~)
 Conffiles:
  /etc/php/7.4/mods-available/mcrypt.ini 00847735679487d57ea69423fe90888e
 Description: PHP bindings for the libmcrypt library
@@ -53585,12 +53585,12 @@ Installed-Size: 111
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.9-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.38)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-oauth (<< 2.0.10~)
 Conffiles:
  /etc/php/7.4/mods-available/oauth.ini 5f7ee9a8d13a64328f982dcfc7800450
 Description: OAuth 1.0 consumer and provider extension
@@ -53700,12 +53700,12 @@ Installed-Size: 67
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-raphf
-Version: 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-raphf (<< 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.2-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-raphf (<< 2.0.2~)
 Provides: php-raphf
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.4)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-raphf (<< 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-raphf (<< 2.0.2~)
 Conffiles:
  /etc/php/7.4/mods-available/raphf.ini 22b5ae55204d2ad33a4730225ce3d5b1
 Description: raphf module for PHP
@@ -53919,16 +53919,16 @@ Package: php7.4-zstd
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 58
+Installed-Size: 70
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.14.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-zstd (<< 0.15.2~)
 Conffiles:
  /etc/php/7.4/mods-available/zstd.ini 3a4d1978294f93c2af02b101878359a7
 Description: Zstandard extension for PHP
@@ -54073,12 +54073,12 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.14), libmpdec4
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-decimal (<< 1.5.0~)
 Conffiles:
  /etc/php/8.1/mods-available/decimal.ini 57e72f26091e82bd18c0908ac14e6fd6
 Description: Arbitrary precision floating-point decimal for PHP
@@ -54125,12 +54125,12 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.3-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-gnupg (<< 1.5.3~)
+Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php8.1-common, phpapi-20210902, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-gnupg (<< 1.5.3~)
+Breaks: php-gnupg (<< 1.5.4~)
 Conffiles:
  /etc/php/8.1/mods-available/gnupg.ini 7b304c5e2ec3346bf10a8406cdb1446d
 Description: PHP wrapper around the gpgme library
@@ -54174,7 +54174,7 @@ Installed-Size: 493
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -54248,16 +54248,16 @@ Package: php8.1-lz4
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 37
+Installed-Size: 41
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-lz4
-Version: 0.5.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-lz4 (<< 0.5.0~)
+Version: 0.6.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-lz4 (<< 0.6.0~)
 Provides: php-lz4
 Depends: ucf, php8.1-common, libc6 (>= 2.14), liblz4-1 (>= 1.8.0), phpapi-20210902
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-lz4 (<< 0.5.0~)
+Breaks: php-lz4 (<< 0.6.0~)
 Conffiles:
  /etc/php/8.1/mods-available/lz4.ini ed5fbcfc716b90aaaa5dfc95729e30bf
 Description: LZ4 Extension for PHP
@@ -54291,12 +54291,12 @@ Installed-Size: 75
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mcrypt
-Version: 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-mcrypt (<< 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3:1.0.9-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-mcrypt (<< 3:1.0.9~)
 Provides: php-mcrypt
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.14), libmcrypt4 (>= 2.5.8)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-mcrypt (<< 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-mcrypt (<< 3:1.0.9~)
 Conffiles:
  /etc/php/8.1/mods-available/mcrypt.ini 00847735679487d57ea69423fe90888e
 Description: PHP bindings for the libmcrypt library
@@ -54362,12 +54362,12 @@ Installed-Size: 111
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.9-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-oauth (<< 2.0.10~)
 Conffiles:
  /etc/php/8.1/mods-available/oauth.ini 5f7ee9a8d13a64328f982dcfc7800450
 Description: OAuth 1.0 consumer and provider extension
@@ -54457,12 +54457,12 @@ Installed-Size: 67
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-raphf
-Version: 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-raphf (<< 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.2-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-raphf (<< 2.0.2~)
 Provides: php-raphf
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.4)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-raphf (<< 2.0.1++-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-raphf (<< 2.0.2~)
 Conffiles:
  /etc/php/8.1/mods-available/raphf.ini 22b5ae55204d2ad33a4730225ce3d5b1
 Description: raphf module for PHP
@@ -54683,12 +54683,12 @@ Installed-Size: 74
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-yaml
-Version: 2.2.5-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-yaml (<< 2.2.5~)
+Version: 2.3.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-yaml (<< 2.3.0~)
 Provides: php-yaml
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38), libyaml-0-2
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-yaml (<< 2.2.5~)
+Breaks: php-yaml (<< 2.3.0~)
 Conffiles:
  /etc/php/8.1/mods-available/yaml.ini e2c3d614b4cef0f2b1e13cd91f6fd623
 Description: YAML-1.1 parser and emitter for PHP
@@ -54719,16 +54719,16 @@ Package: php8.1-zstd
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 70
+Installed-Size: 78
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.14.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-zstd (<< 0.15.2~)
 Conffiles:
  /etc/php/8.1/mods-available/zstd.ini 3a4d1978294f93c2af02b101878359a7
 Description: Zstandard extension for PHP
@@ -54873,12 +54873,12 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.14), libmpdec4
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-decimal (<< 1.5.0~)
 Conffiles:
  /etc/php/8.2/mods-available/decimal.ini 57e72f26091e82bd18c0908ac14e6fd6
 Description: Arbitrary precision floating-point decimal for PHP
@@ -54925,12 +54925,12 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.3-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-gnupg (<< 1.5.3~)
+Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php8.2-common, phpapi-20220829, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-gnupg (<< 1.5.3~)
+Breaks: php-gnupg (<< 1.5.4~)
 Conffiles:
  /etc/php/8.2/mods-available/gnupg.ini 7b304c5e2ec3346bf10a8406cdb1446d
 Description: PHP wrapper around the gpgme library
@@ -54974,7 +54974,7 @@ Installed-Size: 493
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -55048,16 +55048,16 @@ Package: php8.2-lz4
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 37
+Installed-Size: 41
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-lz4
-Version: 0.5.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-lz4 (<< 0.5.0~)
+Version: 0.6.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-lz4 (<< 0.6.0~)
 Provides: php-lz4
 Depends: ucf, php8.2-common, libc6 (>= 2.14), liblz4-1 (>= 1.8.0), phpapi-20220829
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-lz4 (<< 0.5.0~)
+Breaks: php-lz4 (<< 0.6.0~)
 Conffiles:
  /etc/php/8.2/mods-available/lz4.ini ed5fbcfc716b90aaaa5dfc95729e30bf
 Description: LZ4 Extension for PHP
@@ -55091,12 +55091,12 @@ Installed-Size: 75
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mcrypt
-Version: 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-mcrypt (<< 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3:1.0.9-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-mcrypt (<< 3:1.0.9~)
 Provides: php-mcrypt
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.14), libmcrypt4 (>= 2.5.8)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-mcrypt (<< 3:1.0.7-5+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-mcrypt (<< 3:1.0.9~)
 Conffiles:
  /etc/php/8.2/mods-available/mcrypt.ini 00847735679487d57ea69423fe90888e
 Description: PHP bindings for the libmcrypt library
@@ -55162,12 +55162,12 @@ Installed-Size: 111
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.9-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-oauth (<< 2.0.10~)
 Conffiles:
  /etc/php/8.2/mods-available/oauth.ini 5f7ee9a8d13a64328f982dcfc7800450
 Description: OAuth 1.0 consumer and provider extension
@@ -55427,12 +55427,12 @@ Installed-Size: 74
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-yaml
-Version: 2.2.5-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-yaml (<< 2.2.5~)
+Version: 2.3.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-yaml (<< 2.3.0~)
 Provides: php-yaml
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38), libyaml-0-2
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-yaml (<< 2.2.5~)
+Breaks: php-yaml (<< 2.3.0~)
 Conffiles:
  /etc/php/8.2/mods-available/yaml.ini e2c3d614b4cef0f2b1e13cd91f6fd623
 Description: YAML-1.1 parser and emitter for PHP
@@ -55463,16 +55463,16 @@ Package: php8.2-zstd
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 70
+Installed-Size: 78
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.14.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-zstd (<< 0.15.2~)
 Conffiles:
  /etc/php/8.2/mods-available/zstd.ini 3a4d1978294f93c2af02b101878359a7
 Description: Zstandard extension for PHP
@@ -55617,12 +55617,12 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.14), libmpdec4
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-decimal (<< 1.5.0-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-decimal (<< 1.5.0~)
 Conffiles:
  /etc/php/8.3/mods-available/decimal.ini 57e72f26091e82bd18c0908ac14e6fd6
 Description: Arbitrary precision floating-point decimal for PHP
@@ -55688,12 +55688,12 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.3-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-gnupg (<< 1.5.3~)
+Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php8.3-common, phpapi-20230831, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-gnupg (<< 1.5.3~)
+Breaks: php-gnupg (<< 1.5.4~)
 Conffiles:
  /etc/php/8.3/mods-available/gnupg.ini 7b304c5e2ec3346bf10a8406cdb1446d
 Description: PHP wrapper around the gpgme library
@@ -55737,7 +55737,7 @@ Installed-Size: 493
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -55882,12 +55882,12 @@ Installed-Size: 111
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.9-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-oauth (<< 2.0.9-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-oauth (<< 2.0.10~)
 Conffiles:
  /etc/php/8.3/mods-available/oauth.ini 5f7ee9a8d13a64328f982dcfc7800450
 Description: OAuth 1.0 consumer and provider extension
@@ -56114,12 +56114,12 @@ Installed-Size: 74
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-yaml
-Version: 2.2.5-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-yaml (<< 2.2.5~)
+Version: 2.3.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-yaml (<< 2.3.0~)
 Provides: php-yaml
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38), libyaml-0-2
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-yaml (<< 2.2.5~)
+Breaks: php-yaml (<< 2.3.0~)
 Conffiles:
  /etc/php/8.3/mods-available/yaml.ini e2c3d614b4cef0f2b1e13cd91f6fd623
 Description: YAML-1.1 parser and emitter for PHP
@@ -56150,16 +56150,16 @@ Package: php8.3-zstd
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 70
+Installed-Size: 78
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.14.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-zstd (<< 0.14.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-zstd (<< 0.15.2~)
 Conffiles:
  /etc/php/8.3/mods-available/zstd.ini 3a4d1978294f93c2af02b101878359a7
 Description: Zstandard extension for PHP
