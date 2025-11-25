@@ -11556,8 +11556,8 @@ Section: php
 Installed-Size: 37
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: all
-Source: php-defaults (97+ubuntu24.04.1+deb.sury.org+1)
-Version: 2:8.4+97+ubuntu24.04.1+deb.sury.org+1
+Source: php-defaults (98+ubuntu24.04.1+deb.sury.org+1)
+Version: 2:8.4+98+ubuntu24.04.1+deb.sury.org+1
 Depends: libapache2-mod-php8.4
 Description: server-side, HTML-embedded scripting language (Apache 2 module) (default)
  This package provides the PHP module for the Apache 2 webserver.
@@ -50947,8 +50947,8 @@ Installed-Size: 71
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: all
 Multi-Arch: foreign
-Source: php-defaults (97+ubuntu24.04.1+deb.sury.org+1)
-Version: 2:97+ubuntu24.04.1+deb.sury.org+1
+Source: php-defaults (98+ubuntu24.04.1+deb.sury.org+1)
+Version: 2:98+ubuntu24.04.1+deb.sury.org+1
 Depends: psmisc (>= 22.15-1~)
 Conffiles:
  /etc/cron.d/php e6fa2d74078ac0ac6fd730decf3b3736
@@ -51462,7 +51462,7 @@ Installed-Size: 88
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-ast
-Version: 1.1.3-1+ubuntu24.04.1+deb.sury.org+5
+Version: 1.1.3-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-ast (<< 1.1.3~)
 Provides: php-ast
 Depends: php7.2-common, libc6 (>= 2.14), phpapi-20170718
@@ -51630,7 +51630,7 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Version: 1.5.0-5+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libmpdec4
@@ -51710,7 +51710,7 @@ Installed-Size: 77
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-excimer
-Version: 1.2.5-1+ubuntu24.04.1+deb.sury.org+1
+Version: 1.2.5-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-excimer (<< 1.2.5~)
 Provides: php-excimer
 Depends: ucf, php7.2-common, phpapi-20170718, libc6 (>= 2.34)
@@ -51782,13 +51782,13 @@ Installed-Size: 137
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gearman
-Version: 2.1.4-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-gearman (<< 2.1.4-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.1.4-2+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-gearman (<< 2.1.4~)
 Provides: php-gearman
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libgearman8t64 (>= 1.1.13)
 Pre-Depends: php-common (>= 2:69~)
 Suggests: gearman-server
-Breaks: php-gearman (<< 2.1.4-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-gearman (<< 2.1.4~)
 Conffiles:
  /etc/php/7.2/mods-available/gearman.ini 51d8bf5206aac52ada91acad1df2528b
 Description: PHP wrapper to libgearman
@@ -51823,7 +51823,7 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Version: 1.5.4-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php7.2-common, phpapi-20170718, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
@@ -51839,16 +51839,16 @@ Package: php7.2-grpc
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 11085
+Installed-Size: 12093
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-grpc
-Version: 1.74.0-7+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-grpc (<< 1.74.0~)
+Version: 1.76.0-2+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-grpc (<< 1.76.0~)
 Provides: php-grpc
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.38), libstdc++6 (>= 13.1)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-grpc (<< 1.74.0~)
+Breaks: php-grpc (<< 1.76.0~)
 Conffiles:
  /etc/php/7.2/mods-available/grpc.ini 6b6d767d498855eac006bc30fe1b8fc0
 Description: High performance, open source, general RPC framework for PHP
@@ -51896,7 +51896,7 @@ Installed-Size: 102
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-igbinary
-Version: 3.2.16-5+ubuntu24.04.1+deb.sury.org+1
+Version: 3.2.16-6+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-igbinary (<< 3.2.16~)
 Provides: php-igbinary
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14)
@@ -51920,7 +51920,7 @@ Installed-Size: 489
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-4+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -51961,7 +51961,7 @@ Installed-Size: 43
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-inotify
-Version: 3.0.1-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3.0.1-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-inotify (<< 3.0.1~)
 Provides: php-inotify
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.4)
@@ -52118,7 +52118,7 @@ Installed-Size: 46
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-maxminddb
-Version: 1.13.1-1+ubuntu24.04.1+deb.sury.org+1
+Version: 1.13.1-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-maxminddb (<< 1.13.1~)
 Provides: php-maxminddb
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libmaxminddb0 (>= 1.0.2)
@@ -52154,11 +52154,11 @@ Package: php7.2-mcrypt
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 75
+Installed-Size: 76
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mcrypt
-Version: 3:1.0.9-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3:1.0.9-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-mcrypt (<< 3:1.0.9~)
 Provides: php-mcrypt
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libmcrypt4 (>= 2.5.8)
@@ -52206,18 +52206,18 @@ Package: php7.2-memcached
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 148
+Installed-Size: 154
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-memcached
-Version: 3.3.0-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-memcached (<< 3.3.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3.4.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-memcached (<< 3.4.0~)
 Provides: php-memcached
 Depends: ucf, php7.2-common, php7.2-igbinary, php7.2-msgpack, phpapi-20170718, libc6 (>= 2.38), libmemcached11t64 (>= 1.1.4), libsasl2-2 (>= 2.1.28+dfsg1), zlib1g (>= 1:1.1.4)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-memcached (<< 3.3.0-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-memcached (<< 3.4.0~)
 Conffiles:
- /etc/php/7.2/mods-available/memcached.ini 2a459ba4ec666d23e3113892476fc79a
+ /etc/php/7.2/mods-available/memcached.ini dd4f29c04864b301b42ea5690aa7220b
 Description: memcached extension module for PHP, uses libmemcached
  Memcached is a caching daemon designed especially for dynamic web
  applications to decrease database load by storing objects in memory.
@@ -52234,12 +52234,12 @@ Installed-Size: 2037
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mongodb-1-16
-Version: 1.16.2-2+ubuntu24.04.1+deb.sury.org+3
-Replaces: php-mongodb (<< 1.16.2-2+ubuntu24.04.1+deb.sury.org+3~)
+Version: 1.16.2-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-mongodb (<< 1.16.2~)
 Provides: php-mongodb
 Depends: ucf, php7.2-common, phpapi-20170718, libc6 (>= 2.38), libsasl2-2 (>= 2.1.28+dfsg1), libsnappy1v5 (>= 1.1.10), libssl3t64 (>= 3.0.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-mongodb (<< 1.16.2-2+ubuntu24.04.1+deb.sury.org+3~)
+Breaks: php-mongodb (<< 1.16.2~)
 Conffiles:
  /etc/php/7.2/mods-available/mongodb.ini 6655e8bd293351ad3c110213ef42e2e5
 Description: MongoDB driver for PHP
@@ -52257,7 +52257,7 @@ Installed-Size: 96
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-msgpack
-Version: 1:3.0.0-1+ubuntu24.04.1+deb.sury.org+5
+Version: 1:3.0.0-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-msgpack (<< 1:3.0.0~)
 Provides: php-msgpack
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14)
@@ -52296,7 +52296,7 @@ Installed-Size: 119
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.10-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.38)
@@ -52359,12 +52359,12 @@ Installed-Size: 65
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-pcov
-Version: 1.0.12-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-pcov (<< 1.0.12-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.0.12-2+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-pcov (<< 1.0.12~)
 Provides: php-pcov
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.33)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-pcov (<< 1.0.12-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-pcov (<< 1.0.12~)
 Conffiles:
  /etc/php/7.2/mods-available/pcov.ini 181698eff416699f5a5824d7f12e6e32
 Description: Code coverage driver
@@ -52495,11 +52495,11 @@ Installed-Size: 99
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-ps
-Version: 1.4.4++-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-ps (<< 1.4.4++-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.4.4++-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-ps (<< 1.4.4++~)
 Provides: php-ps
 Depends: php-gd, php7.2-common, php-common (>= 1:7.0+33~), phpapi-20170718, libc6 (>= 2.14), libgd3 (>= 2.1.1), pslib1
-Breaks: php-ps (<< 1.4.4++-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-ps (<< 1.4.4++~)
 Conffiles:
  /etc/php/7.2/mods-available/ps.ini dd57f3baa643cbcedb04709565424335
 Description: ps module for PHP
@@ -52536,7 +52536,7 @@ Installed-Size: 67
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-raphf
-Version: 2.0.2-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.2-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-raphf (<< 2.0.2~)
 Provides: php-raphf
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.4)
@@ -52557,12 +52557,12 @@ Installed-Size: 153
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-rdkafka
-Version: 6.0.5-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-rdkafka (<< 6.0.5-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 6.0.5-2+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-rdkafka (<< 6.0.5~)
 Provides: php-rdkafka
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), librdkafka1 (>= 1.6.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-rdkafka (<< 6.0.5-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-rdkafka (<< 6.0.5~)
 Conffiles:
  /etc/php/7.2/mods-available/rdkafka.ini ee74177cb2e8fedb9623638ddab2e5af
 Description: Kafka client for PHP based on librdkafka
@@ -52647,12 +52647,12 @@ Installed-Size: 95
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-smbclient
-Version: 1.1.2-2+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.1.2-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-smbclient (<< 1.1.2~)
 Provides: php-libsmbclient, php-smbclient
 Depends: ucf, php7.2-common, phpapi-20170718, libc6 (>= 2.14), libsmbclient0 (>= 2:4.10.0+dfsg)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-smbclient (<< 1.1.2~)
 Conffiles:
  /etc/php/7.2/mods-available/smbclient.ini 854bee29f153a54b7e7cd275261d8073
 Description: PHP wrapper for libsmbclient
@@ -52792,12 +52792,12 @@ Installed-Size: 77
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-stomp
-Version: 2.0.3-5+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-stomp (<< 2.0.3-5+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.3-6+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-stomp (<< 2.0.3~)
 Provides: php-stomp
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.38)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-stomp (<< 2.0.3-5+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-stomp (<< 2.0.3~)
 Conffiles:
  /etc/php/7.2/mods-available/stomp.ini d07adc0f00adb7474cbb182fc684a30a
 Description: Streaming Text Oriented Messaging Protocol (STOMP) client module for PHP
@@ -52908,13 +52908,13 @@ Installed-Size: 49
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-uploadprogress
-Version: 2.0.2++-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-uploadprogress (<< 2.0.2++-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.0.2++-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-uploadprogress (<< 2.0.2++~)
 Provides: php-uploadprogress
 Depends: ucf, php7.2-common, libc6 (>= 2.4), phpapi-20170718
 Pre-Depends: php-common (>= 2:69~)
 Recommends: libapache2-mod-php
-Breaks: php-uploadprogress (<< 2.0.2++-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-uploadprogress (<< 2.0.2++~)
 Conffiles:
  /etc/php/7.2/mods-available/uploadprogress.ini e1a6d4d4dfbf59c129bbaaeb847df29a
 Description: file upload progress tracking extension for PHP
@@ -52929,7 +52929,7 @@ Installed-Size: 47
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-uuid
-Version: 1.3.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 1.3.0-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-uuid (<< 1.3.0~)
 Provides: php-uuid
 Depends: ucf, php7.2-common, phpapi-20170718, libc6 (>= 2.4), libuuid1 (>= 2.31.1)
@@ -52984,12 +52984,12 @@ Installed-Size: 64
 Maintainer: Debian PHP PECL Maintainers <pkg-php-pecl@lists.alioth.debian.org>
 Architecture: amd64
 Source: php-xhprof
-Version: 2.3.10-1+ubuntu24.04.1+deb.sury.org+2
-Replaces: php-xhprof (<< 2.3.10-1+ubuntu24.04.1+deb.sury.org+2~)
+Version: 2.3.10-2+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-xhprof (<< 2.3.10~)
 Provides: php-xhprof
 Depends: php7.2-common, libc6 (>= 2.17), phpapi-20170718
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-xhprof (<< 2.3.10-1+ubuntu24.04.1+deb.sury.org+2~)
+Breaks: php-xhprof (<< 2.3.10~)
 Conffiles:
  /etc/php/7.2/mods-available/xhprof.ini 0f2242189ff182e43dc05369f77da5c3
 Description: Hierarchical Profiler for PHP 5.x
@@ -53106,12 +53106,12 @@ Installed-Size: 141
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zmq
-Version: 1.1.3-28+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-zmq (<< 1.1.3-28+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.1.3-31+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-zmq (<< 1.1.3~)
 Provides: php-zmq
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.17), libzmq5 (>= 4.0.1+dfsg)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-zmq (<< 1.1.3-28+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-zmq (<< 1.1.3~)
 Conffiles:
  /etc/php/7.2/mods-available/zmq.ini eb904906682842aec6bf554c033ee666
 Description: ZeroMQ messaging bindings for PHP
@@ -53127,7 +53127,7 @@ Installed-Size: 70
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Version: 0.15.2-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
@@ -53277,7 +53277,7 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Version: 1.5.0-5+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.14), libmpdec4
@@ -53329,7 +53329,7 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Version: 1.5.4-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php7.4-common, phpapi-20190902, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
@@ -53378,7 +53378,7 @@ Installed-Size: 485
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-4+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -53510,11 +53510,11 @@ Package: php7.4-mcrypt
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 75
+Installed-Size: 76
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mcrypt
-Version: 3:1.0.9-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3:1.0.9-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-mcrypt (<< 3:1.0.9~)
 Provides: php-mcrypt
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.14), libmcrypt4 (>= 2.5.8)
@@ -53585,7 +53585,7 @@ Installed-Size: 111
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.10-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.38)
@@ -53700,7 +53700,7 @@ Installed-Size: 67
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-raphf
-Version: 2.0.2-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.2-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-raphf (<< 2.0.2~)
 Provides: php-raphf
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.4)
@@ -53740,12 +53740,12 @@ Installed-Size: 95
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-smbclient
-Version: 1.1.2-2+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.1.2-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-smbclient (<< 1.1.2~)
 Provides: php-libsmbclient, php-smbclient
 Depends: ucf, php7.4-common, phpapi-20190902, libc6 (>= 2.14), libsmbclient0 (>= 2:4.10.0+dfsg)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-smbclient (<< 1.1.2~)
 Conffiles:
  /etc/php/7.4/mods-available/smbclient.ini 854bee29f153a54b7e7cd275261d8073
 Description: PHP wrapper for libsmbclient
@@ -53923,7 +53923,7 @@ Installed-Size: 70
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Version: 0.15.2-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
@@ -54073,7 +54073,7 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Version: 1.5.0-5+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.14), libmpdec4
@@ -54125,7 +54125,7 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Version: 1.5.4-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php8.1-common, phpapi-20210902, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
@@ -54145,12 +54145,12 @@ Installed-Size: 627
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-pecl-http
-Version: 4.2.6-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-http (<< 4.2.6-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 4.2.6-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-http (<< 4.2.6~)
 Provides: php-http, php-pecl-http
-Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libevent-2.1-7t64 (>= 2.1.8-stable), libicu74 (>= 74.1-1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0)
+Depends: php8.1-common, php8.1-raphf, phpapi-20210902, libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libevent-2.1-7t64 (>= 2.1.8-stable), libicu74 (>= 74.1-1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-http (<< 4.2.6-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-http (<< 4.2.6~)
 Conffiles:
  /etc/php/8.1/mods-available/http.ini 426fea3e741d4b55e0be56676a0dd91d
 Description: PECL HTTP module for PHP Extended HTTP Support
@@ -54174,7 +54174,7 @@ Installed-Size: 493
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-4+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -54287,11 +54287,11 @@ Package: php8.1-mcrypt
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 75
+Installed-Size: 76
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mcrypt
-Version: 3:1.0.9-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3:1.0.9-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-mcrypt (<< 3:1.0.9~)
 Provides: php-mcrypt
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.14), libmcrypt4 (>= 2.5.8)
@@ -54362,7 +54362,7 @@ Installed-Size: 111
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.10-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38)
@@ -54457,7 +54457,7 @@ Installed-Size: 67
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-raphf
-Version: 2.0.2-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.2-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-raphf (<< 2.0.2~)
 Provides: php-raphf
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.4)
@@ -54497,12 +54497,12 @@ Installed-Size: 99
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-smbclient
-Version: 1.1.2-2+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.1.2-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-smbclient (<< 1.1.2~)
 Provides: php-libsmbclient, php-smbclient
 Depends: ucf, php8.1-common, phpapi-20210902, libc6 (>= 2.14), libsmbclient0 (>= 2:4.10.0+dfsg)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-smbclient (<< 1.1.2~)
 Conffiles:
  /etc/php/8.1/mods-available/smbclient.ini 854bee29f153a54b7e7cd275261d8073
 Description: PHP wrapper for libsmbclient
@@ -54637,16 +54637,16 @@ Package: php8.1-xmlrpc
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 63
+Installed-Size: 64
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-xmlrpc
-Version: 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-xmlrpc (<< 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3:1.0.0~rc3-11+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-xmlrpc (<< 3:1.0.0~rc3~)
 Provides: php-xmlrpc
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38), libxmlrpc-epi0t64
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-xmlrpc (<< 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-xmlrpc (<< 3:1.0.0~rc3~)
 Conffiles:
  /etc/php/8.1/mods-available/xmlrpc.ini 3bc8349af9550d1759b7144defea6f24
 Description: XML-RPC servers and clients functions for PHP
@@ -54683,7 +54683,7 @@ Installed-Size: 74
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-yaml
-Version: 2.3.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.3.0-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-yaml (<< 2.3.0~)
 Provides: php-yaml
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38), libyaml-0-2
@@ -54723,7 +54723,7 @@ Installed-Size: 78
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Version: 0.15.2-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
@@ -54873,7 +54873,7 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Version: 1.5.0-5+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.14), libmpdec4
@@ -54925,7 +54925,7 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Version: 1.5.4-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php8.2-common, phpapi-20220829, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
@@ -54945,12 +54945,12 @@ Installed-Size: 631
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-pecl-http
-Version: 4.2.6-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-http (<< 4.2.6-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 4.2.6-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-http (<< 4.2.6~)
 Provides: php-http, php-pecl-http
-Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libevent-2.1-7t64 (>= 2.1.8-stable), libicu74 (>= 74.1-1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0)
+Depends: php8.2-common, php8.2-raphf, phpapi-20220829, libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libevent-2.1-7t64 (>= 2.1.8-stable), libicu74 (>= 74.1-1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-http (<< 4.2.6-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-http (<< 4.2.6~)
 Conffiles:
  /etc/php/8.2/mods-available/http.ini 426fea3e741d4b55e0be56676a0dd91d
 Description: PECL HTTP module for PHP Extended HTTP Support
@@ -54974,7 +54974,7 @@ Installed-Size: 493
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-4+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -55087,11 +55087,11 @@ Package: php8.2-mcrypt
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 75
+Installed-Size: 76
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-mcrypt
-Version: 3:1.0.9-1+ubuntu24.04.1+deb.sury.org+1
+Version: 3:1.0.9-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-mcrypt (<< 3:1.0.9~)
 Provides: php-mcrypt
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.14), libmcrypt4 (>= 2.5.8)
@@ -55162,7 +55162,7 @@ Installed-Size: 111
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.10-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38)
@@ -55249,6 +55249,27 @@ Description: Pinba module for PHP
  statistics to a Pinba server.
 Homepage: http://pinba.org
 
+Package: php8.2-raphf
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 67
+Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
+Architecture: amd64
+Source: php-raphf
+Version: 2.0.2-2+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-raphf (<< 2.0.2~)
+Provides: php-raphf
+Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.4)
+Pre-Depends: php-common (>= 2:69~)
+Breaks: php-raphf (<< 2.0.2~)
+Conffiles:
+ /etc/php/8.2/mods-available/raphf.ini 22b5ae55204d2ad33a4730225ce3d5b1
+Description: raphf module for PHP
+ A reusable split-off of pecl_http persistent handle and
+ resource factory API.
+Homepage: http://pecl.php.net/package/raphf
+
 Package: php8.2-readline
 Status: install ok installed
 Priority: optional
@@ -55276,12 +55297,12 @@ Installed-Size: 99
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-smbclient
-Version: 1.1.2-2+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.1.2-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-smbclient (<< 1.1.2~)
 Provides: php-libsmbclient, php-smbclient
 Depends: ucf, php8.2-common, phpapi-20220829, libc6 (>= 2.14), libsmbclient0 (>= 2:4.10.0+dfsg)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-smbclient (<< 1.1.2~)
 Conffiles:
  /etc/php/8.2/mods-available/smbclient.ini 854bee29f153a54b7e7cd275261d8073
 Description: PHP wrapper for libsmbclient
@@ -55381,16 +55402,16 @@ Package: php8.2-xmlrpc
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 63
+Installed-Size: 64
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-xmlrpc
-Version: 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-xmlrpc (<< 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3:1.0.0~rc3-11+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-xmlrpc (<< 3:1.0.0~rc3~)
 Provides: php-xmlrpc
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38), libxmlrpc-epi0t64
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-xmlrpc (<< 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-xmlrpc (<< 3:1.0.0~rc3~)
 Conffiles:
  /etc/php/8.2/mods-available/xmlrpc.ini 3bc8349af9550d1759b7144defea6f24
 Description: XML-RPC servers and clients functions for PHP
@@ -55427,7 +55448,7 @@ Installed-Size: 74
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-yaml
-Version: 2.3.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.3.0-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-yaml (<< 2.3.0~)
 Provides: php-yaml
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38), libyaml-0-2
@@ -55467,7 +55488,7 @@ Installed-Size: 78
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Version: 0.15.2-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
@@ -55617,7 +55638,7 @@ Installed-Size: 86
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-decimal
-Version: 1.5.0-4+ubuntu24.04.1+deb.sury.org+5
+Version: 1.5.0-5+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-decimal (<< 1.5.0~)
 Provides: php-decimal
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.14), libmpdec4
@@ -55688,7 +55709,7 @@ Installed-Size: 84
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gnupg
-Version: 1.5.4-1+ubuntu24.04.1+deb.sury.org+1
+Version: 1.5.4-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-gnupg (<< 1.5.4~)
 Provides: php-gnupg
 Depends: ucf, php8.3-common, phpapi-20230831, libc6 (>= 2.14), libgpgme11t64 (>= 1.4.1)
@@ -55708,12 +55729,12 @@ Installed-Size: 631
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-pecl-http
-Version: 4.2.6-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-http (<< 4.2.6-1+ubuntu24.04.1+deb.sury.org+1~)
+Version: 4.2.6-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-http (<< 4.2.6~)
 Provides: php-http, php-pecl-http
-Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libevent-2.1-7t64 (>= 2.1.8-stable), libicu74 (>= 74.1-1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0)
+Depends: php8.3-common, php8.3-raphf, phpapi-20230831, libc6 (>= 2.38), libcurl4t64 (>= 7.16.3), libevent-2.1-7t64 (>= 2.1.8-stable), libicu74 (>= 74.1-1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-http (<< 4.2.6-1+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-http (<< 4.2.6~)
 Conffiles:
  /etc/php/8.3/mods-available/http.ini 426fea3e741d4b55e0be56676a0dd91d
 Description: PECL HTTP module for PHP Extended HTTP Support
@@ -55737,7 +55758,7 @@ Installed-Size: 493
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-imagick
-Version: 3.8.0-3+ubuntu24.04.1+deb.sury.org+1
+Version: 3.8.0-4+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-imagick (<< 3.8.0~)
 Provides: php-imagick
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38), libgomp1 (>= 9), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), libmagickwand-6.q16-7t64 (>= 8:6.9.12.98+dfsg1-5.2build2)
@@ -55882,7 +55903,7 @@ Installed-Size: 111
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-oauth
-Version: 2.0.10-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.10-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-oauth (<< 2.0.10~)
 Provides: php-oauth
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38)
@@ -55937,6 +55958,27 @@ Description: PostgreSQL module for PHP
  for web development and can be embedded into HTML.
 Homepage: http://www.php.net/
 
+Package: php8.3-raphf
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 67
+Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
+Architecture: amd64
+Source: php-raphf
+Version: 2.0.2-2+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-raphf (<< 2.0.2~)
+Provides: php-raphf
+Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.4)
+Pre-Depends: php-common (>= 2:69~)
+Breaks: php-raphf (<< 2.0.2~)
+Conffiles:
+ /etc/php/8.3/mods-available/raphf.ini 22b5ae55204d2ad33a4730225ce3d5b1
+Description: raphf module for PHP
+ A reusable split-off of pecl_http persistent handle and
+ resource factory API.
+Homepage: http://pecl.php.net/package/raphf
+
 Package: php8.3-readline
 Status: install ok installed
 Priority: optional
@@ -55964,12 +56006,12 @@ Installed-Size: 99
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-smbclient
-Version: 1.1.2-2+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.1.2-4+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-smbclient (<< 1.1.2~)
 Provides: php-libsmbclient, php-smbclient
 Depends: ucf, php8.3-common, phpapi-20230831, libc6 (>= 2.14), libsmbclient0 (>= 2:4.10.0+dfsg)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-smbclient (<< 1.1.2-2+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-smbclient (<< 1.1.2~)
 Conffiles:
  /etc/php/8.3/mods-available/smbclient.ini 854bee29f153a54b7e7cd275261d8073
 Description: PHP wrapper for libsmbclient
@@ -56045,16 +56087,16 @@ Package: php8.3-xmlrpc
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 63
+Installed-Size: 64
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-xmlrpc
-Version: 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-xmlrpc (<< 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1~)
+Version: 3:1.0.0~rc3-11+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-xmlrpc (<< 3:1.0.0~rc3~)
 Provides: php-xmlrpc
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38), libxmlrpc-epi0t64
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-xmlrpc (<< 3:1.0.0~rc3-10+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-xmlrpc (<< 3:1.0.0~rc3~)
 Conffiles:
  /etc/php/8.3/mods-available/xmlrpc.ini 3bc8349af9550d1759b7144defea6f24
 Description: XML-RPC servers and clients functions for PHP
@@ -56091,12 +56133,12 @@ Installed-Size: 77
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-yac
-Version: 2.3.1++-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-yac (<< 2.3.1++-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 2.3.1++-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-yac (<< 2.3.1++~)
 Provides: php-yac
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.14)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-yac (<< 2.3.1++-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: php-yac (<< 2.3.1++~)
 Conflicts: php-apcu, php-xcache
 Conffiles:
  /etc/php/8.3/mods-available/yac.ini 0c1970163d6ab5c6c5bfbc55abc668d3
@@ -56114,7 +56156,7 @@ Installed-Size: 74
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-yaml
-Version: 2.3.0-1+ubuntu24.04.1+deb.sury.org+1
+Version: 2.3.0-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-yaml (<< 2.3.0~)
 Provides: php-yaml
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38), libyaml-0-2
@@ -56154,7 +56196,7 @@ Installed-Size: 78
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-zstd
-Version: 0.15.2-1+ubuntu24.04.1+deb.sury.org+1
+Version: 0.15.2-2+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-zstd (<< 0.15.2~)
 Provides: php-zstd
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.14), libzstd1 (>= 1.5.5)
@@ -62843,7 +62885,7 @@ Installed-Size: 33806
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: runc-app
-Version: 1.3.3-0ubuntu1~24.04.2
+Version: 1.3.3-0ubuntu1~24.04.3
 Depends: libc6 (>= 2.38), libseccomp2 (>= 2.5.0)
 Description: Open Container Project - runtime
  "runc" is a command line client for running applications packaged according
