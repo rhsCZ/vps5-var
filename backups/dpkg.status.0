@@ -3010,12 +3010,12 @@ Package: cups
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 1036
+Installed-Size: 1037
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 2.4.7-1.2ubuntu7.4
-Depends: cups-client (>= 2.4.7-1.2ubuntu7.4), cups-common (>= 2.4.7-1.2ubuntu7.4), cups-core-drivers (>= 2.4.7-1.2ubuntu7.4), cups-daemon (>= 2.4.7-1.2ubuntu7.4), cups-filters, cups-ppdc, cups-server-common (>= 2.4.7-1.2ubuntu7.4), debconf (>= 0.5) | debconf-2.0, ghostscript, libcups2t64 (= 2.4.7-1.2ubuntu7.4), poppler-utils, procps, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libusb-1.0-0 (>= 2:1.0.16)
+Version: 2.4.7-1.2ubuntu7.7
+Depends: cups-client (>= 2.4.7-1.2ubuntu7.7), cups-common (>= 2.4.7-1.2ubuntu7.7), cups-core-drivers (>= 2.4.7-1.2ubuntu7.7), cups-daemon (>= 2.4.7-1.2ubuntu7.7), cups-filters, cups-ppdc, cups-server-common (>= 2.4.7-1.2ubuntu7.7), debconf (>= 0.5) | debconf-2.0, ghostscript, libcups2t64 (= 2.4.7-1.2ubuntu7.7), poppler-utils, procps, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libusb-1.0-0 (>= 2:1.0.16)
 Recommends: avahi-daemon, colord
 Suggests: cups-bsd, cups-pdf, foomatic-db-compressed-ppds | foomatic-db, smbclient, udev
 Conffiles:
@@ -3073,10 +3073,10 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
+Version: 2.4.7-1.2ubuntu7.7
 Replaces: lpr
 Provides: lpr
-Depends: cups-client (= 2.4.7-1.2ubuntu7.4), cups-common (>= 2.4.7-1.2ubuntu7.4), debconf (>= 0.5) | debconf-2.0, libcups2t64 (= 2.4.7-1.2ubuntu7.4), libc6 (>= 2.38)
+Depends: cups-client (= 2.4.7-1.2ubuntu7.7), cups-common (>= 2.4.7-1.2ubuntu7.7), debconf (>= 0.5) | debconf-2.0, libcups2t64 (= 2.4.7-1.2ubuntu7.7), libc6 (>= 2.38)
 Suggests: cups, inetutils-inetd | inet-superserver, update-inetd
 Conflicts: lpr, lprng
 Description: Common UNIX Printing System(tm) - BSD commands
@@ -3095,13 +3095,13 @@ Package: cups-client
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 437
+Installed-Size: 438
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
-Depends: adduser, cups-common (>= 2.4.7-1.2ubuntu7.4), libcups2t64 (= 2.4.7-1.2ubuntu7.4), libc6 (>= 2.38)
+Version: 2.4.7-1.2ubuntu7.7
+Depends: adduser, cups-common (>= 2.4.7-1.2ubuntu7.7), libcups2t64 (= 2.4.7-1.2ubuntu7.7), libc6 (>= 2.38)
 Suggests: cups, cups-bsd, smbclient
 Conflicts: lprng
 Description: Common UNIX Printing System(tm) - client programs (SysV)
@@ -3118,12 +3118,12 @@ Package: cups-common
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 4242
+Installed-Size: 4243
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
+Version: 2.4.7-1.2ubuntu7.7
 Description: Common UNIX Printing System(tm) - common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -3138,14 +3138,14 @@ Package: cups-core-drivers
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 129
+Installed-Size: 130
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
+Version: 2.4.7-1.2ubuntu7.7
 Replaces: cups-server-common (<< 2.1.0-7~)
-Depends: cups-daemon (>= 2.4.7-1.2ubuntu7.4), cups-filters-core-drivers, libcups2t64 (= 2.4.7-1.2ubuntu7.4), libc6 (>= 2.38)
+Depends: cups-daemon (>= 2.4.7-1.2ubuntu7.7), cups-filters-core-drivers, libcups2t64 (= 2.4.7-1.2ubuntu7.7), libc6 (>= 2.38)
 Recommends: avahi-daemon
 Breaks: cups-server-common (<< 2.1.0-7~)
 Description: Common UNIX Printing System(tm) - driverless printing
@@ -3163,21 +3163,21 @@ Package: cups-daemon
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 905
+Installed-Size: 907
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
+Version: 2.4.7-1.2ubuntu7.7
 Replaces: cups (<< 2.1.0-6~)
-Depends: adduser, bc, libcups2t64 (= 2.4.7-1.2ubuntu7.4), lsb-base, procps, ssl-cert, libapparmor1 (>= 2.7.0~beta1+bzr1772), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libglib2.0-0t64 (>= 2.22.0), libgssapi-krb5-2 (>= 1.17), libpam0g (>= 0.99.7.1), libpaper1, libsnapd-glib-2-1 (>= 1.61), libsystemd0
+Depends: adduser, bc, libcups2t64 (= 2.4.7-1.2ubuntu7.7), lsb-base, procps, ssl-cert, libapparmor1 (>= 2.7.0~beta1+bzr1772), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libglib2.0-0t64 (>= 2.22.0), libgssapi-krb5-2 (>= 1.17), libpam0g (>= 0.99.7.1), libpaper1, libsnapd-glib-2-1 (>= 1.61), libsystemd0
 Pre-Depends: init-system-helpers (>= 1.54~)
 Recommends: avahi-daemon, colord, cups-browsed, ipp-usb
-Suggests: cups, cups-bsd, cups-client (>= 2.4.7-1.2ubuntu7.4), cups-common (>= 2.4.7-1.2ubuntu7.4), cups-filters, cups-pdf, cups-ppdc, cups-server-common (>= 2.4.7-1.2ubuntu7.4), foomatic-db-compressed-ppds | foomatic-db, ghostscript, poppler-utils, smbclient, udev
+Suggests: cups, cups-bsd, cups-client (>= 2.4.7-1.2ubuntu7.7), cups-common (>= 2.4.7-1.2ubuntu7.7), cups-filters, cups-pdf, cups-ppdc, cups-server-common (>= 2.4.7-1.2ubuntu7.7), foomatic-db-compressed-ppds | foomatic-db, ghostscript, poppler-utils, smbclient, udev
 Breaks: cups (<< 2.1.0-6~)
 Conffiles:
  /etc/apparmor.d/usr.sbin.cupsd 3994957558dd20cae0cc3a05aa38dd96
- /etc/cups/cups-files.conf e16e13d479882786b4be356e80dd735c
+ /etc/cups/cups-files.conf d961945ad674f24aa242282cdddabebc
  /etc/init.d/cups e65fcf1c65d0f1dfd2495caba916da2c
  /etc/logrotate.d/cups-daemon 7bd7f956a724d571799244af3cd530f6
  /etc/pam.d/cups ff2488324854f7b1e892bb0df062d5f0
@@ -3245,14 +3245,14 @@ Package: cups-ipp-utils
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 994
+Installed-Size: 995
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
+Version: 2.4.7-1.2ubuntu7.7
 Replaces: cups-client (<< 2.0.3-2~)
-Depends: libcups2t64 (= 2.4.7-1.2ubuntu7.4), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libpam0g (>= 0.99.7.1)
+Depends: libcups2t64 (= 2.4.7-1.2ubuntu7.7), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libpam0g (>= 0.99.7.1)
 Recommends: avahi-daemon
 Breaks: cups-client (<< 2.0.3-2~)
 Description: Common UNIX Printing System(tm) - IPP developer/admin utilities
@@ -3288,13 +3288,13 @@ Package: cups-ppdc
 Status: install ok installed
 Priority: optional
 Section: utils
-Installed-Size: 465
+Installed-Size: 466
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
-Depends: cups-common (>= 2.4.7-1.2ubuntu7.4), libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Version: 2.4.7-1.2ubuntu7.7
+Depends: cups-common (>= 2.4.7-1.2ubuntu7.7), libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
 Description: Common UNIX Printing System(tm) - PPD manipulation utilities
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -3309,12 +3309,12 @@ Package: cups-server-common
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 2385
+Installed-Size: 2387
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
+Version: 2.4.7-1.2ubuntu7.7
 Description: Common UNIX Printing System(tm) - server common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -14661,17 +14661,17 @@ Package: libcups2t64
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 699
+Installed-Size: 700
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
+Version: 2.4.7-1.2ubuntu7.7
 Replaces: libcups2
-Provides: libcups2 (= 2.4.7-1.2ubuntu7.4)
+Provides: libcups2 (= 2.4.7-1.2ubuntu7.7)
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libgnutls30t64 (>= 3.8.1), libgssapi-krb5-2 (>= 1.17), zlib1g (>= 1:1.2.0)
 Suggests: cups-common
-Breaks: libcups2 (<< 2.4.7-1.2ubuntu7.4)
+Breaks: libcups2 (<< 2.4.7-1.2ubuntu7.7)
 Description: Common UNIX Printing System(tm) - Core library
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -14729,17 +14729,17 @@ Package: libcupsimage2t64
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 50
+Installed-Size: 51
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups
-Version: 2.4.7-1.2ubuntu7.4
+Version: 2.4.7-1.2ubuntu7.7
 Replaces: libcupsimage2
-Provides: libcupsimage2 (= 2.4.7-1.2ubuntu7.4)
-Depends: libcups2t64 (= 2.4.7-1.2ubuntu7.4), libc6 (>= 2.2.5)
+Provides: libcupsimage2 (= 2.4.7-1.2ubuntu7.7)
+Depends: libcups2t64 (= 2.4.7-1.2ubuntu7.7), libc6 (>= 2.2.5)
 Recommends: libcupsfilters2
-Breaks: libcupsimage2 (<< 2.4.7-1.2ubuntu7.4)
+Breaks: libcupsimage2 (<< 2.4.7-1.2ubuntu7.7)
 Description: Common UNIX Printing System(tm) - Raster image library
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
