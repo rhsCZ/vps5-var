@@ -1767,10 +1767,10 @@ Section: devel
 Installed-Size: 160
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.42-4ubuntu2.6
+Version: 2.42-4ubuntu2.7
 Provides: binutils-gold, elf-binutils
-Depends: binutils-common (= 2.42-4ubuntu2.6), libbinutils (= 2.42-4ubuntu2.6), binutils-x86-64-linux-gnu (= 2.42-4ubuntu2.6)
-Suggests: binutils-doc (>= 2.42-4ubuntu2.6), gprofng-gui
+Depends: binutils-common (= 2.42-4ubuntu2.7), libbinutils (= 2.42-4ubuntu2.7), binutils-x86-64-linux-gnu (= 2.42-4ubuntu2.7)
+Suggests: binutils-doc (>= 2.42-4ubuntu2.7), gprofng-gui
 Conflicts: binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3), binutils-multiarch (<< 2.27-8), modutils (<< 2.4.19-1)
 Description: GNU assembler, linker and binary utilities
  The programs in this package are used to assemble, link and manipulate
@@ -1788,7 +1788,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.6
+Version: 2.42-4ubuntu2.7
 Replaces: binutils (<< 2.38.50.20220527-2), binutils-multiarch (<< 2.38.50.20220527-2)
 Breaks: binutils (<< 2.38.50.20220527-2), binutils-multiarch (<< 2.38.50.20220527-2)
 Conffiles:
@@ -1809,10 +1809,10 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: allowed
 Source: binutils
-Version: 2.42-4ubuntu2.6
+Version: 2.42-4ubuntu2.7
 Replaces: binutils (<< 2.29-6), binutils-dev (<< 2.38.50.20220609-2)
-Depends: binutils-common (= 2.42-4ubuntu2.6), libbinutils (= 2.42-4ubuntu2.6), libc6 (>= 2.38), libctf-nobfd0 (>= 2.36), libctf0 (>= 2.36), libgcc-s1 (>= 4.2), libgprofng0 (>= 2.41), libjansson4 (>= 2.14), libsframe1 (>= 2.41), libstdc++6 (>= 13.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
-Suggests: binutils-doc (= 2.42-4ubuntu2.6)
+Depends: binutils-common (= 2.42-4ubuntu2.7), libbinutils (= 2.42-4ubuntu2.7), libc6 (>= 2.38), libctf-nobfd0 (>= 2.36), libctf0 (>= 2.36), libgcc-s1 (>= 4.2), libgprofng0 (>= 2.41), libjansson4 (>= 2.14), libsframe1 (>= 2.41), libstdc++6 (>= 13.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Suggests: binutils-doc (= 2.42-4ubuntu2.7)
 Breaks: binutils (<< 2.29-6), binutils-dev (<< 2.38.50.20220609-2)
 Description: GNU binary utilities, for x86-64-linux-gnu target
  This package provides GNU assembler, linker and binary utilities
@@ -12787,9 +12787,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.6
+Version: 2.42-4ubuntu2.7
 Replaces: binutils (<< 2.29-6)
-Depends: libc6 (>= 2.38), libsframe1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), binutils-common (= 2.42-4ubuntu2.6)
+Depends: libc6 (>= 2.38), libsframe1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), binutils-common (= 2.42-4ubuntu2.7)
 Breaks: binutils (<< 2.29-6)
 Description: GNU binary utilities (private shared library)
  This package includes the private shared libraries libbfd and libopcodes.
@@ -14630,7 +14630,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.6
+Version: 2.42-4ubuntu2.7
 Replaces: libbinutils (<< 2.33.50.20191128-1~)
 Depends: libc6 (>= 2.14), zlib1g (>= 1:1.2.0)
 Breaks: libbinutils (<< 2.33.50.20191128-1~)
@@ -14649,8 +14649,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.6
-Depends: libbinutils (= 2.42-4ubuntu2.6), libc6 (>= 2.33), zlib1g (>= 1:1.2.0)
+Version: 2.42-4ubuntu2.7
+Depends: libbinutils (= 2.42-4ubuntu2.7), libc6 (>= 2.33), zlib1g (>= 1:1.2.0)
 Description: Compact C Type Format library (runtime, BFD dependency)
  This package includes the libctf shared library.  The Compact C Type
  Format (CTF) is a way of representing information about a binary program
@@ -18512,8 +18512,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.6
-Depends: libbinutils (= 2.42-4ubuntu2.6), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Version: 2.42-4ubuntu2.7
+Depends: libbinutils (= 2.42-4ubuntu2.7), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
 Description: GNU Next Generation profiler (runtime library)
  Gprofng is the GNU Next Generation profiler for analyzing the performance
  of Linux applications.  Gprofng allows you to:
@@ -33660,7 +33660,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.6
+Version: 2.42-4ubuntu2.7
 Depends: libc6 (>= 2.14)
 Description: Library to handle the SFrame format (runtime library)
  SFrame stands for Simple Frame format.  SFrame format keeps track
