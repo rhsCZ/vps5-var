@@ -36183,7 +36183,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: unbound
-Version: 1.19.2-1ubuntu3.6
+Version: 1.19.2-1ubuntu3.7
 Depends: libc6 (>= 2.38), libevent-2.1-7t64 (>= 2.1.8-stable), libssl3t64 (>= 3.0.0)
 Description: library implementing DNS resolution and validation
  libunbound performs and validates DNS lookups; it can be used to convert
@@ -66457,11 +66457,11 @@ Package: wireless-regdb
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 24
+Installed-Size: 25
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
-Version: 2024.10.07-0ubuntu2~24.04.1
+Version: 2025.07.10-0ubuntu1~24.04.1
 Conflicts: boot-managed-by-snapd (<< 5~)
 Description: wireless regulatory database
  This package contains the wireless regulatory database used by the Central

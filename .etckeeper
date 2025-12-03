@@ -23038,8 +23038,6 @@ maybe chmod 0700 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-apache2.s
 maybe chmod 1777 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-apache2.service-zQgVvp/tmp'
 maybe chmod 0700 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-fwupd.service-zdwHGz'
 maybe chmod 1777 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-fwupd.service-zdwHGz/tmp'
-maybe chmod 0700 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-phpsessionclean.service-jko874'
-maybe chmod 1777 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-phpsessionclean.service-jko874/tmp'
 maybe chmod 0700 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-polkit.service-mRi1mg'
 maybe chmod 1777 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-polkit.service-mRi1mg/tmp'
 maybe chmod 0700 'tmp/systemd-private-41b0291d6e804ba5a8a602f31840a06d-power-profiles-daemon.service-9jgRIu'
