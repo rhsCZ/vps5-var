@@ -30182,7 +30182,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: postgresql-16
-Version: 16.10-0ubuntu0.24.04.1
+Version: 16.11-0ubuntu0.24.04.1
 Depends: libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libldap2 (>= 2.6.2), libssl3t64 (>= 3.0.0)
 Description: PostgreSQL C client library
  libpq is a C library that enables user programs to communicate with
@@ -52768,12 +52768,12 @@ Installed-Size: 114
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-ssh2
-Version: 1.4.1-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.4.1-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Provides: php-ssh2
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.38), libssh2-1t64 (>= 1.7.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Conffiles:
  /etc/php/7.2/mods-available/ssh2.ini 94d148ee907a13becea363a39e327ef6
 Description: Bindings for the libssh2 library
@@ -53780,12 +53780,12 @@ Installed-Size: 114
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-ssh2
-Version: 1.4.1-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.4.1-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Provides: php-ssh2
 Depends: php7.4-common, phpapi-20190902, libc6 (>= 2.38), libssh2-1t64 (>= 1.7.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Conffiles:
  /etc/php/7.4/mods-available/ssh2.ini 94d148ee907a13becea363a39e327ef6
 Description: Bindings for the libssh2 library
@@ -54537,12 +54537,12 @@ Installed-Size: 114
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-ssh2
-Version: 1.4.1-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.4.1-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Provides: php-ssh2
 Depends: php8.1-common, phpapi-20210902, libc6 (>= 2.38), libssh2-1t64 (>= 1.7.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Conffiles:
  /etc/php/8.1/mods-available/ssh2.ini 94d148ee907a13becea363a39e327ef6
 Description: Bindings for the libssh2 library
@@ -55337,12 +55337,12 @@ Installed-Size: 114
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-ssh2
-Version: 1.4.1-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.4.1-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Provides: php-ssh2
 Depends: php8.2-common, phpapi-20220829, libc6 (>= 2.38), libssh2-1t64 (>= 1.7.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Conffiles:
  /etc/php/8.2/mods-available/ssh2.ini 94d148ee907a13becea363a39e327ef6
 Description: Bindings for the libssh2 library
@@ -56046,12 +56046,12 @@ Installed-Size: 114
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-ssh2
-Version: 1.4.1-4+ubuntu24.04.1+deb.sury.org+1
-Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Version: 1.4.1-5+ubuntu24.04.1+deb.sury.org+1
+Replaces: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Provides: php-ssh2
 Depends: php8.3-common, phpapi-20230831, libc6 (>= 2.38), libssh2-1t64 (>= 1.7.0)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1-4+ubuntu24.04.1+deb.sury.org+1~)
+Breaks: libssh2-php (<< 0.12-2), php-ssh2 (<< 1.4.1~)
 Conffiles:
  /etc/php/8.3/mods-available/ssh2.ini 94d148ee907a13becea363a39e327ef6
 Description: Bindings for the libssh2 library
@@ -67547,7 +67547,7 @@ Section: x11
 Installed-Size: 183
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 23.0.0-1build1
+Version: 23.0.0-1ubuntu0.24.04.1
 Provides: xorg-driver-video
 Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183), xorg-video-abi-25, xserver-xorg-core (>= 2:21.1.1)
 Suggests: firmware-amd-graphics
