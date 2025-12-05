@@ -20230,12 +20230,12 @@ Package: libinput-bin
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 145
+Installed-Size: 146
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: libinput
-Version: 1.25.0-1ubuntu3.1
+Version: 1.25.0-1ubuntu3.2
 Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libudev1 (>= 183), libwacom9 (>= 2.0.0)
 Description: input device management and event handling library - udev quirks
  libinput is a library that handles input devices for display servers and
@@ -20259,8 +20259,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libinput
-Version: 1.25.0-1ubuntu3.1
-Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), libwacom9 (>= 2.0.0), libinput-bin (>= 1.25.0-1ubuntu3.1)
+Version: 1.25.0-1ubuntu3.2
+Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), libwacom9 (>= 2.0.0), libinput-bin (>= 1.25.0-1ubuntu3.2)
 Description: input device management and event handling library - shared library
  libinput is a library that handles input devices for display servers and
  other applications that need to directly deal with input devices.
@@ -51782,7 +51782,7 @@ Installed-Size: 137
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-gearman
-Version: 2.1.4-2+ubuntu24.04.1+deb.sury.org+1
+Version: 2.1.4-4+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-gearman (<< 2.1.4~)
 Provides: php-gearman
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.14), libgearman8t64 (>= 1.1.13)
@@ -54581,16 +54581,16 @@ Package: php8.1-xdebug
 Status: install ok installed
 Priority: optional
 Section: php
-Installed-Size: 2023
+Installed-Size: 2153
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: xdebug
-Version: 3.4.7-1+ubuntu24.04.1+deb.sury.org+1
-Replaces: php-xdebug (<< 3.4.7~)
+Version: 3.5.0-1+ubuntu24.04.1+deb.sury.org+1
+Replaces: php-xdebug (<< 3.5.0~)
 Provides: php-xdebug
 Depends: ucf, php8.1-common, phpapi-20210902, libc6 (>= 2.38), zlib1g (>= 1:1.2.11)
 Pre-Depends: php-common (>= 2:69~)
-Breaks: php-xdebug (<< 3.4.7~)
+Breaks: php-xdebug (<< 3.5.0~)
 Conffiles:
  /etc/php/8.1/mods-available/xdebug.ini c13c107d0ec91c574623ee2776b5b9d1
 Description: Xdebug Module for PHP
