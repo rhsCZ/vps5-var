@@ -6567,9 +6567,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glib2.0
-Version: 2.80.0-6ubuntu3.4
-Provides: gir1.2-gio-2.0 (= 2.80.0-6ubuntu3.4), gir1.2-giounix-2.0 (= 2.80.0-6ubuntu3.4), gir1.2-glibunix-2.0 (= 2.80.0-6ubuntu3.4), gir1.2-gmodule-2.0 (= 2.80.0-6ubuntu3.4), gir1.2-gobject-2.0 (= 2.80.0-6ubuntu3.4)
-Depends: libglib2.0-0t64 (= 2.80.0-6ubuntu3.4)
+Version: 2.80.0-6ubuntu3.5
+Provides: gir1.2-gio-2.0 (= 2.80.0-6ubuntu3.5), gir1.2-giounix-2.0 (= 2.80.0-6ubuntu3.5), gir1.2-glibunix-2.0 (= 2.80.0-6ubuntu3.5), gir1.2-gmodule-2.0 (= 2.80.0-6ubuntu3.5), gir1.2-gobject-2.0 (= 2.80.0-6ubuntu3.5)
+Depends: libglib2.0-0t64 (= 2.80.0-6ubuntu3.5)
 Breaks: libgirepository-1.0-1 (<< 1.78.1-3~)
 Description: Introspection data for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
@@ -11070,11 +11070,11 @@ Package: landscape-common
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 406
+Installed-Size: 408
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: landscape-client
-Version: 24.02-0ubuntu5.6
+Version: 24.02-0ubuntu5.7
 Depends: python3:any, debconf (>= 0.5) | debconf-2.0, python3-twisted, python3-configobj, python3-apt, ca-certificates, python3-gdbm, python3-netifaces, lsb-release, adduser, bc, lshw, libpam-modules, python3-setuptools
 Description: Landscape administration system client - Common files
  Landscape is a web-based tool for managing Ubuntu systems. This
@@ -18003,9 +18003,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glib2.0
-Version: 2.80.0-6ubuntu3.4
+Version: 2.80.0-6ubuntu3.5
 Replaces: libglib2.0-0 (<< 2.80.0-6ubuntu3~)
-Provides: libgio-2.0-0 (= 2.80.0-6ubuntu3.4), libglib-2.0-0 (= 2.80.0-6ubuntu3.4), libglib2.0-0 (= 2.80.0-6ubuntu3.4), libgmodule-2.0-0 (= 2.80.0-6ubuntu3.4), libgobject-2.0-0 (= 2.80.0-6ubuntu3.4), libgthread-2.0-0 (= 2.80.0-6ubuntu3.4)
+Provides: libgio-2.0-0 (= 2.80.0-6ubuntu3.5), libglib-2.0-0 (= 2.80.0-6ubuntu3.5), libglib2.0-0 (= 2.80.0-6ubuntu3.5), libgmodule-2.0-0 (= 2.80.0-6ubuntu3.5), libgobject-2.0-0 (= 2.80.0-6ubuntu3.5), libgthread-2.0-0 (= 2.80.0-6ubuntu3.5)
 Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libmount1 (>= 2.26.2), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
 Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
 Suggests: low-memory-monitor
@@ -18028,8 +18028,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glib2.0
-Version: 2.80.0-6ubuntu3.4
-Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.80.0-6ubuntu3.4)
+Version: 2.80.0-6ubuntu3.5
+Depends: libglib2.0-data, libc6 (>= 2.38), libelf1t64 (>= 0.142), libglib2.0-0t64 (= 2.80.0-6ubuntu3.5)
 Description: Programs for the GLib library
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -18049,7 +18049,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: glib2.0
-Version: 2.80.0-6ubuntu3.4
+Version: 2.80.0-6ubuntu3.5
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
