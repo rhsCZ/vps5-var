@@ -52792,7 +52792,7 @@ Installed-Size: 77
 Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
 Architecture: amd64
 Source: php-stomp
-Version: 2.0.3-6+ubuntu24.04.1+deb.sury.org+1
+Version: 2.0.3-7+ubuntu24.04.1+deb.sury.org+1
 Replaces: php-stomp (<< 2.0.3~)
 Provides: php-stomp
 Depends: php7.2-common, phpapi-20170718, libc6 (>= 2.38)
