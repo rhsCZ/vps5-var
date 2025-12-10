@@ -4926,10 +4926,10 @@ Package: firefox
 Status: install ok installed
 Priority: optional
 Section: web
-Installed-Size: 281207
+Installed-Size: 281958
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Version: 145.0.2+build1-0ubuntu0.24.04.1~mt1
+Version: 146.0+build1-0ubuntu0.24.04.1~mt1
 Replaces: kubuntu-firefox-installer
 Provides: gnome-www-browser, iceweasel, www-browser
 Depends: lsb-release, libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.42), libgtk-3-0t64 (>= 3.14), libharfbuzz0b (>= 0.6.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrandr2 (>= 2:1.4.0), libxrender1, zlib1g (>= 1:1.1.4)
@@ -11556,8 +11556,8 @@ Section: php
 Installed-Size: 37
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: all
-Source: php-defaults (98+ubuntu24.04.1+deb.sury.org+1)
-Version: 2:8.4+98+ubuntu24.04.1+deb.sury.org+1
+Source: php-defaults (99~+ubuntu24.04.1+deb.sury.org+1)
+Version: 2:8.4+99~+ubuntu24.04.1+deb.sury.org+1
 Depends: libapache2-mod-php8.4
 Description: server-side, HTML-embedded scripting language (Apache 2 module) (default)
  This package provides the PHP module for the Apache 2 webserver.
@@ -50947,9 +50947,9 @@ Installed-Size: 71
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Architecture: all
 Multi-Arch: foreign
-Source: php-defaults (98+ubuntu24.04.1+deb.sury.org+1)
-Version: 2:98+ubuntu24.04.1+deb.sury.org+1
-Depends: psmisc (>= 22.15-1~)
+Source: php-defaults (99~+ubuntu24.04.1+deb.sury.org+1)
+Version: 2:99~+ubuntu24.04.1+deb.sury.org+1
+Depends: cron | cron-daemon | anacron | systemd-sysv, psmisc (>= 22.15-1~)
 Conffiles:
  /etc/cron.d/php e6fa2d74078ac0ac6fd730decf3b3736
 Description: Common files for PHP packages
@@ -58198,7 +58198,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: python-apt
-Version: 2.7.7ubuntu5
+Version: 2.7.7ubuntu5.1
 Replaces: python-apt (<< 0.7.98+nmu1)
 Breaks: python-apt (<< 0.7.98+nmu1)
 Enhances: python-apt, python3-apt
@@ -58318,7 +58318,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: allowed
 Source: python-apt
-Version: 2.7.7ubuntu5
+Version: 2.7.7ubuntu5.1
 Replaces: python-apt (<< 0.7.98+nmu1)
 Depends: python3 (<< 3.13), python3 (>= 3.12~), python3:any, libapt-pkg6.0t64 (>= 2.7.11), libc6 (>= 2.33), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), python-apt-common, distro-info-data
 Recommends: lsb-release, iso-codes
