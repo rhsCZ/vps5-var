@@ -10402,34 +10402,6 @@ Package: kfind
 Architecture: amd64
 Auto-Installed: 1
 
-Package: linux-image-6.14.0-35-generic
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-tools-6.14.0-35-generic
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-headers-6.14.0-35-generic
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-hwe-6.14-headers-6.14.0-35
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-modules-6.14.0-35-generic
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-hwe-6.14-tools-6.14.0-35
-Architecture: amd64
-Auto-Installed: 1
-
-Package: linux-modules-extra-6.14.0-35-generic
-Architecture: amd64
-Auto-Installed: 1
-
 Package: linux-modules-extra-6.14.0-36-generic
 Architecture: amd64
 Auto-Installed: 1
@@ -10463,6 +10435,34 @@ Architecture: amd64
 Auto-Installed: 1
 
 Package: php8.2-raphf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-modules-extra-6.14.0-37-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-6.14.0-37-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-tools-6.14.0-37-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-headers-6.14.0-37-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-hwe-6.14-headers-6.14.0-37
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-modules-6.14.0-37-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-hwe-6.14-tools-6.14.0-37
 Architecture: amd64
 Auto-Installed: 1
 

@@ -574,10 +574,10 @@ Package: apparmor
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 3128
+Installed-Size: 3136
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 4.0.1really4.0.1-0ubuntu0.24.04.4
+Version: 4.0.1really4.0.1-0ubuntu0.24.04.5
 Replaces: fcitx-data (<< 1:4.2.9.1-1ubuntu2)
 Depends: debconf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.38)
 Suggests: apparmor-profiles-extra, apparmor-utils
@@ -616,7 +616,7 @@ Conffiles:
  /etc/apparmor.d/abstractions/dconf 938d36cc227c44b57b754e28c574a895
  /etc/apparmor.d/abstractions/dovecot-common c039273aaa213aca51a5213cdd15fed2
  /etc/apparmor.d/abstractions/dri-common 1d2f9b132358d514c1f93560b1988acb
- /etc/apparmor.d/abstractions/dri-enumerate 625ff20775a56ffba1fb3f0afb983617
+ /etc/apparmor.d/abstractions/dri-enumerate c02e4d558bb87d573421e11268d3cb69
  /etc/apparmor.d/abstractions/enchant cd0a41e810a99aeeab33aa7d074ff510
  /etc/apparmor.d/abstractions/exo-open c9c0e92a3d96bd795af54343ca2f7247
  /etc/apparmor.d/abstractions/fcitx 7b92a08259791096efa9ec4aaf42c65d
@@ -641,7 +641,7 @@ Conffiles:
  /etc/apparmor.d/abstractions/libpam-systemd bab0769af2d7ec03fb89ebcc7dba5133
  /etc/apparmor.d/abstractions/likewise e2eff3c963b34543b78a2e7e92c2832b
  /etc/apparmor.d/abstractions/mdns f60fb04172f264ca93dd91f376c6d198
- /etc/apparmor.d/abstractions/mesa 9339dd807db980b5d4473cf9a87907a3
+ /etc/apparmor.d/abstractions/mesa dbfd7cef67b616f33464ca9cf2ab1e5f
  /etc/apparmor.d/abstractions/mir 3ca5ef4b46fdf1e182a96d6560ff26e1
  /etc/apparmor.d/abstractions/mozc a3d1ff87b7822abd5fcaed6844dc296a
  /etc/apparmor.d/abstractions/mysql b12fe1f2bbab642e5851c281986057d0
@@ -651,10 +651,10 @@ Conffiles:
  /etc/apparmor.d/abstractions/nvidia 4927cd22ab0f892bc619cc0f1912923e
  /etc/apparmor.d/abstractions/opencl 2760fba2c4606e11942737d471cd94e7
  /etc/apparmor.d/abstractions/opencl-common 7d6341d69734db1e449b00784d465c70
- /etc/apparmor.d/abstractions/opencl-intel 7434f8469b7ac7dd5e3dc77acdf40b99
+ /etc/apparmor.d/abstractions/opencl-intel dfdb37b0c1cf107e0831c70ef9c0aa39
  /etc/apparmor.d/abstractions/opencl-mesa e157c360ed8cc0a1f5f883be73f2a416
- /etc/apparmor.d/abstractions/opencl-nvidia 3f7bdad6f0b991ca1de64bf855d01664
- /etc/apparmor.d/abstractions/opencl-pocl 88d670a534ccdb1b48cff6f90163b563
+ /etc/apparmor.d/abstractions/opencl-nvidia 8d9e4c40933e8c9844f4b250fb89aed0
+ /etc/apparmor.d/abstractions/opencl-pocl dfedd51c459fac5805577d19471aa764
  /etc/apparmor.d/abstractions/openssl fb8cf830a6be79f9c356e0d73f880ce4
  /etc/apparmor.d/abstractions/orbit2 e7ac7aea7951ccb6e9078265f9a2b9ff
  /etc/apparmor.d/abstractions/p11-kit ca4ba017568739d7150f162ec69036e0
@@ -710,8 +710,8 @@ Conffiles:
  /etc/apparmor.d/abstractions/user-manpages da6ee9a1273a3544813d0d280814ceb4
  /etc/apparmor.d/abstractions/user-tmp 637812127e85496565b15f092aa9028c
  /etc/apparmor.d/abstractions/user-write 5b2101d68ba7e9e1bb58b9806672ae5a
- /etc/apparmor.d/abstractions/video 8a9597db8db7dea3702c052a3378114b
- /etc/apparmor.d/abstractions/vulkan fdc603571a8600504f3dee14553e596b
+ /etc/apparmor.d/abstractions/video 3069d0fbea27eed63e8724084015b57e
+ /etc/apparmor.d/abstractions/vulkan bbed303bc8d8b2702d9d7f2fd7ed388a
  /etc/apparmor.d/abstractions/wayland d8ef4acb801443585a0fa309234b63d7
  /etc/apparmor.d/abstractions/web-data e46da21cb61d259f7410a72a32d2319d
  /etc/apparmor.d/abstractions/winbind 489fca3c058879cff0c69f160f453e82
@@ -759,7 +759,7 @@ Conffiles:
  /etc/apparmor.d/msedge 285ddc96bdcca201f8ed35e38229a92a
  /etc/apparmor.d/nautilus 57287a789351c7416b3d96538253ced2
  /etc/apparmor.d/notepadqq 6c24799230bc8f06b33b3b461c7972c0
- /etc/apparmor.d/nvidia_modprobe 58c3ceb2fff91ebc2d14f8736651e8c0
+ /etc/apparmor.d/nvidia_modprobe 35b7b433c83dc39cb5ae0537d68ba568
  /etc/apparmor.d/obsidian 6bbf1654bfcd4ac1d702cd1adcfde542
  /etc/apparmor.d/opam 52c194ff83de698797647437047841d3
  /etc/apparmor.d/opera b09f37170593933806df51b1a2c136f9
@@ -805,7 +805,7 @@ Conffiles:
  /etc/apparmor.d/tunables/apparmorfs e2074b490a25348fe38bb14a67189b50
  /etc/apparmor.d/tunables/dovecot 337ca6dc41c0ae4c156a7b111c946bb4
  /etc/apparmor.d/tunables/etc eaa7eb0aed2f57f233df1534219add7b
- /etc/apparmor.d/tunables/global bb42786c9969e3fcac8d2066f0994b4b
+ /etc/apparmor.d/tunables/global 5bcd8895cb67489d5b619d24c14af7b1
  /etc/apparmor.d/tunables/home 18eda20e8b1a8d45955d582cd18dd621
  /etc/apparmor.d/tunables/home.d/site.local 3b274206fb06833ee3e151e351dad51b
  /etc/apparmor.d/tunables/kernelvars 1e1c274b547b8946eed0eff158300e03
@@ -816,6 +816,7 @@ Conffiles:
  /etc/apparmor.d/tunables/securityfs 94e4dd81e625ebb7e0ceb02fbd492612
  /etc/apparmor.d/tunables/share e11aafffd58011c5d832b98bc71372a7
  /etc/apparmor.d/tunables/sys 30f2fdf4695c26642ea02b5a2063cfbc
+ /etc/apparmor.d/tunables/system dd94eef017cf91d8ea1ff5891aecab24
  /etc/apparmor.d/tunables/xdg-user-dirs 7eeab5e5987a04857db2f367b07ab4bb
  /etc/apparmor.d/tup 523fab6a982527f3477970aaa64b3e76
  /etc/apparmor.d/tuxedo-control-center 53cb9b6edee094984349ab0a1a38efda
@@ -1764,13 +1765,13 @@ Package: binutils
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 160
+Installed-Size: 161
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.42-4ubuntu2.7
+Version: 2.42-4ubuntu2.8
 Provides: binutils-gold, elf-binutils
-Depends: binutils-common (= 2.42-4ubuntu2.7), libbinutils (= 2.42-4ubuntu2.7), binutils-x86-64-linux-gnu (= 2.42-4ubuntu2.7)
-Suggests: binutils-doc (>= 2.42-4ubuntu2.7), gprofng-gui
+Depends: binutils-common (= 2.42-4ubuntu2.8), libbinutils (= 2.42-4ubuntu2.8), binutils-x86-64-linux-gnu (= 2.42-4ubuntu2.8)
+Suggests: binutils-doc (>= 2.42-4ubuntu2.8), gprofng-gui
 Conflicts: binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3), binutils-multiarch (<< 2.27-8), modutils (<< 2.4.19-1)
 Description: GNU assembler, linker and binary utilities
  The programs in this package are used to assemble, link and manipulate
@@ -1788,7 +1789,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.7
+Version: 2.42-4ubuntu2.8
 Replaces: binutils (<< 2.38.50.20220527-2), binutils-multiarch (<< 2.38.50.20220527-2)
 Breaks: binutils (<< 2.38.50.20220527-2), binutils-multiarch (<< 2.38.50.20220527-2)
 Conffiles:
@@ -1809,10 +1810,10 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: allowed
 Source: binutils
-Version: 2.42-4ubuntu2.7
+Version: 2.42-4ubuntu2.8
 Replaces: binutils (<< 2.29-6), binutils-dev (<< 2.38.50.20220609-2)
-Depends: binutils-common (= 2.42-4ubuntu2.7), libbinutils (= 2.42-4ubuntu2.7), libc6 (>= 2.38), libctf-nobfd0 (>= 2.36), libctf0 (>= 2.36), libgcc-s1 (>= 4.2), libgprofng0 (>= 2.41), libjansson4 (>= 2.14), libsframe1 (>= 2.41), libstdc++6 (>= 13.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
-Suggests: binutils-doc (= 2.42-4ubuntu2.7)
+Depends: binutils-common (= 2.42-4ubuntu2.8), libbinutils (= 2.42-4ubuntu2.8), libc6 (>= 2.38), libctf-nobfd0 (>= 2.36), libctf0 (>= 2.36), libgcc-s1 (>= 4.2), libgprofng0 (>= 2.41), libjansson4 (>= 2.14), libsframe1 (>= 2.41), libstdc++6 (>= 13.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Suggests: binutils-doc (= 2.42-4ubuntu2.8)
 Breaks: binutils (<< 2.29-6), binutils-dev (<< 2.38.50.20220609-2)
 Description: GNU binary utilities, for x86-64-linux-gnu target
  This package provides GNU assembler, linker and binary utilities
@@ -11639,7 +11640,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: apparmor
-Version: 4.0.1really4.0.1-0ubuntu0.24.04.4
+Version: 4.0.1really4.0.1-0ubuntu0.24.04.5
 Replaces: libapparmor-perl (<< 3.0.3-3)
 Depends: libc6 (>= 2.38)
 Breaks: libapparmor-perl (<< 3.0.3-3)
@@ -12787,9 +12788,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.7
+Version: 2.42-4ubuntu2.8
 Replaces: binutils (<< 2.29-6)
-Depends: libc6 (>= 2.38), libsframe1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), binutils-common (= 2.42-4ubuntu2.7)
+Depends: libc6 (>= 2.38), libsframe1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), binutils-common (= 2.42-4ubuntu2.8)
 Breaks: binutils (<< 2.29-6)
 Description: GNU binary utilities (private shared library)
  This package includes the private shared libraries libbfd and libopcodes.
@@ -14625,12 +14626,12 @@ Package: libctf-nobfd0
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 307
+Installed-Size: 308
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.7
+Version: 2.42-4ubuntu2.8
 Replaces: libbinutils (<< 2.33.50.20191128-1~)
 Depends: libc6 (>= 2.14), zlib1g (>= 1:1.2.0)
 Breaks: libbinutils (<< 2.33.50.20191128-1~)
@@ -14649,8 +14650,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.7
-Depends: libbinutils (= 2.42-4ubuntu2.7), libc6 (>= 2.33), zlib1g (>= 1:1.2.0)
+Version: 2.42-4ubuntu2.8
+Depends: libbinutils (= 2.42-4ubuntu2.8), libc6 (>= 2.33), zlib1g (>= 1:1.2.0)
 Description: Compact C Type Format library (runtime, BFD dependency)
  This package includes the libctf shared library.  The Compact C Type
  Format (CTF) is a way of representing information about a binary program
@@ -18512,8 +18513,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.7
-Depends: libbinutils (= 2.42-4ubuntu2.7), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Version: 2.42-4ubuntu2.8
+Depends: libbinutils (= 2.42-4ubuntu2.8), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
 Description: GNU Next Generation profiler (runtime library)
  Gprofng is the GNU Next Generation profiler for analyzing the performance
  of Linux applications.  Gprofng allows you to:
@@ -33655,12 +33656,12 @@ Package: libsframe1
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 127
+Installed-Size: 128
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: binutils
-Version: 2.42-4ubuntu2.7
+Version: 2.42-4ubuntu2.8
 Depends: libc6 (>= 2.14)
 Description: Library to handle the SFrame format (runtime library)
  SFrame stands for Simple Frame format.  SFrame format keeps track
@@ -36939,9 +36940,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: libvirt
-Version: 10.0.0-2ubuntu8.9
+Version: 10.0.0-2ubuntu8.10
 Replaces: libvirt0 (<< 8.10.0-2~)
-Depends: libvirt0 (<< 10.0.0-2ubuntu8.9.1~), libvirt0 (>= 10.0.0-2ubuntu8.9)
+Depends: libvirt0 (<< 10.0.0-2ubuntu8.10.1~), libvirt0 (>= 10.0.0-2ubuntu8.10)
 Breaks: libvirt0 (<< 8.10.0-2~)
 Description: localization for the libvirt library
  Libvirt is a C toolkit to interact with the virtualization capabilities
@@ -36962,9 +36963,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libvirt
-Version: 10.0.0-2ubuntu8.9
+Version: 10.0.0-2ubuntu8.10
 Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 3.0.0), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libcurl3t64-gnutls (>= 7.28.0), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.58.0), libgnutls30t64 (>= 3.8.2), libnl-3-200 (>= 3.2.7), libnuma1 (>= 2.0.15), libsasl2-2 (>= 2.1.28+dfsg1), libselinux1 (>= 3.1~), libssh-4 (>= 0.8.0), libtirpc3t64 (>= 1.0.2), libxml2 (>= 2.7.4), libyajl2 (>= 2.0.4)
-Recommends: libvirt-l10n (= 10.0.0-2ubuntu8.9)
+Recommends: libvirt-l10n (= 10.0.0-2ubuntu8.10)
 Description: library for interfacing with different virtualization systems
  Libvirt is a C toolkit to interact with the virtualization capabilities
  of recent versions of Linux (and other OSes). The library aims at providing
@@ -40436,29 +40437,12 @@ Installed-Size: 9
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-hwe-6.14
-Version: 6.14.0-36.36~24.04.1
-Depends: linux-image-generic-hwe-24.04 (= 6.14.0-36.36~24.04.1), linux-headers-generic-hwe-24.04 (= 6.14.0-36.36~24.04.1)
-Recommends: linux-tools-6.14.0-36-generic, ubuntu-kernel-accessories
+Version: 6.14.0-37.37~24.04.1
+Depends: linux-image-generic-hwe-24.04 (= 6.14.0-37.37~24.04.1), linux-headers-generic-hwe-24.04 (= 6.14.0-37.37~24.04.1)
+Recommends: linux-tools-6.14.0-37-generic, ubuntu-kernel-accessories
 Description: Complete Generic Linux kernel and headers
  This package will always depend on the latest complete generic Linux kernel
  and headers.
-
-Package: linux-headers-6.14.0-35-generic
-Status: install ok installed
-Priority: optional
-Section: devel
-Installed-Size: 28653
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Architecture: amd64
-Source: linux-hwe-6.14
-Version: 6.14.0-35.35~24.04.1
-Provides: linux-headers, linux-headers-3.0
-Depends: linux-hwe-6.14-headers-6.14.0-35, libc6 (>= 2.38), libdw1t64 (>= 0.171), libelf1t64 (>= 0.144), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
-Description: Linux kernel headers for version 6.14.0
- This package provides kernel header files for version 6.14.0.
- .
- This is for sites that want the latest kernel headers.  Please read
- /usr/share/doc/linux-headers-6.14.0-35/debian.README.gz for details.
 
 Package: linux-headers-6.14.0-36-generic
 Status: install ok installed
@@ -40477,6 +40461,23 @@ Description: Linux kernel headers for version 6.14.0
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-6.14.0-36/debian.README.gz for details.
 
+Package: linux-headers-6.14.0-37-generic
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 28687
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-37.37~24.04.1
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-hwe-6.14-headers-6.14.0-37, libc6 (>= 2.38), libdw1t64 (>= 0.171), libelf1t64 (>= 0.144), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
+Description: Linux kernel headers for version 6.14.0
+ This package provides kernel header files for version 6.14.0.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.14.0-37/debian.README.gz for details.
+
 Package: linux-headers-generic-hwe-24.04
 Status: install ok installed
 Priority: optional
@@ -40485,27 +40486,11 @@ Installed-Size: 9
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-hwe-6.14
-Version: 6.14.0-36.36~24.04.1
-Depends: linux-headers-6.14.0-36-generic
+Version: 6.14.0-37.37~24.04.1
+Depends: linux-headers-6.14.0-37-generic
 Description: Generic Linux kernel headers
  This package will always depend on the latest generic kernel headers
  available.
-
-Package: linux-hwe-6.14-headers-6.14.0-35
-Status: install ok installed
-Priority: optional
-Section: devel
-Installed-Size: 87074
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Architecture: all
-Multi-Arch: foreign
-Source: linux-hwe-6.14
-Version: 6.14.0-35.35~24.04.1
-Depends: coreutils
-Description: Header files related to Linux kernel version 6.14.0
- This package provides kernel header files for version 6.14.0, for sites
- that want the latest kernel headers. Please read
- /usr/share/doc/linux-hwe-6.14-headers-6.14.0-35/debian.README.gz for details
 
 Package: linux-hwe-6.14-headers-6.14.0-36
 Status: install ok installed
@@ -40523,21 +40508,21 @@ Description: Header files related to Linux kernel version 6.14.0
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-hwe-6.14-headers-6.14.0-36/debian.README.gz for details
 
-Package: linux-hwe-6.14-tools-6.14.0-35
+Package: linux-hwe-6.14-headers-6.14.0-37
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 3775
+Installed-Size: 87118
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Architecture: amd64
+Architecture: all
+Multi-Arch: foreign
 Source: linux-hwe-6.14
-Version: 6.14.0-35.35~24.04.1
-Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libpci3 (>= 1:3.8.0), libudev1 (>= 183), linux-tools-common
-Description: Linux kernel version specific tools for version 6.14.0-35
- This package provides the architecture dependant parts for kernel
- version locked tools (such as perf and x86_energy_perf_policy) for
- version 6.14.0-35.
- You probably want to install linux-tools-6.14.0-35-<flavour>.
+Version: 6.14.0-37.37~24.04.1
+Depends: coreutils
+Description: Header files related to Linux kernel version 6.14.0
+ This package provides kernel header files for version 6.14.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-hwe-6.14-headers-6.14.0-37/debian.README.gz for details
 
 Package: linux-hwe-6.14-tools-6.14.0-36
 Status: install ok installed
@@ -40554,6 +40539,22 @@ Description: Linux kernel version specific tools for version 6.14.0-36
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 6.14.0-36.
  You probably want to install linux-tools-6.14.0-36-<flavour>.
+
+Package: linux-hwe-6.14-tools-6.14.0-37
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 26356
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-37.37~24.04.1
+Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libdebuginfod1t64 (>= 0.180), libdw1t64 (>= 0.161), libelf1t64 (>= 0.144), liblzma5 (>= 5.1.1alpha+20120614), libnuma1 (>= 2.0.11), libpci3 (>= 1:3.8.0), libpython3.12t64 (>= 3.12.1), libslang2 (>= 2.2.4), libssl3t64 (>= 3.0.0), libstdc++6 (>= 4.1.1), libtraceevent1 (>= 1:1.3.0), libudev1 (>= 183), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.3), linux-tools-common
+Description: Linux kernel version specific tools for version 6.14.0-37
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 6.14.0-37.
+ You probably want to install linux-tools-6.14.0-37-<flavour>.
 
 Package: linux-image-6.14.0-33-generic
 Status: deinstall ok config-files
@@ -40596,7 +40597,7 @@ Description: Signed kernel image generic
 Built-Using: linux-hwe-6.14 (= 6.14.0-34.34~24.04.1)
 
 Package: linux-image-6.14.0-35-generic
-Status: install ok installed
+Status: deinstall ok config-files
 Priority: optional
 Section: kernel
 Installed-Size: 15205
@@ -40604,6 +40605,7 @@ Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-signed-hwe-6.14
 Version: 6.14.0-35.35~24.04.1
+Config-Version: 6.14.0-35.35~24.04.1
 Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, spl-dkms, spl-modules, v4l2loopback-dkms, v4l2loopback-modules, virtualbox-guest-modules, zfs-dkms, zfs-modules
 Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.14.0-35-generic
 Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
@@ -40633,6 +40635,25 @@ Description: Signed kernel image generic
  Canonical's signing key.
 Built-Using: linux-hwe-6.14 (= 6.14.0-36.36~24.04.1)
 
+Package: linux-image-6.14.0-37-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 15225
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-signed-hwe-6.14
+Version: 6.14.0-37.37~24.04.1
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, spl-dkms, spl-modules, v4l2loopback-dkms, v4l2loopback-modules, virtualbox-guest-modules, zfs-dkms, zfs-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.14.0-37-generic
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
+Suggests: linux-hwe-6.14-tools, linux-headers-6.14.0-37-generic, linux-modules-extra-6.14.0-37-generic
+Conflicts: linux-image-unsigned-6.14.0-37-generic
+Description: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's signing key.
+Built-Using: linux-hwe-6.14 (= 6.14.0-37.37~24.04.1)
+
 Package: linux-image-generic-hwe-24.04
 Status: install ok installed
 Priority: optional
@@ -40641,9 +40662,9 @@ Installed-Size: 9
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-meta-hwe-6.14
-Version: 6.14.0-36.36~24.04.1
-Provides: ivsc-modules (= 0~git202311021215.73a044d9), spl-modules (= 2.3.1-1ubuntu2), v4l2loopback-modules (= 0.13.2-1ubuntu1), virtualbox-guest-modules (= 6.14.0-36), wireguard-modules (= 1.0.0), zfs-modules (= 2.3.1-1ubuntu2)
-Depends: linux-image-6.14.0-36-generic, linux-modules-extra-6.14.0-36-generic, linux-firmware, intel-microcode, amd64-microcode
+Version: 6.14.0-37.37~24.04.1
+Provides: ivsc-modules (= 0~git202311021215.73a044d9), spl-modules (= 2.3.1-1ubuntu2), v4l2loopback-modules (= 0.13.2-1ubuntu1), virtualbox-guest-modules (= 6.14.0-37), wireguard-modules (= 1.0.0), zfs-modules (= 2.3.1-1ubuntu2)
+Depends: linux-image-6.14.0-37-generic, linux-modules-extra-6.14.0-37-generic, linux-firmware, intel-microcode, amd64-microcode
 Recommends: thermald
 Description: Generic Linux kernel image
  This package will always depend on the latest generic kernel image
@@ -40715,7 +40736,7 @@ Description: Linux kernel extra modules for version 6.14.0
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-6.14.0-35-generic
-Status: install ok installed
+Status: deinstall ok config-files
 Priority: optional
 Section: kernel
 Installed-Size: 39559
@@ -40723,6 +40744,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-hwe-6.14
 Version: 6.14.0-35.35~24.04.1
+Config-Version: 6.14.0-35.35~24.04.1
 Description: Linux kernel extra modules for version 6.14.0
  Contains the corresponding System.map file, the modules built by the
  packager, and scripts that try to ensure that the system is not left in an
@@ -40745,6 +40767,28 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-hwe-6.14
 Version: 6.14.0-36.36~24.04.1
+Description: Linux kernel extra modules for version 6.14.0
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-6.14.0-37-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 39569
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-37.37~24.04.1
 Description: Linux kernel extra modules for version 6.14.0
  Contains the corresponding System.map file, the modules built by the
  packager, and scripts that try to ensure that the system is not left in an
@@ -40811,7 +40855,7 @@ Description: Linux kernel extra modules for version 6.14.0
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-extra-6.14.0-35-generic
-Status: install ok installed
+Status: deinstall ok config-files
 Priority: optional
 Section: kernel
 Installed-Size: 115022
@@ -40819,6 +40863,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Source: linux-hwe-6.14
 Version: 6.14.0-35.35~24.04.1
+Config-Version: 6.14.0-35.35~24.04.1
 Depends: linux-modules-6.14.0-35-generic, wireless-regdb
 Description: Linux kernel extra modules for version 6.14.0
  This package contains the Linux kernel extra modules for version 6.14.0.
@@ -40860,6 +40905,31 @@ Description: Linux kernel extra modules for version 6.14.0
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-6.14.0-37-generic
+Status: install ok installed
+Priority: optional
+Section: kernel
+Installed-Size: 115056
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-37.37~24.04.1
+Depends: linux-modules-6.14.0-37-generic, wireless-regdb
+Description: Linux kernel extra modules for version 6.14.0
+ This package contains the Linux kernel extra modules for version 6.14.0.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-sound-base
 Status: install ok installed
 Priority: optional
@@ -40880,21 +40950,6 @@ Description: base package for ALSA and OSS sound systems
 Homepage: http://www.alsa-project.org/
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 
-Package: linux-tools-6.14.0-35-generic
-Status: install ok installed
-Priority: optional
-Section: devel
-Installed-Size: 139
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Architecture: amd64
-Source: linux-hwe-6.14
-Version: 6.14.0-35.35~24.04.1
-Depends: linux-hwe-6.14-tools-6.14.0-35
-Description: Linux kernel version specific tools for version 6.14.0-35
- This package provides the architecture dependant parts for kernel
- version locked tools (such as perf and x86_energy_perf_policy) for
- version 6.14.0-35.
-
 Package: linux-tools-6.14.0-36-generic
 Status: install ok installed
 Priority: optional
@@ -40909,6 +40964,21 @@ Description: Linux kernel version specific tools for version 6.14.0-36
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 6.14.0-36.
+
+Package: linux-tools-6.14.0-37-generic
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 161
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: amd64
+Source: linux-hwe-6.14
+Version: 6.14.0-37.37~24.04.1
+Depends: linux-hwe-6.14-tools-6.14.0-37
+Description: Linux kernel version specific tools for version 6.14.0-37
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 6.14.0-37.
 
 Package: linux-tools-common
 Status: install ok installed
@@ -64651,10 +64721,10 @@ Package: thunderbird
 Status: install ok installed
 Priority: optional
 Section: mail
-Installed-Size: 288920
+Installed-Size: 289039
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Version: 1:140.5.0+build2-0ubuntu0.24.04.1~mt1
+Version: 1:140.6.0+build2-0ubuntu0.24.04.1~mt1
 Replaces: mozilla-thunderbird, thunderbird-gnome-support (<= 3.0.4+nobinonly-0ubuntu3)
 Provides: mail-reader
 Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libharfbuzz0b (>= 0.6.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrandr2 (>= 2:1.4.0), libxrender1, zlib1g (>= 1:1.1.4)
