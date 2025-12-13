@@ -37681,7 +37681,7 @@ Maintainer: Evan Dandrea <ev@ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: whoopsie
-Version: 0.2.77build3
+Version: 0.2.77ubuntu0.1
 Depends: libc6 (>= 2.27), libgcrypt20 (>= 1.10.0), libglib2.0-0t64 (>= 2.32)
 Description: Ubuntu error tracker submission - shared library
  This library provides methods to generate an identifier for use with the
@@ -40679,7 +40679,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: linux
-Version: 6.8.0-88.89
+Version: 6.8.0-90.91
 Replaces: linux-kernel-headers
 Provides: aufs-dev, linux-kernel-headers
 Conflicts: linux-kernel-headers
@@ -40989,7 +40989,7 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: linux
-Version: 6.8.0-88.89
+Version: 6.8.0-90.91
 Provides: bpftool
 Depends: lsb-release, hwdata
 Description: Linux kernel version specific tools for version 6.8.0
@@ -60771,11 +60771,11 @@ Package: python3-urllib3
 Status: install ok installed
 Priority: optional
 Section: python
-Installed-Size: 451
+Installed-Size: 458
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: python-urllib3
-Version: 2.0.7-1ubuntu0.2
+Version: 2.0.7-1ubuntu0.3
 Depends: python3:any
 Recommends: ca-certificates
 Suggests: python3-brotli, python3-cryptography, python3-idna, python3-openssl, python3-socks
@@ -66439,11 +66439,11 @@ Package: whoopsie
 Status: install ok installed
 Priority: optional
 Section: utils
-Installed-Size: 83
+Installed-Size: 87
 Maintainer: Evan Dandrea <ev@ubuntu.com>
 Architecture: amd64
-Version: 0.2.77build3
-Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.16.2), libglib2.0-0t64 (>= 2.75.3), libwhoopsie0 (= 0.2.77build3), adduser
+Version: 0.2.77ubuntu0.1
+Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.16.2), libglib2.0-0t64 (>= 2.75.3), libwhoopsie0 (= 0.2.77ubuntu0.1), adduser
 Pre-Depends: sysvinit-utils (>= 2.88dsf-50)
 Conffiles:
  /etc/init.d/whoopsie a1f3d5bd15f8b85ab00fbcb827c0f0c4
